@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Election2023.ServerApp", "Election2023.ServerApp\Election2023.ServerApp.csproj", "{E5A05A2F-EA42-4232-BF25-EAEABF52469C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Election2023.Entities", "Election2023.Entities\Election2023.Entities.csproj", "{F49B35ED-76E4-4437-9B0D-CE1C6BD44494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Election2023.DataServer", "Election2023.DataServer\Election2023.DataServer.csproj", "{C80712DF-5607-4A23-BE7D-6EEDEB79F0CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Election2023.MigrationsNpgsql", "Election2023.MigrationsNpgsql\Election2023.MigrationsNpgsql.csproj", "{AA395D80-7DD5-412F-B9A9-97B2E8837853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Election2023.MigrationsSqlite", "Election2023.MigrationsSqlite\Election2023.MigrationsSqlite.csproj", "{F4C5BABD-8023-4A4E-A5D0-93FD0EC8F3E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Election2023.MigrationsMssql", "Election2023.MigrationsMssql\Election2023.MigrationsMssql.csproj", "{980EB6C6-F19F-464F-A301-5AA0D921F6F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5A05A2F-EA42-4232-BF25-EAEABF52469C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A05A2F-EA42-4232-BF25-EAEABF52469C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A05A2F-EA42-4232-BF25-EAEABF52469C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A05A2F-EA42-4232-BF25-EAEABF52469C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49B35ED-76E4-4437-9B0D-CE1C6BD44494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49B35ED-76E4-4437-9B0D-CE1C6BD44494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49B35ED-76E4-4437-9B0D-CE1C6BD44494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49B35ED-76E4-4437-9B0D-CE1C6BD44494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80712DF-5607-4A23-BE7D-6EEDEB79F0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80712DF-5607-4A23-BE7D-6EEDEB79F0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80712DF-5607-4A23-BE7D-6EEDEB79F0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80712DF-5607-4A23-BE7D-6EEDEB79F0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA395D80-7DD5-412F-B9A9-97B2E8837853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA395D80-7DD5-412F-B9A9-97B2E8837853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA395D80-7DD5-412F-B9A9-97B2E8837853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA395D80-7DD5-412F-B9A9-97B2E8837853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C5BABD-8023-4A4E-A5D0-93FD0EC8F3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C5BABD-8023-4A4E-A5D0-93FD0EC8F3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C5BABD-8023-4A4E-A5D0-93FD0EC8F3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C5BABD-8023-4A4E-A5D0-93FD0EC8F3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980EB6C6-F19F-464F-A301-5AA0D921F6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980EB6C6-F19F-464F-A301-5AA0D921F6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980EB6C6-F19F-464F-A301-5AA0D921F6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980EB6C6-F19F-464F-A301-5AA0D921F6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DB19D6E-57AB-49D4-B439-F6F26108C2D9}
+	EndGlobalSection
+EndGlobal

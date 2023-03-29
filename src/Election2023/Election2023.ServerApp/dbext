@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+readonly DEFAULT_COMMAND="update"
+readonly DEFAULT_PROVIDER="Sqlite"
+readonly PROJECT="../Election2023.Migrations"
+readonly COMMANDS=("add" "update" "remove" "drop")
+
+while getopts :c:t:p: options; do
+    case $options in
+        c) COMMAND="$OPTARG";;
+        t) TARGET="$OPTARG";;
+        p) PROVIDER="$OPTARG";;
+        ?) echo "warning: $OPTARG is not a valid option!";;
+    esac
+done
+
+COMMAND=${COMMAND:-$DEFAULT_COMMAND}
+PROVIDER=${PROVIDER:-$DEFAULT_PROVIDER}
+ASSEMBLY="$PROJECT$PROVIDER"
+
+if [[ ! " ${COMMANDS[@]} " =~ " ${COMMAND} " ]]; then
+    echo "Error: '$COMMAND' is not a valid command!"
+    exit 1
+fi
+
+echo "Assembly: $ASSEMBLY"
+
+if [[ "$COMMAND" == "add" ]]; then
+    if [[ -z "$TARGET" ]]; then
+        echo "Error: the command '$COMMAND' requires a migration name."
+        exit 1
+    fi
+    echo "Command: Add Migration"
+    dotnet ef migrations add "$TARGET" --project $ASSEMBLY -- --provider $PROVIDER
+elif [[ "$COMMAND" == "remove" ]]; then
+    echo "Command: Remove Migration..."
+    dotnet ef migrations remove --project $ASSEMBLY -- --provider $PROVIDER
+elif [[ "$COMMAND" == "update" ]]; then
+    echo "Command: Update Database..."
+    dotnet ef database update $TARGET --project $ASSEMBLY -- --provider $PROVIDER;
+elif [[ "$COMMAND" == "drop" ]]; then
+    echo "Command: Drop Database..."
+    dotnet ef database drop --project $ASSEMBLY -- --provider $PROVIDER
+fi

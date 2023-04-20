@@ -15,13 +15,14 @@ namespace Election2023.DataServer.Data
         public ElectionDbContext(DbContextOptions<ElectionDbContext> options)
             : base(options) { }
 
+        public DbSet<LGA> LGAs => Set<LGA>();
         public DbSet<Ward> Wards => Set<Ward>();
         public DbSet<State> States => Set<State>();
         public DbSet<District> Districts => Set<District>();
-        public DbSet<Constituency> Constituencies => Set<Constituency>();
-        public DbSet<Legislative> Legislatives => Set<Legislative>();
         public DbSet<PollingUnit> PollingUnits => Set<PollingUnit>();
-        public DbSet<LocalGovernment> LocalGovernmentsAreas => Set<LocalGovernment>();
+        // public DbSet<Constituency> Constituencies => Set<Constituency>();
+        public DbSet<StateConstituency> StatesConstituencies => Set<StateConstituency>();
+        public DbSet<FederalConstituency> FederalConstituencies => Set<FederalConstituency>();
 
         public static void NpgMappings(ref NpgsqlDataSourceBuilder builder)
         {
@@ -58,17 +59,32 @@ namespace Election2023.DataServer.Data
 
             modelBuilder.Entity<Legislative>(b => 
             {
-                b.HasIndex(l => l.Name)
-                 .HasDatabaseName("DCNameIndex");
+                b.Property(l => l.Code)
+                 .HasMaxLength(9)
+                 .IsFixedLength(true)
+                 .IsRequired();
 
                 b.HasDiscriminator();
             });
 
+            modelBuilder.Entity<District>(b => 
+            {
+                b.HasIndex(d => d.Name).IsUnique();
+            });
+
+            modelBuilder.Entity<FederalConstituency>(b => 
+            {
+                b.HasIndex(fc => fc.Name).IsUnique();
+            });
+
+            modelBuilder.Entity<StateConstituency>(b => 
+            {
+                b.HasIndex(sc => sc.Name);
+            });
+
             modelBuilder.Entity<PollingUnit>(b =>
             {
-                b.HasIndex(pu => pu.TerritoryCode)
-                 .HasDatabaseName("PuCodeIndex")
-                 .IsUnique();
+                b.HasIndex(pu => pu.TerritoryCode).IsUnique();
 
                 b.Property(pu => pu.TerritoryCode)
                  .HasMaxLength(12)
@@ -78,20 +94,14 @@ namespace Election2023.DataServer.Data
 
             modelBuilder.Entity<Ward>(b => 
             {
-                b.HasIndex(w => w.Name)
-                 .HasDatabaseName("WardNameIndex")
-                 .IsUnique();
+                b.HasIndex(w => w.Name);
             });
 
-            modelBuilder.Entity<LocalGovernment>(b => 
+            modelBuilder.Entity<LGA>(b => 
             {
-                b.HasIndex(lg => lg.Name)
-                 .HasDatabaseName("LgaNameIndex")
-                 .IsUnique();
+                b.HasIndex(lg => lg.Name);
             });
-
-            modelBuilder.Entity<LocalGovernmentConstituency>()
-                .HasKey(lgc => new { lgc.LocalGovernmentId, lgc.ConstituencyId});
         }
     }
 }
+

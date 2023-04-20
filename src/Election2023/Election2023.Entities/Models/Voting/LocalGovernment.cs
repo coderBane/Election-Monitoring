@@ -1,28 +1,29 @@
 ﻿namespace Election2023.Entities.Models.Voting;
 
-public class LocalGovernment : Entity
+public class LGA : Entity
 {
-    public LocalGovernment()
+    public LGA()
     {
         Wards = new HashSet<Ward>();
         PollingUnits = new HashSet<PollingUnit>();
-        LocalGovernmentConstituencies = new HashSet<LocalGovernmentConstituency>();
+        StateConstituencies = new HashSet<StateConstituency>();
+        FederalConstituencies = new HashSet<FederalConstituency>();
     }
 
     [Required]
-    public string Name { get; init; } = null!;
+    public string Name { get; set; } = null!;
 
     [Required]
-    public int RegisteredVoters { get; init; }
+    public int RegisteredVoters { get; set; }
 
     [Required]
-    public int EligibleVoters { get; init; }
+    public int EligibleVoters { get; set; }
 
     [Required]
-    public int NoOfPollingUnits { get; init; }
+    public int NoOfPollingUnits { get; set; }
 
     [Required]
-    public int NoOfWards { get; init; }
+    public int NoOfWards { get; set; }
 
     [Required]
     [Column(Order = 1)]
@@ -33,19 +34,12 @@ public class LocalGovernment : Entity
     public int DistrictId { get; set; }
     public virtual District District { get; set; } = null!;
 
-    public virtual ICollection<LocalGovernmentConstituency>  LocalGovernmentConstituencies { get; }
+    public virtual ICollection<FederalConstituency> FederalConstituencies { get; set; }
+
+    public virtual ICollection<StateConstituency> StateConstituencies { get; set; }
 
     public virtual ICollection<Ward> Wards { get; }
 
     public virtual ICollection<PollingUnit> PollingUnits{ get; }
-}
-
-public sealed class LocalGovernmentConstituency
-{
-    public int LocalGovernmentId { get; set; }
-    public LocalGovernment LocalGovernment { get; set; } = null!;
-
-    public int ConstituencyId { get; set; }
-    public Constituency Constituency { get; set; } = null!;
 }
 

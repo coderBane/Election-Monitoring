@@ -12,7 +12,7 @@ public class Ward : Entity
     public int EligibleVoters { get; init; }
 
     [Required]
-    public int NoPollingUnits { get; set; }
+    public int NoOfPollingUnits { get; set; }
 
     [Required]
     [Column(Order = 1)]
@@ -20,17 +20,19 @@ public class Ward : Entity
     public virtual State State { get; set; } = null!;
 
     [Required]
-    [Column("LGA", Order = 2)]
-    public int LocalGovernmentId { get; set; }
-    public virtual LocalGovernment LocalGovernment { get; set; } = null!;
+    [Column(Order = 2)]
+    public int LGAId { get; set; }
+    public virtual LGA LGA { get; set; } = null!;
 
     [Required]
     public int DistrictId { get; set; }
     public virtual District District { get; set; } = null!;
 
-    [Required]
-    public int ConstituencyId { get; set; }
-    public virtual Constituency Constituency { get; set; } = null!;
+    public int FederalConstituencyId { get; set; }
+    public virtual FederalConstituency FederalConstituency { get; set; } = null!;
+
+    public int StateConstituencyId { get; set; }
+    public virtual StateConstituency StateConstituency { get; set; } = null!;
 
     public virtual ICollection<PollingUnit> PollingUnits { get; } = new HashSet<PollingUnit>();
 }

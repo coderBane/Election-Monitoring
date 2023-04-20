@@ -5,45 +5,48 @@ public class State : Entity
     public State()
     {
         Districts = new HashSet<District>();
-        Constituencies = new HashSet<Constituency>();
-        LGAs = new HashSet<LocalGovernment>();
+        FederalConstituencies = new HashSet<FederalConstituency>();
+        StateConstituencies = new HashSet<StateConstituency>();
+        LGAs = new HashSet<LGA>();
         Wards = new HashSet<Ward>();
         PollingUnits = new HashSet<PollingUnit>();
     }
 
     [Required]
-    public StateName Name { get; init; }
+    public StateName Name { get; set; }
 
     [Required]
-    public int RegisteredVoters { get; init; }
+    public int RegisteredVoters { get; set; }
 
     [Required]
-    public int EligibleVoters { get; init; }
+    public int EligibleVoters { get; set; }
 
     [Required]
-    public int NoOfPollingUnits { get; init; }
+    public int NoOfPollingUnits { get; set; }
 
     [Required]
-    public int NoOfWards { get; init; }
+    public int NoOfWards { get; set; }
 
     [Required]
-    public int NoOfLgas { get; init; }
+    public int NoOfLGAs { get; set; }
 
     [Required]
-    public int NoOfFedConstituencies { get; set; }
+    public int NoOfFederalConstituencies { get; set; }
 
     [Required]
     public int NoOfStateConstituencies { get; set; }
 
     [Required]
     [Range(1, 3)]
-    public int NoOfDistricts { get; init; }
+    public int NoOfDistricts { get; set; }
 
     public virtual ICollection<District> Districts { get; }
 
-    public virtual ICollection<Constituency> Constituencies { get; }
+    public virtual ICollection<FederalConstituency> FederalConstituencies { get; }
 
-    public virtual ICollection<LocalGovernment> LGAs { get; }
+    public virtual ICollection<StateConstituency> StateConstituencies { get; set; }
+
+    public virtual ICollection<LGA> LGAs { get; }
 
     public virtual ICollection<Ward> Wards { get; }
 

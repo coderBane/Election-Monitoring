@@ -1,0 +1,1092 @@
+[
+    {
+        "State": "Enugu",
+        "Code": "SD\/040\/EN",
+        "Name": "ENUGU EAST",
+        "RegisteredVoters": 868910,
+        "EligibleVoters": 791854,
+        "NoOfPolllingUnits": 1630,
+        "NoOfWards": 77,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Zamfara",
+        "Code": "SD\/108\/ZF",
+        "Name": "ZAMFARA WEST",
+        "RegisteredVoters": 524165,
+        "EligibleVoters": 486832,
+        "NoOfPolllingUnits": 962,
+        "NoOfWards": 51,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Zamfara",
+        "Code": "SD\/106\/ZF",
+        "Name": "ZAMFARA NORTH",
+        "RegisteredVoters": 618701,
+        "EligibleVoters": 602030,
+        "NoOfPolllingUnits": 1130,
+        "NoOfWards": 53,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Zamfara",
+        "Code": "SD\/107\/ZF",
+        "Name": "ZAMFARA CENTRAL",
+        "RegisteredVoters": 784004,
+        "EligibleVoters": 761203,
+        "NoOfPolllingUnits": 1437,
+        "NoOfWards": 43,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Yobe",
+        "Code": "SD\/103\/YB",
+        "Name": "YOBE EAST",
+        "RegisteredVoters": 397484,
+        "EligibleVoters": 387591,
+        "NoOfPolllingUnits": 771,
+        "NoOfWards": 63,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Yobe",
+        "Code": "SD\/105\/YB",
+        "Name": "YOBE SOUTH",
+        "RegisteredVoters": 615946,
+        "EligibleVoters": 593558,
+        "NoOfPolllingUnits": 1160,
+        "NoOfWards": 55,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Yobe",
+        "Code": "SD\/104\/YB",
+        "Name": "YOBE NORTH",
+        "RegisteredVoters": 471716,
+        "EligibleVoters": 456716,
+        "NoOfPolllingUnits": 892,
+        "NoOfWards": 60,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Taraba",
+        "Code": "SD\/102\/TR",
+        "Name": "TARABA NORTH",
+        "RegisteredVoters": 708101,
+        "EligibleVoters": 627973,
+        "NoOfPolllingUnits": 1243,
+        "NoOfWards": 62,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Taraba",
+        "Code": "SD\/101\/TR",
+        "Name": "TARABA CENTRAL",
+        "RegisteredVoters": 654018,
+        "EligibleVoters": 622021,
+        "NoOfPolllingUnits": 1233,
+        "NoOfWards": 54,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Taraba",
+        "Code": "SD\/100\/TR",
+        "Name": "TARABA SOUTH",
+        "RegisteredVoters": 660255,
+        "EligibleVoters": 575443,
+        "NoOfPolllingUnits": 1121,
+        "NoOfWards": 52,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Sokoto",
+        "Code": "SD\/099\/SO",
+        "Name": "SOKOTO SOUTH",
+        "RegisteredVoters": 586336,
+        "EligibleVoters": 572311,
+        "NoOfPolllingUnits": 1091,
+        "NoOfWards": 73,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Sokoto",
+        "Code": "SD\/098\/SO",
+        "Name": "SOKOTO NORTH",
+        "RegisteredVoters": 848019,
+        "EligibleVoters": 811528,
+        "NoOfPolllingUnits": 1457,
+        "NoOfWards": 84,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "Sokoto",
+        "Code": "SD\/097\/SO",
+        "Name": "SOKOTO EAST",
+        "RegisteredVoters": 737701,
+        "EligibleVoters": 713965,
+        "NoOfPolllingUnits": 1443,
+        "NoOfWards": 87,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "Rivers",
+        "Code": "SD\/096\/RV",
+        "Name": "RIVERS WEST",
+        "RegisteredVoters": 845739,
+        "EligibleVoters": 781958,
+        "NoOfPolllingUnits": 1734,
+        "NoOfWards": 114,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "Rivers",
+        "Code": "SD\/095\/RV",
+        "Name": "RIVERS SOUTH EAST",
+        "RegisteredVoters": 858573,
+        "EligibleVoters": 803955,
+        "NoOfPolllingUnits": 1629,
+        "NoOfWards": 88,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Rivers",
+        "Code": "SD\/094\/RV",
+        "Name": "RIVERS EAST",
+        "RegisteredVoters": 1832878,
+        "EligibleVoters": 1676935,
+        "NoOfPolllingUnits": 3503,
+        "NoOfWards": 117,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "Plateau",
+        "Code": "SD\/091\/PL",
+        "Name": "PLATEAU SOUTH",
+        "RegisteredVoters": 791817,
+        "EligibleVoters": 774773,
+        "NoOfPolllingUnits": 1348,
+        "NoOfWards": 68,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Plateau",
+        "Code": "SD\/093\/PL",
+        "Name": "PLATEAU NORTH",
+        "RegisteredVoters": 1234761,
+        "EligibleVoters": 1167001,
+        "NoOfPolllingUnits": 2266,
+        "NoOfWards": 73,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Plateau",
+        "Code": "SD\/092\/PL",
+        "Name": "PLATEAU CENTRAL",
+        "RegisteredVoters": 762950,
+        "EligibleVoters": 745759,
+        "NoOfPolllingUnits": 1375,
+        "NoOfWards": 66,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Oyo",
+        "Code": "SD\/090\/OY",
+        "Name": "OYO SOUTH",
+        "RegisteredVoters": 1276908,
+        "EligibleVoters": 1035817,
+        "NoOfPolllingUnits": 2545,
+        "NoOfWards": 99,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Oyo",
+        "Code": "SD\/089\/OY",
+        "Name": "OYO NORTH",
+        "RegisteredVoters": 925485,
+        "EligibleVoters": 813576,
+        "NoOfPolllingUnits": 1864,
+        "NoOfWards": 134,
+        "NoOfLGAs": 13
+    },
+    {
+        "State": "Oyo",
+        "Code": "SD\/088\/OY",
+        "Name": "OYO CENTRAL",
+        "RegisteredVoters": 1074282,
+        "EligibleVoters": 912455,
+        "NoOfPolllingUnits": 1981,
+        "NoOfWards": 118,
+        "NoOfLGAs": 11
+    },
+    {
+        "State": "Osun",
+        "Code": "SD\/087\/OS",
+        "Name": "OSUN WEST",
+        "RegisteredVoters": 585548,
+        "EligibleVoters": 486127,
+        "NoOfPolllingUnits": 1081,
+        "NoOfWards": 110,
+        "NoOfLGAs": 10
+    },
+    {
+        "State": "Osun",
+        "Code": "SD\/086\/OS",
+        "Name": "OSUN EAST",
+        "RegisteredVoters": 716614,
+        "EligibleVoters": 570510,
+        "NoOfPolllingUnits": 1350,
+        "NoOfWards": 106,
+        "NoOfLGAs": 10
+    },
+    {
+        "State": "Osun",
+        "Code": "SD\/085\/OS",
+        "Name": "OSUN CENTRAL",
+        "RegisteredVoters": 652638,
+        "EligibleVoters": 537520,
+        "NoOfPolllingUnits": 1332,
+        "NoOfWards": 116,
+        "NoOfLGAs": 10
+    },
+    {
+        "State": "Ondo",
+        "Code": "SD\/084\/OD",
+        "Name": "ONDO SOUTH",
+        "RegisteredVoters": 652199,
+        "EligibleVoters": 596070,
+        "NoOfPolllingUnits": 1354,
+        "NoOfWards": 66,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Ondo",
+        "Code": "SD\/083\/OD",
+        "Name": "ONDO CENTRAL",
+        "RegisteredVoters": 807245,
+        "EligibleVoters": 665018,
+        "NoOfPolllingUnits": 1555,
+        "NoOfWards": 65,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Ondo",
+        "Code": "SD\/082\/OD",
+        "Name": "ONDO NORTH",
+        "RegisteredVoters": 531900,
+        "EligibleVoters": 468697,
+        "NoOfPolllingUnits": 1024,
+        "NoOfWards": 72,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Ogun",
+        "Code": "SD\/081\/OG",
+        "Name": "OGUN WEST",
+        "RegisteredVoters": 859743,
+        "EligibleVoters": 758258,
+        "NoOfPolllingUnits": 1557,
+        "NoOfWards": 59,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Ogun",
+        "Code": "SD\/080\/OG",
+        "Name": "OGUN EAST",
+        "RegisteredVoters": 788245,
+        "EligibleVoters": 664036,
+        "NoOfPolllingUnits": 1555,
+        "NoOfWards": 103,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Ogun",
+        "Code": "SD\/079\/OG",
+        "Name": "OGUN CENTRAL",
+        "RegisteredVoters": 1040317,
+        "EligibleVoters": 855745,
+        "NoOfPolllingUnits": 1930,
+        "NoOfWards": 74,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Niger",
+        "Code": "SD\/078\/NG",
+        "Name": "NIGER SOUTH",
+        "RegisteredVoters": 829742,
+        "EligibleVoters": 816712,
+        "NoOfPolllingUnits": 1461,
+        "NoOfWards": 88,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "Niger",
+        "Code": "SD\/077\/NG",
+        "Name": "NIGER NORTH",
+        "RegisteredVoters": 736899,
+        "EligibleVoters": 728245,
+        "NoOfPolllingUnits": 1436,
+        "NoOfWards": 87,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "Niger",
+        "Code": "SD\/076\/NG",
+        "Name": "NIGER EAST",
+        "RegisteredVoters": 1131703,
+        "EligibleVoters": 1088805,
+        "NoOfPolllingUnits": 2053,
+        "NoOfWards": 99,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Nasarawa",
+        "Code": "SD\/075\/NW",
+        "Name": "NASARAWA SOUTH",
+        "RegisteredVoters": 713282,
+        "EligibleVoters": 695043,
+        "NoOfPolllingUnits": 1241,
+        "NoOfWards": 53,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Nasarawa",
+        "Code": "SD\/074\/NW",
+        "Name": "NASARAWA WEST",
+        "RegisteredVoters": 847920,
+        "EligibleVoters": 817490,
+        "NoOfPolllingUnits": 1432,
+        "NoOfWards": 59,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Nasarawa",
+        "Code": "SD\/073\/NW",
+        "Name": "NASARAWA NORTH",
+        "RegisteredVoters": 338042,
+        "EligibleVoters": 335226,
+        "NoOfPolllingUnits": 583,
+        "NoOfWards": 35,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Lagos",
+        "Code": "SD\/072\/LA",
+        "Name": "LAGOS WEST",
+        "RegisteredVoters": 4110538,
+        "EligibleVoters": 3633670,
+        "NoOfPolllingUnits": 7789,
+        "NoOfWards": 112,
+        "NoOfLGAs": 10
+    },
+    {
+        "State": "Lagos",
+        "Code": "SD\/071\/LA",
+        "Name": "LAGOS EAST",
+        "RegisteredVoters": 1483202,
+        "EligibleVoters": 1329000,
+        "NoOfPolllingUnits": 2798,
+        "NoOfWards": 71,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Lagos",
+        "Code": "SD\/070\/LA",
+        "Name": "LAGOS CENTRAL",
+        "RegisteredVoters": 1466455,
+        "EligibleVoters": 1252299,
+        "NoOfPolllingUnits": 2738,
+        "NoOfWards": 62,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Kwara",
+        "Code": "SD\/069\/KW",
+        "Name": "KWARA SOUTH",
+        "RegisteredVoters": 412292,
+        "EligibleVoters": 385334,
+        "NoOfPolllingUnits": 734,
+        "NoOfWards": 71,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Kwara",
+        "Code": "SD\/067\/KW",
+        "Name": "KWARA NORTH",
+        "RegisteredVoters": 499386,
+        "EligibleVoters": 487383,
+        "NoOfPolllingUnits": 776,
+        "NoOfWards": 58,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Kwara",
+        "Code": "SD\/068\/KW",
+        "Name": "KWARA CENTRAL",
+        "RegisteredVoters": 784249,
+        "EligibleVoters": 664616,
+        "NoOfPolllingUnits": 1377,
+        "NoOfWards": 64,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Kogi",
+        "Code": "SD\/066\/KG",
+        "Name": "KOGI WEST",
+        "RegisteredVoters": 505731,
+        "EligibleVoters": 464086,
+        "NoOfPolllingUnits": 892,
+        "NoOfWards": 85,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Kogi",
+        "Code": "SD\/065\/KG",
+        "Name": "KOGI EAST",
+        "RegisteredVoters": 952369,
+        "EligibleVoters": 890039,
+        "NoOfPolllingUnits": 1714,
+        "NoOfWards": 97,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Kogi",
+        "Code": "SD\/064\/KG",
+        "Name": "KOGI CENTRAL",
+        "RegisteredVoters": 474554,
+        "EligibleVoters": 458214,
+        "NoOfPolllingUnits": 902,
+        "NoOfWards": 57,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Kebbi",
+        "Code": "SD\/062\/KB",
+        "Name": "KEBBI CENTRAL",
+        "RegisteredVoters": 685007,
+        "EligibleVoters": 662354,
+        "NoOfPolllingUnits": 1241,
+        "NoOfWards": 78,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Kebbi",
+        "Code": "SD\/061\/KB",
+        "Name": "KEBBI NORTH",
+        "RegisteredVoters": 774207,
+        "EligibleVoters": 756462,
+        "NoOfPolllingUnits": 1456,
+        "NoOfWards": 76,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Kebbi",
+        "Code": "SD\/063\/KB",
+        "Name": "KEBBI SOUTH",
+        "RegisteredVoters": 572827,
+        "EligibleVoters": 561370,
+        "NoOfPolllingUnits": 1046,
+        "NoOfWards": 71,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Katsina",
+        "Code": "SD\/060\/KT",
+        "Name": "KATSINA CENTRAL",
+        "RegisteredVoters": 1200151,
+        "EligibleVoters": 1175320,
+        "NoOfPolllingUnits": 2259,
+        "NoOfWards": 116,
+        "NoOfLGAs": 11
+    },
+    {
+        "State": "Katsina",
+        "Code": "SD\/059\/KT",
+        "Name": "KATSINA SOUTH",
+        "RegisteredVoters": 1274880,
+        "EligibleVoters": 1256808,
+        "NoOfPolllingUnits": 2409,
+        "NoOfWards": 117,
+        "NoOfLGAs": 11
+    },
+    {
+        "State": "Katsina",
+        "Code": "SD\/058\/KT",
+        "Name": "KATSINA NORTH",
+        "RegisteredVoters": 1041688,
+        "EligibleVoters": 1027817,
+        "NoOfPolllingUnits": 1984,
+        "NoOfWards": 128,
+        "NoOfLGAs": 12
+    },
+    {
+        "State": "Kano",
+        "Code": "SD\/057\/KN",
+        "Name": "KANO SOUTH",
+        "RegisteredVoters": 1578611,
+        "EligibleVoters": 1537000,
+        "NoOfPolllingUnits": 2998,
+        "NoOfWards": 161,
+        "NoOfLGAs": 15
+    },
+    {
+        "State": "Kano",
+        "Code": "SD\/056\/KN",
+        "Name": "KANO NORTH",
+        "RegisteredVoters": 1310764,
+        "EligibleVoters": 1279438,
+        "NoOfPolllingUnits": 2533,
+        "NoOfWards": 151,
+        "NoOfLGAs": 14
+    },
+    {
+        "State": "Kano",
+        "Code": "SD\/055\/KN",
+        "Name": "KANO CENTRAL",
+        "RegisteredVoters": 3031995,
+        "EligibleVoters": 2777828,
+        "NoOfPolllingUnits": 5691,
+        "NoOfWards": 172,
+        "NoOfLGAs": 15
+    },
+    {
+        "State": "Kaduna",
+        "Code": "SD\/054\/KD",
+        "Name": "KADUNA SOUTH",
+        "RegisteredVoters": 1060708,
+        "EligibleVoters": 1026361,
+        "NoOfPolllingUnits": 1957,
+        "NoOfWards": 87,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "Kaduna",
+        "Code": "SD\/053\/KD",
+        "Name": "KADUNA CENTRAL",
+        "RegisteredVoters": 1813836,
+        "EligibleVoters": 1740592,
+        "NoOfPolllingUnits": 3356,
+        "NoOfWards": 81,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Kaduna",
+        "Code": "SD\/052\/KD",
+        "Name": "KADUNA NORTH",
+        "RegisteredVoters": 1460664,
+        "EligibleVoters": 1397538,
+        "NoOfPolllingUnits": 2699,
+        "NoOfWards": 87,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "Jigawa",
+        "Code": "SD\/051\/JG",
+        "Name": "JIGAWA NORTH-WEST",
+        "RegisteredVoters": 897964,
+        "EligibleVoters": 877029,
+        "NoOfPolllingUnits": 1746,
+        "NoOfWards": 127,
+        "NoOfLGAs": 12
+    },
+    {
+        "State": "Jigawa",
+        "Code": "SD\/050\/JG",
+        "Name": "JIGAWA NORTH-EAST",
+        "RegisteredVoters": 743819,
+        "EligibleVoters": 728497,
+        "NoOfPolllingUnits": 1413,
+        "NoOfWards": 85,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "Jigawa",
+        "Code": "SD\/049\/JG",
+        "Name": "JIGAWA SOUTH-WEST",
+        "RegisteredVoters": 709515,
+        "EligibleVoters": 692840,
+        "NoOfPolllingUnits": 1363,
+        "NoOfWards": 75,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Imo",
+        "Code": "SD\/048\/IM",
+        "Name": "IMO NORTH",
+        "RegisteredVoters": 515651,
+        "EligibleVoters": 487265,
+        "NoOfPolllingUnits": 1000,
+        "NoOfWards": 64,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Imo",
+        "Code": "SD\/047\/IM",
+        "Name": "IMO WEST",
+        "RegisteredVoters": 887330,
+        "EligibleVoters": 843541,
+        "NoOfPolllingUnits": 1857,
+        "NoOfWards": 137,
+        "NoOfLGAs": 12
+    },
+    {
+        "State": "Imo",
+        "Code": "SD\/046\/IM",
+        "Name": "IMO EAST",
+        "RegisteredVoters": 1016941,
+        "EligibleVoters": 949559,
+        "NoOfPolllingUnits": 1901,
+        "NoOfWards": 104,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Gombe",
+        "Code": "SD\/045\/GM",
+        "Name": "GOMBE NORTH",
+        "RegisteredVoters": 680249,
+        "EligibleVoters": 672834,
+        "NoOfPolllingUnits": 1294,
+        "NoOfWards": 52,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Gombe",
+        "Code": "SD\/044\/GM",
+        "Name": "GOMBE SOUTH",
+        "RegisteredVoters": 456326,
+        "EligibleVoters": 445736,
+        "NoOfPolllingUnits": 825,
+        "NoOfWards": 40,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Gombe",
+        "Code": "SD\/043\/GM",
+        "Name": "GOMBE CENTRAL",
+        "RegisteredVoters": 439219,
+        "EligibleVoters": 416384,
+        "NoOfPolllingUnits": 869,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "FCT",
+        "Code": "SD\/109\/FCT",
+        "Name": "FCT",
+        "RegisteredVoters": 1570307,
+        "EligibleVoters": 1476443,
+        "NoOfPolllingUnits": 2822,
+        "NoOfWards": 62,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Enugu",
+        "Code": "SD\/042\/EN",
+        "Name": "ENUGU NORTH",
+        "RegisteredVoters": 736204,
+        "EligibleVoters": 714641,
+        "NoOfPolllingUnits": 1488,
+        "NoOfWards": 102,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Enugu",
+        "Code": "SD\/041\/EN",
+        "Name": "ENUGU WEST",
+        "RegisteredVoters": 507679,
+        "EligibleVoters": 488924,
+        "NoOfPolllingUnits": 1027,
+        "NoOfWards": 81,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Ekiti",
+        "Code": "SD\/039\/EK",
+        "Name": "EKITI SOUTH",
+        "RegisteredVoters": 308656,
+        "EligibleVoters": 297164,
+        "NoOfPolllingUnits": 845,
+        "NoOfWards": 63,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Ekiti",
+        "Code": "SD\/038\/EK",
+        "Name": "EKITI CENTRAL",
+        "RegisteredVoters": 412130,
+        "EligibleVoters": 401381,
+        "NoOfPolllingUnits": 869,
+        "NoOfWards": 58,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Ekiti",
+        "Code": "SD\/037\/EK",
+        "Name": "EKITI NORTH",
+        "RegisteredVoters": 266861,
+        "EligibleVoters": 259507,
+        "NoOfPolllingUnits": 731,
+        "NoOfWards": 56,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Edo",
+        "Code": "SD\/036\/ED",
+        "Name": "EDO SOUTH",
+        "RegisteredVoters": 1463429,
+        "EligibleVoters": 1201449,
+        "NoOfPolllingUnits": 2602,
+        "NoOfWards": 77,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Edo",
+        "Code": "SD\/035\/ED",
+        "Name": "EDO NORTH",
+        "RegisteredVoters": 636778,
+        "EligibleVoters": 594385,
+        "NoOfPolllingUnits": 1173,
+        "NoOfWards": 64,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Edo",
+        "Code": "SD\/034\/ED",
+        "Name": "EDO CENTRAL",
+        "RegisteredVoters": 400874,
+        "EligibleVoters": 332540,
+        "NoOfPolllingUnits": 744,
+        "NoOfWards": 51,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Ebonyi",
+        "Code": "SD\/033\/EB",
+        "Name": "EBONYI SOUTH",
+        "RegisteredVoters": 484259,
+        "EligibleVoters": 470538,
+        "NoOfPolllingUnits": 870,
+        "NoOfWards": 57,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Ebonyi",
+        "Code": "SD\/032\/EB",
+        "Name": "EBONYI CENTRAL",
+        "RegisteredVoters": 497510,
+        "EligibleVoters": 491176,
+        "NoOfPolllingUnits": 947,
+        "NoOfWards": 58,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Ebonyi",
+        "Code": "SD\/031\/EB",
+        "Name": "EBONYI NORTH",
+        "RegisteredVoters": 615877,
+        "EligibleVoters": 590098,
+        "NoOfPolllingUnits": 1129,
+        "NoOfWards": 56,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Delta",
+        "Code": "SD\/030\/DT",
+        "Name": "DELTA SOUTH",
+        "RegisteredVoters": 1038476,
+        "EligibleVoters": 986581,
+        "NoOfPolllingUnits": 1920,
+        "NoOfWards": 87,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "Delta",
+        "Code": "SD\/029\/DT",
+        "Name": "DELTA NORTH",
+        "RegisteredVoters": 1000723,
+        "EligibleVoters": 937820,
+        "NoOfPolllingUnits": 1763,
+        "NoOfWards": 98,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Delta",
+        "Code": "SD\/028\/DT",
+        "Name": "DELTA CENTRAL",
+        "RegisteredVoters": 1182498,
+        "EligibleVoters": 1065198,
+        "NoOfPolllingUnits": 2180,
+        "NoOfWards": 85,
+        "NoOfLGAs": 8
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "SD\/027\/CR",
+        "Name": "CROSS RIVER SOUTH",
+        "RegisteredVoters": 696648,
+        "EligibleVoters": 685136,
+        "NoOfPolllingUnits": 1250,
+        "NoOfWards": 66,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "SD\/025\/CR",
+        "Name": "CROSS RIVER NORTH",
+        "RegisteredVoters": 708294,
+        "EligibleVoters": 647849,
+        "NoOfPolllingUnits": 1305,
+        "NoOfWards": 63,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "SD\/026\/CR",
+        "Name": "CROSS RIVER CENTRAL",
+        "RegisteredVoters": 361524,
+        "EligibleVoters": 339886,
+        "NoOfPolllingUnits": 726,
+        "NoOfWards": 64,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Borno",
+        "Code": "SD\/022\/BO",
+        "Name": "BORNO NORTH",
+        "RegisteredVoters": 472655,
+        "EligibleVoters": 460115,
+        "NoOfPolllingUnits": 967,
+        "NoOfWards": 100,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Borno",
+        "Code": "SD\/023\/BO",
+        "Name": "BORNO CENTRAL",
+        "RegisteredVoters": 1221667,
+        "EligibleVoters": 1189822,
+        "NoOfPolllingUnits": 2404,
+        "NoOfWards": 111,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Borno",
+        "Code": "SD\/024\/BO",
+        "Name": "BORNO SOUTH",
+        "RegisteredVoters": 818959,
+        "EligibleVoters": 797272,
+        "NoOfPolllingUnits": 1700,
+        "NoOfWards": 101,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Benue",
+        "Code": "SD\/021\/BN",
+        "Name": "BENUE SOUTH",
+        "RegisteredVoters": 738823,
+        "EligibleVoters": 701626,
+        "NoOfPolllingUnits": 1373,
+        "NoOfWards": 102,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Benue",
+        "Code": "SD\/020\/BN",
+        "Name": "BENUE NORTH WEST",
+        "RegisteredVoters": 1028864,
+        "EligibleVoters": 972680,
+        "NoOfPolllingUnits": 1885,
+        "NoOfWards": 90,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Benue",
+        "Code": "SD\/019\/BN",
+        "Name": "BENUE NORTH EAST",
+        "RegisteredVoters": 1010040,
+        "EligibleVoters": 932899,
+        "NoOfPolllingUnits": 1844,
+        "NoOfWards": 84,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Bayelsa",
+        "Code": "SD\/018\/BY",
+        "Name": "BAYELSA WEST",
+        "RegisteredVoters": 276057,
+        "EligibleVoters": 262855,
+        "NoOfPolllingUnits": 502,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Bayelsa",
+        "Code": "SD\/017\/BY",
+        "Name": "BAYELSA CENTRAL",
+        "RegisteredVoters": 468159,
+        "EligibleVoters": 442904,
+        "NoOfPolllingUnits": 1041,
+        "NoOfWards": 43,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Bayelsa",
+        "Code": "SD\/016\/BY",
+        "Name": "BAYELSA EAST",
+        "RegisteredVoters": 312646,
+        "EligibleVoters": 304162,
+        "NoOfPolllingUnits": 701,
+        "NoOfWards": 36,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Bauchi",
+        "Code": "SD\/015\/BA",
+        "Name": "BAUCHI NORTH",
+        "RegisteredVoters": 820531,
+        "EligibleVoters": 813803,
+        "NoOfPolllingUnits": 1676,
+        "NoOfWards": 74,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Bauchi",
+        "Code": "SD\/014\/BA",
+        "Name": "BAUCHI CENTRAL",
+        "RegisteredVoters": 710233,
+        "EligibleVoters": 705024,
+        "NoOfPolllingUnits": 1455,
+        "NoOfWards": 63,
+        "NoOfLGAs": 6
+    },
+    {
+        "State": "Bauchi",
+        "Code": "SD\/013\/BA",
+        "Name": "BAUCHI SOUTH",
+        "RegisteredVoters": 1218504,
+        "EligibleVoters": 1202965,
+        "NoOfPolllingUnits": 2292,
+        "NoOfWards": 75,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Anambra",
+        "Code": "SD\/012\/AN",
+        "Name": "ANAMBRA SOUTH",
+        "RegisteredVoters": 817521,
+        "EligibleVoters": 803116,
+        "NoOfPolllingUnits": 1934,
+        "NoOfWards": 118,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Anambra",
+        "Code": "SD\/011\/AN",
+        "Name": "ANAMBRA CENTRAL",
+        "RegisteredVoters": 945229,
+        "EligibleVoters": 936189,
+        "NoOfPolllingUnits": 1966,
+        "NoOfWards": 109,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Anambra",
+        "Code": "SD\/010\/AN",
+        "Name": "ANAMBRA NORTH",
+        "RegisteredVoters": 893687,
+        "EligibleVoters": 885459,
+        "NoOfPolllingUnits": 1820,
+        "NoOfWards": 99,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "SD\/008\/AK",
+        "Name": "AKWA IBOM NORTH WEST",
+        "RegisteredVoters": 842274,
+        "EligibleVoters": 775491,
+        "NoOfPolllingUnits": 1544,
+        "NoOfWards": 108,
+        "NoOfLGAs": 10
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "SD\/007\/AK",
+        "Name": "AKWA IBOM NORTH EAST",
+        "RegisteredVoters": 675114,
+        "EligibleVoters": 639390,
+        "NoOfPolllingUnits": 1244,
+        "NoOfWards": 96,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "SD\/009\/AK",
+        "Name": "AKWA IBOM SOUTH",
+        "RegisteredVoters": 840030,
+        "EligibleVoters": 783793,
+        "NoOfPolllingUnits": 1565,
+        "NoOfWards": 125,
+        "NoOfLGAs": 12
+    },
+    {
+        "State": "Adamawa",
+        "Code": "SD\/006\/AD",
+        "Name": "ADAMAWA CENTRAL",
+        "RegisteredVoters": 921311,
+        "EligibleVoters": 800763,
+        "NoOfPolllingUnits": 1687,
+        "NoOfWards": 76,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Adamawa",
+        "Code": "SD\/005\/AD",
+        "Name": "ADAMAWA SOUTH",
+        "RegisteredVoters": 779175,
+        "EligibleVoters": 730045,
+        "NoOfPolllingUnits": 1493,
+        "NoOfWards": 93,
+        "NoOfLGAs": 9
+    },
+    {
+        "State": "Adamawa",
+        "Code": "SD\/004\/AD",
+        "Name": "ADAMAWA NORTH",
+        "RegisteredVoters": 496080,
+        "EligibleVoters": 439842,
+        "NoOfPolllingUnits": 924,
+        "NoOfWards": 57,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Abia",
+        "Code": "SD\/002\/AB",
+        "Name": "ABIA CENTRAL",
+        "RegisteredVoters": 458952,
+        "EligibleVoters": 436234,
+        "NoOfPolllingUnits": 848,
+        "NoOfWards": 52,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "Abia",
+        "Code": "SD\/003\/AB",
+        "Name": "ABIA SOUTH",
+        "RegisteredVoters": 1038185,
+        "EligibleVoters": 931955,
+        "NoOfPolllingUnits": 2008,
+        "NoOfWards": 75,
+        "NoOfLGAs": 7
+    },
+    {
+        "State": "Abia",
+        "Code": "SD\/001\/AB",
+        "Name": "ABIA NORTH",
+        "RegisteredVoters": 623671,
+        "EligibleVoters": 581082,
+        "NoOfPolllingUnits": 1206,
+        "NoOfWards": 57,
+        "NoOfLGAs": 5
+    }
+]

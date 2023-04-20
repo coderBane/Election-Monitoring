@@ -1,0 +1,3602 @@
+[
+    {
+        "State": "Edo",
+        "Code": "FC\/101\/ED",
+        "Name": "ESAN CENTRAL\/ESAN WEST\/IGUEBEN",
+        "RegisteredVoters": 221888,
+        "EligibleVoters": 187076,
+        "NoOfPollingUnits": 412,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Osun",
+        "Code": "FC\/292\/OS",
+        "Name": "AYEDAADE\/IREWOLE\/ISOKAN",
+        "RegisteredVoters": 195143,
+        "EligibleVoters": 155080,
+        "NoOfPollingUnits": 383,
+        "NoOfWards": 33,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Osun",
+        "Code": "FC\/291\/OS",
+        "Name": "AYEDIRE\/IWO\/OLA-OLUWA",
+        "RegisteredVoters": 164230,
+        "EligibleVoters": 133298,
+        "NoOfPollingUnits": 299,
+        "NoOfWards": 35,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Osun",
+        "Code": "FC\/290\/OS",
+        "Name": "IFE CENTRAL\/IFE NORTH\/IFE SOUTH\/IFE EAST",
+        "RegisteredVoters": 342905,
+        "EligibleVoters": 271013,
+        "NoOfPollingUnits": 657,
+        "NoOfWards": 42,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Osun",
+        "Code": "FC\/293\/OS",
+        "Name": "EDE NORTH\/EDE SOUTH\/EGBEDORE\/EJIGBO",
+        "RegisteredVoters": 253420,
+        "EligibleVoters": 215717,
+        "NoOfPollingUnits": 463,
+        "NoOfWards": 42,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Zamfara",
+        "Code": "FC\/358\/ZF",
+        "Name": "GUMMI\/BUKKUYUM",
+        "RegisteredVoters": 224062,
+        "EligibleVoters": 211615,
+        "NoOfPollingUnits": 414,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Zamfara",
+        "Code": "FC\/357\/ZF",
+        "Name": "BAKURA\/MARADUN",
+        "RegisteredVoters": 217908,
+        "EligibleVoters": 198506,
+        "NoOfPollingUnits": 384,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Zamfara",
+        "Code": "FC\/356\/ZF",
+        "Name": "ANKA\/TALATA MAFARA",
+        "RegisteredVoters": 230293,
+        "EligibleVoters": 224809,
+        "NoOfPollingUnits": 423,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Zamfara",
+        "Code": "FC\/355\/ZF",
+        "Name": "BUNGUDU\/MARU",
+        "RegisteredVoters": 301910,
+        "EligibleVoters": 299010,
+        "NoOfPollingUnits": 572,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Zamfara",
+        "Code": "FC\/354\/ZF",
+        "Name": "GUSAU\/TSAFE",
+        "RegisteredVoters": 482094,
+        "EligibleVoters": 462193,
+        "NoOfPollingUnits": 865,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Zamfara",
+        "Code": "FC\/353\/ZF",
+        "Name": "SHINKAFI\/ZURMI",
+        "RegisteredVoters": 222360,
+        "EligibleVoters": 222360,
+        "NoOfPollingUnits": 423,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Zamfara",
+        "Code": "FC\/352\/ZF",
+        "Name": "KAURA NAMODA\/BIRNIN MAGAJI",
+        "RegisteredVoters": 248243,
+        "EligibleVoters": 231572,
+        "NoOfPollingUnits": 448,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Yobe",
+        "Code": "FC\/351\/YB",
+        "Name": "NANGERE\/POTISKUM",
+        "RegisteredVoters": 263345,
+        "EligibleVoters": 252402,
+        "NoOfPollingUnits": 497,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Yobe",
+        "Code": "FC\/350\/YB",
+        "Name": "MACHINA\/NGURU\/YUSUFARI\/KARASUWA",
+        "RegisteredVoters": 270820,
+        "EligibleVoters": 260339,
+        "NoOfPollingUnits": 521,
+        "NoOfWards": 40,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Yobe",
+        "Code": "FC\/349\/YB",
+        "Name": "FIKA\/FUNE",
+        "RegisteredVoters": 230404,
+        "EligibleVoters": 227057,
+        "NoOfPollingUnits": 442,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Yobe",
+        "Code": "FC\/348\/YB",
+        "Name": "DAMATURU\/GUJBA\/GULANI\/TARMUWA",
+        "RegisteredVoters": 312343,
+        "EligibleVoters": 301179,
+        "NoOfPollingUnits": 576,
+        "NoOfWards": 43,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Yobe",
+        "Code": "FC\/347\/YB",
+        "Name": "BURSARI\/GEIDAM\/YUNUSARI",
+        "RegisteredVoters": 207338,
+        "EligibleVoters": 200511,
+        "NoOfPollingUnits": 416,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Yobe",
+        "Code": "FC\/346\/YB",
+        "Name": "BADE\/JAKUSKO",
+        "RegisteredVoters": 200896,
+        "EligibleVoters": 196377,
+        "NoOfPollingUnits": 371,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Taraba",
+        "Code": "FC\/345\/TR",
+        "Name": "KARIM LAMIDO\/LAU\/ARDO-KOLA",
+        "RegisteredVoters": 333823,
+        "EligibleVoters": 332377,
+        "NoOfPollingUnits": 585,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Taraba",
+        "Code": "FC\/344\/TR",
+        "Name": "JALINGO\/YORRO\/ZING",
+        "RegisteredVoters": 374278,
+        "EligibleVoters": 295596,
+        "NoOfPollingUnits": 658,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Taraba",
+        "Code": "FC\/343\/TR",
+        "Name": "IBI\/WUKARI",
+        "RegisteredVoters": 286644,
+        "EligibleVoters": 219994,
+        "NoOfPollingUnits": 519,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Taraba",
+        "Code": "FC\/342\/TR",
+        "Name": "SARDAUNA\/KURMI\/GASHAKA",
+        "RegisteredVoters": 334660,
+        "EligibleVoters": 333695,
+        "NoOfPollingUnits": 637,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Taraba",
+        "Code": "FC\/341\/TR",
+        "Name": "TAKUM\/DONGA\/USSA",
+        "RegisteredVoters": 373611,
+        "EligibleVoters": 355449,
+        "NoOfPollingUnits": 602,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Taraba",
+        "Code": "FC\/340\/TR",
+        "Name": "BALI\/GASSOL",
+        "RegisteredVoters": 319358,
+        "EligibleVoters": 288326,
+        "NoOfPollingUnits": 596,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/339\/SO",
+        "Name": "KEBBE\/TAMBUWAL",
+        "RegisteredVoters": 209817,
+        "EligibleVoters": 208134,
+        "NoOfPollingUnits": 372,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/338\/SO",
+        "Name": "YABO\/SHAGARI",
+        "RegisteredVoters": 140859,
+        "EligibleVoters": 137546,
+        "NoOfPollingUnits": 262,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/337\/SO",
+        "Name": "DANGE SHUNI\/BODINGA\/TURETA",
+        "RegisteredVoters": 235660,
+        "EligibleVoters": 226631,
+        "NoOfPollingUnits": 457,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/336\/SO",
+        "Name": "SOKOTO NORTH\/SOKOTO SOUTH",
+        "RegisteredVoters": 385772,
+        "EligibleVoters": 362090,
+        "NoOfPollingUnits": 630,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/335\/SO",
+        "Name": "KWARE\/WAMAKKO",
+        "RegisteredVoters": 233948,
+        "EligibleVoters": 226534,
+        "NoOfPollingUnits": 412,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/334\/SO",
+        "Name": "BINJI\/SILAME",
+        "RegisteredVoters": 106478,
+        "EligibleVoters": 104475,
+        "NoOfPollingUnits": 186,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/333\/SO",
+        "Name": "TANGAZA\/GUDU",
+        "RegisteredVoters": 121821,
+        "EligibleVoters": 118429,
+        "NoOfPollingUnits": 229,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/332\/SO",
+        "Name": "ILLELA\/GWADABAWA",
+        "RegisteredVoters": 193972,
+        "EligibleVoters": 188889,
+        "NoOfPollingUnits": 396,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/331\/SO",
+        "Name": "WURNO\/RABAH",
+        "RegisteredVoters": 131997,
+        "EligibleVoters": 126705,
+        "NoOfPollingUnits": 258,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/330\/SO",
+        "Name": "GORONYO\/GADA",
+        "RegisteredVoters": 213388,
+        "EligibleVoters": 209524,
+        "NoOfPollingUnits": 411,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Sokoto",
+        "Code": "FC\/329\/SO",
+        "Name": "ISA\/SABON BIRNI",
+        "RegisteredVoters": 198344,
+        "EligibleVoters": 188847,
+        "NoOfPollingUnits": 378,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/328\/RV",
+        "Name": "PORT HARCOURT II",
+        "RegisteredVoters": 0,
+        "EligibleVoters": 0,
+        "NoOfPollingUnits": 377,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/327\/RV",
+        "Name": "PORT HARCOURT I",
+        "RegisteredVoters": 0,
+        "EligibleVoters": 0,
+        "NoOfPollingUnits": 584,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/326\/RV",
+        "Name": "OBIO\/AKPOR",
+        "RegisteredVoters": 684812,
+        "EligibleVoters": 641749,
+        "NoOfPollingUnits": 1211,
+        "NoOfWards": 17,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/325\/RV",
+        "Name": "ETCHE\/OMUMA",
+        "RegisteredVoters": 196046,
+        "EligibleVoters": 182923,
+        "NoOfPollingUnits": 438,
+        "NoOfWards": 29,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/324\/RV",
+        "Name": "IKWERRE\/EMOHUA",
+        "RegisteredVoters": 301054,
+        "EligibleVoters": 281676,
+        "NoOfPollingUnits": 592,
+        "NoOfWards": 27,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/323\/RV",
+        "Name": "KHANA\/GOKANA",
+        "RegisteredVoters": 331683,
+        "EligibleVoters": 316495,
+        "NoOfPollingUnits": 619,
+        "NoOfWards": 36,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/322\/RV",
+        "Name": "ELEME\/TAI\/OYIGBO",
+        "RegisteredVoters": 324539,
+        "EligibleVoters": 298075,
+        "NoOfPollingUnits": 591,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/321\/RV",
+        "Name": "OPOBO\/NKORO\/ANDONI",
+        "RegisteredVoters": 202351,
+        "EligibleVoters": 189385,
+        "NoOfPollingUnits": 419,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/320\/RV",
+        "Name": "OKRIKA\/OGU-BOLO",
+        "RegisteredVoters": 148596,
+        "EligibleVoters": 138070,
+        "NoOfPollingUnits": 301,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/319\/RV",
+        "Name": "AKUKU-TORU\/ASARI-TORU",
+        "RegisteredVoters": 211016,
+        "EligibleVoters": 203433,
+        "NoOfPollingUnits": 495,
+        "NoOfWards": 30,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/318\/RV",
+        "Name": "DEGEMA\/BONNY",
+        "RegisteredVoters": 181765,
+        "EligibleVoters": 156013,
+        "NoOfPollingUnits": 343,
+        "NoOfWards": 29,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/317\/RV",
+        "Name": "AHOADA WEST\/OGBA-EGBEMA-NDONI",
+        "RegisteredVoters": 265174,
+        "EligibleVoters": 246277,
+        "NoOfPollingUnits": 506,
+        "NoOfWards": 29,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Rivers",
+        "Code": "FC\/316\/RV",
+        "Name": "ABUA-ODUAL\/AHOADA EAST",
+        "RegisteredVoters": 187784,
+        "EligibleVoters": 176235,
+        "NoOfPollingUnits": 390,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Plateau",
+        "Code": "FC\/315\/PL",
+        "Name": "MIKANG\/QUA'AN PAN\/SHENDAM",
+        "RegisteredVoters": 414338,
+        "EligibleVoters": 408901,
+        "NoOfPollingUnits": 719,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Plateau",
+        "Code": "FC\/314\/PL",
+        "Name": "LANGTANG NORTH\/LANGTANG SOUTH",
+        "RegisteredVoters": 209064,
+        "EligibleVoters": 204977,
+        "NoOfPollingUnits": 352,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Plateau",
+        "Code": "FC\/313\/PL",
+        "Name": "WASE",
+        "RegisteredVoters": 168415,
+        "EligibleVoters": 160895,
+        "NoOfPollingUnits": 277,
+        "NoOfWards": 12,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Plateau",
+        "Code": "FC\/312\/PL",
+        "Name": "KANKE\/PANKSHIN\/KANAM",
+        "RegisteredVoters": 408124,
+        "EligibleVoters": 394890,
+        "NoOfPollingUnits": 730,
+        "NoOfWards": 36,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Plateau",
+        "Code": "FC\/311\/PL",
+        "Name": "BOKKOS\/MANGU",
+        "RegisteredVoters": 354826,
+        "EligibleVoters": 350869,
+        "NoOfPollingUnits": 645,
+        "NoOfWards": 30,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Plateau",
+        "Code": "FC\/310\/PL",
+        "Name": "BARKIN LADI\/RIYOM",
+        "RegisteredVoters": 207362,
+        "EligibleVoters": 204613,
+        "NoOfPollingUnits": 382,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Plateau",
+        "Code": "FC\/309\/PL",
+        "Name": "JOS SOUTH\/JOS EAST",
+        "RegisteredVoters": 379990,
+        "EligibleVoters": 347432,
+        "NoOfPollingUnits": 675,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Plateau",
+        "Code": "FC\/308\/PL",
+        "Name": "JOS NORTH\/BASSA",
+        "RegisteredVoters": 647409,
+        "EligibleVoters": 614956,
+        "NoOfPollingUnits": 1209,
+        "NoOfWards": 30,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/307\/OY",
+        "Name": "IBADAN NORTH",
+        "RegisteredVoters": 272196,
+        "EligibleVoters": 218034,
+        "NoOfPollingUnits": 512,
+        "NoOfWards": 12,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/306\/OY",
+        "Name": "IBADAN SOUTH WEST\/IBADAN NORTH WEST",
+        "RegisteredVoters": 359821,
+        "EligibleVoters": 281511,
+        "NoOfPollingUnits": 713,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/305\/OY",
+        "Name": "IBADAN NORTH EAST\/IBADAN SOUTH EAST",
+        "RegisteredVoters": 355531,
+        "EligibleVoters": 279105,
+        "NoOfPollingUnits": 688,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/304\/OY",
+        "Name": "OLUYOLE",
+        "RegisteredVoters": 130680,
+        "EligibleVoters": 114741,
+        "NoOfPollingUnits": 229,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/303\/OY",
+        "Name": "OGO-OLUWA\/SURULERE",
+        "RegisteredVoters": 120144,
+        "EligibleVoters": 103505,
+        "NoOfPollingUnits": 254,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/302\/OY",
+        "Name": "OGBOMOSO NORTH\/OGBOMOSO SOUTH\/ORI IRE",
+        "RegisteredVoters": 274395,
+        "EligibleVoters": 236815,
+        "NoOfPollingUnits": 539,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/301\/OY",
+        "Name": "ISEYIN\/ITESIWAJU\/KAJOLA\/IWAJOWA",
+        "RegisteredVoters": 271930,
+        "EligibleVoters": 239978,
+        "NoOfPollingUnits": 578,
+        "NoOfWards": 42,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/300\/OY",
+        "Name": "IREPO\/ORELOPE\/OLORUNSOGO",
+        "RegisteredVoters": 149318,
+        "EligibleVoters": 132538,
+        "NoOfPollingUnits": 262,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/299\/OY",
+        "Name": "SAKI EAST\/SAKI WEST\/ATISBO",
+        "RegisteredVoters": 229842,
+        "EligibleVoters": 204245,
+        "NoOfPollingUnits": 485,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/298\/OY",
+        "Name": "IBARAPA EAST\/IDO",
+        "RegisteredVoters": 177123,
+        "EligibleVoters": 154544,
+        "NoOfPollingUnits": 344,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/297\/OY",
+        "Name": "IBARAPA CENTRAL\/IBARAPA NORTH",
+        "RegisteredVoters": 112237,
+        "EligibleVoters": 102623,
+        "NoOfPollingUnits": 288,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/296\/OY",
+        "Name": "EGBEDA\/ONA-ARA",
+        "RegisteredVoters": 256804,
+        "EligibleVoters": 211662,
+        "NoOfPollingUnits": 444,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/295\/OY",
+        "Name": "AKINYELE\/LAGELU",
+        "RegisteredVoters": 283916,
+        "EligibleVoters": 244510,
+        "NoOfPollingUnits": 503,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Oyo",
+        "Code": "FC\/294\/OY",
+        "Name": "AFIJIO\/OYO EAST\/OYO WEST\/ATIBA",
+        "RegisteredVoters": 282738,
+        "EligibleVoters": 238037,
+        "NoOfPollingUnits": 551,
+        "NoOfWards": 40,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Osun",
+        "Code": "FC\/289\/OS",
+        "Name": "OBOKUN\/ORIADE",
+        "RegisteredVoters": 122862,
+        "EligibleVoters": 100795,
+        "NoOfPollingUnits": 223,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Osun",
+        "Code": "FC\/288\/OS",
+        "Name": "ATAKUNMOSA EAST\/ATAKUNMOSA WEST\/ILESA EAST\/ILESA WEST",
+        "RegisteredVoters": 223602,
+        "EligibleVoters": 180734,
+        "NoOfPollingUnits": 406,
+        "NoOfWards": 42,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Osun",
+        "Code": "FC\/287\/OS",
+        "Name": "BOLUWADURO\/IFEDAYO\/ILA",
+        "RegisteredVoters": 90471,
+        "EligibleVoters": 75128,
+        "NoOfPollingUnits": 261,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Osun",
+        "Code": "FC\/286\/OS",
+        "Name": "ODO-OTIN\/IFELODUN\/BORIPE",
+        "RegisteredVoters": 216898,
+        "EligibleVoters": 172561,
+        "NoOfPollingUnits": 378,
+        "NoOfWards": 38,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Osun",
+        "Code": "FC\/285\/OS",
+        "Name": "IREPODUN\/OLORUNDA\/OSOGBO\/OROLU",
+        "RegisteredVoters": 345269,
+        "EligibleVoters": 289831,
+        "NoOfPollingUnits": 693,
+        "NoOfWards": 47,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Ondo",
+        "Code": "FC\/284\/OD",
+        "Name": "OWO\/OSE",
+        "RegisteredVoters": 212166,
+        "EligibleVoters": 189772,
+        "NoOfPollingUnits": 416,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ondo",
+        "Code": "FC\/283\/OD",
+        "Name": "ONDO EAST\/ONDO WEST",
+        "RegisteredVoters": 242465,
+        "EligibleVoters": 212211,
+        "NoOfPollingUnits": 467,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ondo",
+        "Code": "FC\/282\/OD",
+        "Name": "ESE ODO\/ILAJE",
+        "RegisteredVoters": 225265,
+        "EligibleVoters": 219000,
+        "NoOfPollingUnits": 435,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ondo",
+        "Code": "FC\/281\/OD",
+        "Name": "OKITIPUPA\/IRELE",
+        "RegisteredVoters": 197175,
+        "EligibleVoters": 170997,
+        "NoOfPollingUnits": 424,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ondo",
+        "Code": "FC\/280\/OD",
+        "Name": "ILEOLUJI\/OKEIGBO\/ODIGBO",
+        "RegisteredVoters": 229759,
+        "EligibleVoters": 206073,
+        "NoOfPollingUnits": 495,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ondo",
+        "Code": "FC\/279\/OD",
+        "Name": "IDANRE\/IFEDORE",
+        "RegisteredVoters": 170945,
+        "EligibleVoters": 137198,
+        "NoOfPollingUnits": 335,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ondo",
+        "Code": "FC\/278\/OD",
+        "Name": "AKURE NORTH\/AKURE SOUTH",
+        "RegisteredVoters": 393835,
+        "EligibleVoters": 315609,
+        "NoOfPollingUnits": 753,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ondo",
+        "Code": "FC\/277\/OD",
+        "Name": "AKOKO SOUTH EAST\/AKOKO SOUTH WEST",
+        "RegisteredVoters": 148243,
+        "EligibleVoters": 133166,
+        "NoOfPollingUnits": 279,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ondo",
+        "Code": "FC\/276\/OD",
+        "Name": "AKOKO NORTH EAST\/AKOKO NORTH WEST",
+        "RegisteredVoters": 171491,
+        "EligibleVoters": 145759,
+        "NoOfPollingUnits": 329,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ogun",
+        "Code": "FC\/275\/OG",
+        "Name": "IKENNE\/SHAGAMU\/REMO NORTH",
+        "RegisteredVoters": 286846,
+        "EligibleVoters": 244571,
+        "NoOfPollingUnits": 557,
+        "NoOfWards": 35,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Ogun",
+        "Code": "FC\/274\/OG",
+        "Name": "IJEBU ODE\/ODOGBOLU\/IJEBU NORTH EAST",
+        "RegisteredVoters": 238747,
+        "EligibleVoters": 193773,
+        "NoOfPollingUnits": 450,
+        "NoOfWards": 36,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Ogun",
+        "Code": "FC\/273\/OG",
+        "Name": "IJEBU NORTH\/IJEBU EAST\/OGUN WATERSIDE",
+        "RegisteredVoters": 262652,
+        "EligibleVoters": 225692,
+        "NoOfPollingUnits": 548,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Ogun",
+        "Code": "FC\/272\/OG",
+        "Name": "IFO\/EWEKORO",
+        "RegisteredVoters": 356669,
+        "EligibleVoters": 273479,
+        "NoOfPollingUnits": 636,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ogun",
+        "Code": "FC\/271\/OG",
+        "Name": "EGBADO SOUTH\/IPOKIA",
+        "RegisteredVoters": 269282,
+        "EligibleVoters": 251464,
+        "NoOfPollingUnits": 519,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ogun",
+        "Code": "FC\/270\/OG",
+        "Name": "EGBADO NORTH\/IMEKO-AFON",
+        "RegisteredVoters": 200286,
+        "EligibleVoters": 173958,
+        "NoOfPollingUnits": 383,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ogun",
+        "Code": "FC\/269\/OG",
+        "Name": "ADO-ODO\/OTA",
+        "RegisteredVoters": 390175,
+        "EligibleVoters": 332836,
+        "NoOfPollingUnits": 655,
+        "NoOfWards": 16,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Ogun",
+        "Code": "FC\/268\/OG",
+        "Name": "ABEOKUTA SOUTH",
+        "RegisteredVoters": 242151,
+        "EligibleVoters": 231745,
+        "NoOfPollingUnits": 445,
+        "NoOfWards": 15,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Ogun",
+        "Code": "FC\/267\/OG",
+        "Name": "ABEOKUTA NORTH\/OBAFEMI-OWODE\/ODEDA",
+        "RegisteredVoters": 441497,
+        "EligibleVoters": 350521,
+        "NoOfPollingUnits": 849,
+        "NoOfWards": 38,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Niger",
+        "Code": "FC\/266\/NG",
+        "Name": "SHIRORO\/RAFI\/MUNYA",
+        "RegisteredVoters": 297665,
+        "EligibleVoters": 292741,
+        "NoOfPollingUnits": 595,
+        "NoOfWards": 37,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Niger",
+        "Code": "FC\/265\/NG",
+        "Name": "KONTAGORA\/WUSHISHI\/MARIGA\/MASHEGU",
+        "RegisteredVoters": 409417,
+        "EligibleVoters": 405273,
+        "NoOfPollingUnits": 791,
+        "NoOfWards": 45,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Niger",
+        "Code": "FC\/264\/NG",
+        "Name": "MAGAMA\/RIJAU",
+        "RegisteredVoters": 172660,
+        "EligibleVoters": 171152,
+        "NoOfPollingUnits": 367,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Niger",
+        "Code": "FC\/263\/NG",
+        "Name": "LAVUN\/MOKWA\/EDATTI",
+        "RegisteredVoters": 294878,
+        "EligibleVoters": 290128,
+        "NoOfPollingUnits": 529,
+        "NoOfWards": 33,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Niger",
+        "Code": "FC\/262\/NG",
+        "Name": "GURARA\/SULEJA\/TAFA",
+        "RegisteredVoters": 339002,
+        "EligibleVoters": 315925,
+        "NoOfPollingUnits": 598,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Niger",
+        "Code": "FC\/261\/NG",
+        "Name": "CHANCHAGA",
+        "RegisteredVoters": 220670,
+        "EligibleVoters": 219235,
+        "NoOfPollingUnits": 379,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Niger",
+        "Code": "FC\/260\/NG",
+        "Name": "BOSSO\/PAIKORO",
+        "RegisteredVoters": 274366,
+        "EligibleVoters": 260904,
+        "NoOfPollingUnits": 481,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Niger",
+        "Code": "FC\/259\/NG",
+        "Name": "BIDA\/GBAKO\/KATCHA",
+        "RegisteredVoters": 327531,
+        "EligibleVoters": 324190,
+        "NoOfPollingUnits": 575,
+        "NoOfWards": 34,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Niger",
+        "Code": "FC\/258\/NG",
+        "Name": "AGWARA\/BORGU",
+        "RegisteredVoters": 154822,
+        "EligibleVoters": 151820,
+        "NoOfPollingUnits": 278,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Niger",
+        "Code": "FC\/257\/NG",
+        "Name": "AGAIE\/LAPAI",
+        "RegisteredVoters": 207333,
+        "EligibleVoters": 202394,
+        "NoOfPollingUnits": 357,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Nasarawa",
+        "Code": "FC\/256\/NW",
+        "Name": "NASSARAWA\/TOTO",
+        "RegisteredVoters": 273227,
+        "EligibleVoters": 266350,
+        "NoOfPollingUnits": 507,
+        "NoOfWards": 27,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Nasarawa",
+        "Code": "FC\/255\/NW",
+        "Name": "LAFIA\/OBI",
+        "RegisteredVoters": 436947,
+        "EligibleVoters": 426362,
+        "NoOfPollingUnits": 748,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Nasarawa",
+        "Code": "FC\/254\/NW",
+        "Name": "KEFFI\/KARU\/KOKONA",
+        "RegisteredVoters": 574693,
+        "EligibleVoters": 551140,
+        "NoOfPollingUnits": 925,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Nasarawa",
+        "Code": "FC\/253\/NW",
+        "Name": "AWE\/DOMA\/KEANA",
+        "RegisteredVoters": 276335,
+        "EligibleVoters": 268681,
+        "NoOfPollingUnits": 493,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Nasarawa",
+        "Code": "FC\/252\/NW",
+        "Name": "AKWANGA\/NASSARAWA-EGGON\/WAMBA",
+        "RegisteredVoters": 338042,
+        "EligibleVoters": 335226,
+        "NoOfPollingUnits": 583,
+        "NoOfWards": 35,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/251\/LA",
+        "Name": "SURULERE II",
+        "RegisteredVoters": 0,
+        "EligibleVoters": 0,
+        "NoOfPollingUnits": 499,
+        "NoOfWards": 6,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/250\/LA",
+        "Name": "SURULERE I",
+        "RegisteredVoters": 0,
+        "EligibleVoters": 0,
+        "NoOfPollingUnits": 258,
+        "NoOfWards": 6,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/249\/LA",
+        "Name": "KOSOFE",
+        "RegisteredVoters": 481341,
+        "EligibleVoters": 429262,
+        "NoOfPollingUnits": 899,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/248\/LA",
+        "Name": "SHOMOLU",
+        "RegisteredVoters": 316752,
+        "EligibleVoters": 287267,
+        "NoOfPollingUnits": 616,
+        "NoOfWards": 12,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/247\/LA",
+        "Name": "OSHODI\/ISOLO II",
+        "RegisteredVoters": 0,
+        "EligibleVoters": 0,
+        "NoOfPollingUnits": 525,
+        "NoOfWards": 6,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/246\/LA",
+        "Name": "OSHODI\/ISOLO I",
+        "RegisteredVoters": 0,
+        "EligibleVoters": 0,
+        "NoOfPollingUnits": 365,
+        "NoOfWards": 5,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/245\/LA",
+        "Name": "AJEROMI\/IFELODUN",
+        "RegisteredVoters": 394918,
+        "EligibleVoters": 386181,
+        "NoOfPollingUnits": 734,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/244\/LA",
+        "Name": "AMUWO-ODOFIN",
+        "RegisteredVoters": 331215,
+        "EligibleVoters": 274759,
+        "NoOfPollingUnits": 637,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/243\/LA",
+        "Name": "OJO",
+        "RegisteredVoters": 328533,
+        "EligibleVoters": 273899,
+        "NoOfPollingUnits": 582,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/242\/LA",
+        "Name": "MUSHIN II",
+        "RegisteredVoters": 0,
+        "EligibleVoters": 0,
+        "NoOfPollingUnits": 562,
+        "NoOfWards": 6,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/241\/LA",
+        "Name": "MUSHIN I",
+        "RegisteredVoters": 0,
+        "EligibleVoters": 0,
+        "NoOfPollingUnits": 303,
+        "NoOfWards": 8,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/240\/LA",
+        "Name": "LAGOS MAINLAND",
+        "RegisteredVoters": 253546,
+        "EligibleVoters": 215200,
+        "NoOfPollingUnits": 493,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/239\/LA",
+        "Name": "LAGOS ISLAND II",
+        "RegisteredVoters": 0,
+        "EligibleVoters": 0,
+        "NoOfPollingUnits": 182,
+        "NoOfWards": 9,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/238\/LA",
+        "Name": "LAGOS ISLAND I",
+        "RegisteredVoters": 0,
+        "EligibleVoters": 0,
+        "NoOfPollingUnits": 207,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/237\/LA",
+        "Name": "IKORODU",
+        "RegisteredVoters": 388971,
+        "EligibleVoters": 349107,
+        "NoOfPollingUnits": 682,
+        "NoOfWards": 19,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/236\/LA",
+        "Name": "IKEJA",
+        "RegisteredVoters": 339879,
+        "EligibleVoters": 299909,
+        "NoOfPollingUnits": 667,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/235\/LA",
+        "Name": "APAPA",
+        "RegisteredVoters": 196950,
+        "EligibleVoters": 151054,
+        "NoOfPollingUnits": 374,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/234\/LA",
+        "Name": "ETI-OSA",
+        "RegisteredVoters": 413265,
+        "EligibleVoters": 380072,
+        "NoOfPollingUnits": 725,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/233\/LA",
+        "Name": "IBEJU-LEKKI",
+        "RegisteredVoters": 136014,
+        "EligibleVoters": 124149,
+        "NoOfPollingUnits": 227,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/232\/LA",
+        "Name": "EPE",
+        "RegisteredVoters": 160124,
+        "EligibleVoters": 139215,
+        "NoOfPollingUnits": 374,
+        "NoOfWards": 19,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/231\/LA",
+        "Name": "BADAGRY",
+        "RegisteredVoters": 227914,
+        "EligibleVoters": 202190,
+        "NoOfPollingUnits": 412,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/230\/LA",
+        "Name": "ALIMOSHO",
+        "RegisteredVoters": 850557,
+        "EligibleVoters": 772743,
+        "NoOfPollingUnits": 1545,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/229\/LA",
+        "Name": "IFAKO-IJAIYE",
+        "RegisteredVoters": 399938,
+        "EligibleVoters": 321182,
+        "NoOfPollingUnits": 761,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Lagos",
+        "Code": "FC\/228\/LA",
+        "Name": "AGEGE",
+        "RegisteredVoters": 365885,
+        "EligibleVoters": 295661,
+        "NoOfPollingUnits": 696,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kwara",
+        "Code": "FC\/227\/KW",
+        "Name": "IFELODUN\/OFFA\/OYUN",
+        "RegisteredVoters": 290395,
+        "EligibleVoters": 264158,
+        "NoOfPollingUnits": 517,
+        "NoOfWards": 41,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kwara",
+        "Code": "FC\/226\/KW",
+        "Name": "ILORIN WEST\/ASA",
+        "RegisteredVoters": 361558,
+        "EligibleVoters": 304860,
+        "NoOfPollingUnits": 609,
+        "NoOfWards": 29,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kwara",
+        "Code": "FC\/225\/KW",
+        "Name": "ILORIN EAST\/ILORIN SOUTH",
+        "RegisteredVoters": 324746,
+        "EligibleVoters": 273835,
+        "NoOfPollingUnits": 595,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kwara",
+        "Code": "FC\/224\/KW",
+        "Name": "EKITI\/ISIN\/IREPODUN\/OKE-ERO",
+        "RegisteredVoters": 219842,
+        "EligibleVoters": 207097,
+        "NoOfPollingUnits": 390,
+        "NoOfWards": 42,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Kwara",
+        "Code": "FC\/223\/KW",
+        "Name": "EDU\/MORO\/PATIGI",
+        "RegisteredVoters": 261942,
+        "EligibleVoters": 255072,
+        "NoOfPollingUnits": 422,
+        "NoOfWards": 37,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kwara",
+        "Code": "FC\/222\/KW",
+        "Name": "BARUTEN\/KAIAMA",
+        "RegisteredVoters": 237444,
+        "EligibleVoters": 232311,
+        "NoOfPollingUnits": 354,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kogi",
+        "Code": "FC\/214\/KG",
+        "Name": "ANKPA\/OMALA\/OLAMABORO",
+        "RegisteredVoters": 360496,
+        "EligibleVoters": 327712,
+        "NoOfPollingUnits": 614,
+        "NoOfWards": 34,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kogi",
+        "Code": "FC\/221\/KG",
+        "Name": "YAGBA EAST\/YAGBA WEST\/MOPA-MURO",
+        "RegisteredVoters": 131497,
+        "EligibleVoters": 115922,
+        "NoOfPollingUnits": 237,
+        "NoOfWards": 34,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kogi",
+        "Code": "FC\/220\/KG",
+        "Name": "OKENE, OGORI\/MAGONGO",
+        "RegisteredVoters": 168931,
+        "EligibleVoters": 163800,
+        "NoOfPollingUnits": 351,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kogi",
+        "Code": "FC\/219\/KG",
+        "Name": "KOGI (LOKOJA)\/KOGI (K.K.)",
+        "RegisteredVoters": 220590,
+        "EligibleVoters": 205900,
+        "NoOfPollingUnits": 378,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kogi",
+        "Code": "FC\/218\/KG",
+        "Name": "AJAOKUTA",
+        "RegisteredVoters": 96504,
+        "EligibleVoters": 90947,
+        "NoOfPollingUnits": 146,
+        "NoOfWards": 14,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kogi",
+        "Code": "FC\/217\/KG",
+        "Name": "IJUMU, KABBA\/BUNU",
+        "RegisteredVoters": 153644,
+        "EligibleVoters": 142264,
+        "NoOfPollingUnits": 277,
+        "NoOfWards": 30,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kogi",
+        "Code": "FC\/216\/KG",
+        "Name": "IDAH\/IGALAMELA-ODOLU\/IBAJI\/OFU",
+        "RegisteredVoters": 334616,
+        "EligibleVoters": 309485,
+        "NoOfPollingUnits": 618,
+        "NoOfWards": 41,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Kogi",
+        "Code": "FC\/215\/KG",
+        "Name": "BASSA\/DEKINA",
+        "RegisteredVoters": 257257,
+        "EligibleVoters": 252842,
+        "NoOfPollingUnits": 482,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kogi",
+        "Code": "FC\/213\/KG",
+        "Name": "ADAVI\/OKEHI",
+        "RegisteredVoters": 209119,
+        "EligibleVoters": 203467,
+        "NoOfPollingUnits": 405,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kebbi",
+        "Code": "FC\/212\/KB",
+        "Name": "NGASKI\/SHANGA\/YAURI",
+        "RegisteredVoters": 227406,
+        "EligibleVoters": 222420,
+        "NoOfPollingUnits": 410,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kebbi",
+        "Code": "FC\/211\/KB",
+        "Name": "FAKAI\/SAKABA\/WASAGU\/DANKO\/ZURU",
+        "RegisteredVoters": 345421,
+        "EligibleVoters": 338950,
+        "NoOfPollingUnits": 636,
+        "NoOfWards": 41,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Kebbi",
+        "Code": "FC\/210\/KB",
+        "Name": "KOKO\/BESSE, MAIYAMA",
+        "RegisteredVoters": 193788,
+        "EligibleVoters": 190774,
+        "NoOfPollingUnits": 363,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kebbi",
+        "Code": "FC\/209\/KB",
+        "Name": "ALEIRO\/GWANDU\/JEGA",
+        "RegisteredVoters": 260860,
+        "EligibleVoters": 253638,
+        "NoOfPollingUnits": 480,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kebbi",
+        "Code": "FC\/208\/KB",
+        "Name": "BUNZA\/BIRNIN KEBBI\/KALGO",
+        "RegisteredVoters": 354610,
+        "EligibleVoters": 339506,
+        "NoOfPollingUnits": 630,
+        "NoOfWards": 35,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kebbi",
+        "Code": "FC\/207\/KB",
+        "Name": "BAGUDO\/SURU",
+        "RegisteredVoters": 218471,
+        "EligibleVoters": 211669,
+        "NoOfPollingUnits": 433,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kebbi",
+        "Code": "FC\/206\/KB",
+        "Name": "ARGUNGU\/AUGIE",
+        "RegisteredVoters": 220493,
+        "EligibleVoters": 215671,
+        "NoOfPollingUnits": 387,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kebbi",
+        "Code": "FC\/205\/KB",
+        "Name": "AREWA\/DANDI",
+        "RegisteredVoters": 210992,
+        "EligibleVoters": 207558,
+        "NoOfPollingUnits": 404,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/204\/KT",
+        "Name": "ZANGO\/BAURE",
+        "RegisteredVoters": 186875,
+        "EligibleVoters": 184931,
+        "NoOfPollingUnits": 347,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/203\/KT",
+        "Name": "MATAZU\/MUSAWA",
+        "RegisteredVoters": 153696,
+        "EligibleVoters": 151319,
+        "NoOfPollingUnits": 293,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/202\/KT",
+        "Name": "MASHI\/DUTSI",
+        "RegisteredVoters": 164934,
+        "EligibleVoters": 163476,
+        "NoOfPollingUnits": 304,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/201\/KT",
+        "Name": "KATSINA",
+        "RegisteredVoters": 294103,
+        "EligibleVoters": 284672,
+        "NoOfPollingUnits": 501,
+        "NoOfWards": 12,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/200\/KT",
+        "Name": "MALUMFASHI\/KAFUR",
+        "RegisteredVoters": 312878,
+        "EligibleVoters": 308734,
+        "NoOfPollingUnits": 595,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/199\/KT",
+        "Name": "JIBIA\/KAITA",
+        "RegisteredVoters": 174837,
+        "EligibleVoters": 170254,
+        "NoOfPollingUnits": 352,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/198\/KT",
+        "Name": "INGAWA\/KANKIA\/KUSADA",
+        "RegisteredVoters": 226494,
+        "EligibleVoters": 223655,
+        "NoOfPollingUnits": 441,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/197\/KT",
+        "Name": "FUNTUA\/DANDUME",
+        "RegisteredVoters": 244797,
+        "EligibleVoters": 237540,
+        "NoOfPollingUnits": 475,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/196\/KT",
+        "Name": "FASKARI\/KANKARA\/SABUWA",
+        "RegisteredVoters": 328010,
+        "EligibleVoters": 325990,
+        "NoOfPollingUnits": 612,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/195\/KT",
+        "Name": "DUTSIN-MA\/KURFI",
+        "RegisteredVoters": 184727,
+        "EligibleVoters": 181879,
+        "NoOfPollingUnits": 349,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/194\/KT",
+        "Name": "DAURA\/SANDAMU\/MAI'ADUA",
+        "RegisteredVoters": 260152,
+        "EligibleVoters": 253956,
+        "NoOfPollingUnits": 516,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/193\/KT",
+        "Name": "BINDAWA\/MANI",
+        "RegisteredVoters": 203233,
+        "EligibleVoters": 201799,
+        "NoOfPollingUnits": 376,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/192\/KT",
+        "Name": "BATSARI\/SAFANA\/DAN MUSA",
+        "RegisteredVoters": 277007,
+        "EligibleVoters": 273490,
+        "NoOfPollingUnits": 552,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/191\/KT",
+        "Name": "BATAGARAWA\/CHARANCHI\/RIMI",
+        "RegisteredVoters": 269477,
+        "EligibleVoters": 265025,
+        "NoOfPollingUnits": 505,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Katsina",
+        "Code": "FC\/190\/KT",
+        "Name": "BAKORI\/DANJA",
+        "RegisteredVoters": 235499,
+        "EligibleVoters": 233225,
+        "NoOfPollingUnits": 434,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/189\/KN",
+        "Name": "WUDIL\/GARKO",
+        "RegisteredVoters": 216420,
+        "EligibleVoters": 204876,
+        "NoOfPollingUnits": 406,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/188\/KN",
+        "Name": "TSANYAWA\/KUNCHI",
+        "RegisteredVoters": 145405,
+        "EligibleVoters": 142308,
+        "NoOfPollingUnits": 299,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/187\/KN",
+        "Name": "MINJIBIR\/UNGOGO",
+        "RegisteredVoters": 299604,
+        "EligibleVoters": 291028,
+        "NoOfPollingUnits": 556,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/186\/KN",
+        "Name": "SUMAILA\/TAKAI",
+        "RegisteredVoters": 243324,
+        "EligibleVoters": 242197,
+        "NoOfPollingUnits": 472,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/185\/KN",
+        "Name": "FAGGE",
+        "RegisteredVoters": 273983,
+        "EligibleVoters": 244018,
+        "NoOfPollingUnits": 521,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/184\/KN",
+        "Name": "NASSARAWA",
+        "RegisteredVoters": 432144,
+        "EligibleVoters": 380189,
+        "NoOfPollingUnits": 817,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/183\/KN",
+        "Name": "KURA\/MADOBI\/GARUN MALLAM",
+        "RegisteredVoters": 286368,
+        "EligibleVoters": 277718,
+        "NoOfPollingUnits": 539,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/182\/KN",
+        "Name": "KUMBOTSO",
+        "RegisteredVoters": 229556,
+        "EligibleVoters": 204314,
+        "NoOfPollingUnits": 410,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/181\/KN",
+        "Name": "KARAYE\/ROGO",
+        "RegisteredVoters": 202719,
+        "EligibleVoters": 199043,
+        "NoOfPollingUnits": 389,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/180\/KN",
+        "Name": "TARAUNI",
+        "RegisteredVoters": 226254,
+        "EligibleVoters": 196382,
+        "NoOfPollingUnits": 425,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/179\/KN",
+        "Name": "KANO MUNICIPAL",
+        "RegisteredVoters": 330228,
+        "EligibleVoters": 312772,
+        "NoOfPollingUnits": 630,
+        "NoOfWards": 13,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/178\/KN",
+        "Name": "GWARZO\/IKABO",
+        "RegisteredVoters": 206900,
+        "EligibleVoters": 200240,
+        "NoOfPollingUnits": 398,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/177\/KN",
+        "Name": "GEZAWA\/GABASAWA",
+        "RegisteredVoters": 202324,
+        "EligibleVoters": 196428,
+        "NoOfPollingUnits": 393,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/176\/KN",
+        "Name": "DOGUWA\/TUDUN WADA",
+        "RegisteredVoters": 227911,
+        "EligibleVoters": 221834,
+        "NoOfPollingUnits": 430,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/175\/KN",
+        "Name": "DAWAKIN TOFA\/TOFA\/RIMIN GADO",
+        "RegisteredVoters": 265182,
+        "EligibleVoters": 256924,
+        "NoOfPollingUnits": 507,
+        "NoOfWards": 38,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/174\/KN",
+        "Name": "DAWAKIN KUDU\/WARAWA",
+        "RegisteredVoters": 238068,
+        "EligibleVoters": 222645,
+        "NoOfPollingUnits": 446,
+        "NoOfWards": 30,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/173\/KN",
+        "Name": "DAMBATTA\/MAKODA",
+        "RegisteredVoters": 196581,
+        "EligibleVoters": 192872,
+        "NoOfPollingUnits": 382,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/172\/KN",
+        "Name": "GWALE",
+        "RegisteredVoters": 249537,
+        "EligibleVoters": 225202,
+        "NoOfPollingUnits": 450,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/171\/KN",
+        "Name": "DALA",
+        "RegisteredVoters": 351303,
+        "EligibleVoters": 313431,
+        "NoOfPollingUnits": 668,
+        "NoOfWards": 12,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/170\/KN",
+        "Name": "RANO\/BUNKURE\/KIBIYA",
+        "RegisteredVoters": 260881,
+        "EligibleVoters": 249645,
+        "NoOfPollingUnits": 497,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/169\/KN",
+        "Name": "BICHI",
+        "RegisteredVoters": 152372,
+        "EligibleVoters": 149407,
+        "NoOfPollingUnits": 277,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/168\/KN",
+        "Name": "BEBEJI\/KIRU",
+        "RegisteredVoters": 216012,
+        "EligibleVoters": 213020,
+        "NoOfPollingUnits": 407,
+        "NoOfWards": 29,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/167\/KN",
+        "Name": "SHANONO\/BAGWAI",
+        "RegisteredVoters": 171393,
+        "EligibleVoters": 166978,
+        "NoOfPollingUnits": 337,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kano",
+        "Code": "FC\/166\/KN",
+        "Name": "ALBASU\/GAYA\/AJINGI",
+        "RegisteredVoters": 296901,
+        "EligibleVoters": 290795,
+        "NoOfPollingUnits": 566,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/165\/KD",
+        "Name": "ZANGON KATAF\/JABA",
+        "RegisteredVoters": 250590,
+        "EligibleVoters": 220958,
+        "NoOfPollingUnits": 469,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/164\/KD",
+        "Name": "KAURU",
+        "RegisteredVoters": 132827,
+        "EligibleVoters": 132091,
+        "NoOfPollingUnits": 243,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/163\/KD",
+        "Name": "KAURA",
+        "RegisteredVoters": 101279,
+        "EligibleVoters": 99667,
+        "NoOfPollingUnits": 186,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/162\/KD",
+        "Name": "KADUNA SOUTH",
+        "RegisteredVoters": 407580,
+        "EligibleVoters": 366250,
+        "NoOfPollingUnits": 796,
+        "NoOfWards": 13,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/161\/KD",
+        "Name": "SABON GARI",
+        "RegisteredVoters": 217941,
+        "EligibleVoters": 190380,
+        "NoOfPollingUnits": 398,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/160\/KD",
+        "Name": "BIRNIN GWARI\/GIWA",
+        "RegisteredVoters": 281621,
+        "EligibleVoters": 274965,
+        "NoOfPollingUnits": 525,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/159\/KD",
+        "Name": "JEMA'A\/SANGA",
+        "RegisteredVoters": 277249,
+        "EligibleVoters": 276208,
+        "NoOfPollingUnits": 520,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/158\/KD",
+        "Name": "CHIKUN\/KAJURU",
+        "RegisteredVoters": 426739,
+        "EligibleVoters": 412876,
+        "NoOfPollingUnits": 731,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/157\/KD",
+        "Name": "KACHIA\/KAGARKO",
+        "RegisteredVoters": 298763,
+        "EligibleVoters": 297437,
+        "NoOfPollingUnits": 539,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/156\/KD",
+        "Name": "LERE",
+        "RegisteredVoters": 247413,
+        "EligibleVoters": 245900,
+        "NoOfPollingUnits": 457,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/155\/KD",
+        "Name": "MAKARFI\/KUDAN",
+        "RegisteredVoters": 219493,
+        "EligibleVoters": 198616,
+        "NoOfPollingUnits": 401,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/154\/KD",
+        "Name": "IKARA\/KUBAU",
+        "RegisteredVoters": 291663,
+        "EligibleVoters": 288799,
+        "NoOfPollingUnits": 561,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/153\/KD",
+        "Name": "IGABI",
+        "RegisteredVoters": 328468,
+        "EligibleVoters": 327393,
+        "NoOfPollingUnits": 600,
+        "NoOfWards": 12,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/152\/KD",
+        "Name": "SOBA",
+        "RegisteredVoters": 158086,
+        "EligibleVoters": 158086,
+        "NoOfPollingUnits": 298,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/151\/KD",
+        "Name": "ZARIA",
+        "RegisteredVoters": 326068,
+        "EligibleVoters": 315757,
+        "NoOfPollingUnits": 584,
+        "NoOfWards": 13,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Kaduna",
+        "Code": "FC\/150\/KD",
+        "Name": "KADUNA NORTH",
+        "RegisteredVoters": 369428,
+        "EligibleVoters": 359108,
+        "NoOfPollingUnits": 704,
+        "NoOfWards": 12,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/146\/JG",
+        "Name": "JAHUN\/MIGA",
+        "RegisteredVoters": 178486,
+        "EligibleVoters": 174693,
+        "NoOfPollingUnits": 345,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/145\/JG",
+        "Name": "HADEJIA\/KAFIN HAUSA\/AUYO",
+        "RegisteredVoters": 272473,
+        "EligibleVoters": 266416,
+        "NoOfPollingUnits": 514,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/149\/JG",
+        "Name": "RINGIM\/TAURA",
+        "RegisteredVoters": 216070,
+        "EligibleVoters": 211536,
+        "NoOfPollingUnits": 397,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/148\/JG",
+        "Name": "KAZAURE\/RONI\/GWIWA\/YANKWASHI",
+        "RegisteredVoters": 224960,
+        "EligibleVoters": 223567,
+        "NoOfPollingUnits": 443,
+        "NoOfWards": 43,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/147\/JG",
+        "Name": "MALLAM MADORI\/KAUGAMA",
+        "RegisteredVoters": 168306,
+        "EligibleVoters": 163182,
+        "NoOfPollingUnits": 315,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/144\/JG",
+        "Name": "GUMEL\/MAIGATARI\/SULE-TANKARKAR\/GAGARAWA",
+        "RegisteredVoters": 264007,
+        "EligibleVoters": 254103,
+        "NoOfPollingUnits": 520,
+        "NoOfWards": 42,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/143\/JG",
+        "Name": "GWARAM",
+        "RegisteredVoters": 148587,
+        "EligibleVoters": 146835,
+        "NoOfPollingUnits": 298,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/142\/JG",
+        "Name": "DUTSE\/KIYAWA",
+        "RegisteredVoters": 247323,
+        "EligibleVoters": 239530,
+        "NoOfPollingUnits": 455,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/141\/JG",
+        "Name": "BIRNIWA GURI\/KIRI-KASAMMA",
+        "RegisteredVoters": 211023,
+        "EligibleVoters": 208960,
+        "NoOfPollingUnits": 410,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/140\/JG",
+        "Name": "BIRNIN KUDU\/BUJI",
+        "RegisteredVoters": 227136,
+        "EligibleVoters": 221721,
+        "NoOfPollingUnits": 439,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Jigawa",
+        "Code": "FC\/139\/JG",
+        "Name": "BABURA\/GARKI",
+        "RegisteredVoters": 192927,
+        "EligibleVoters": 187823,
+        "NoOfPollingUnits": 386,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Imo",
+        "Code": "FC\/137\/IM",
+        "Name": "IKEDURU\/MBAITOLI",
+        "RegisteredVoters": 273270,
+        "EligibleVoters": 262736,
+        "NoOfPollingUnits": 514,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Imo",
+        "Code": "FC\/136\/IM",
+        "Name": "AHIAZU MBAISE\/EZINIHITTE MBAISE",
+        "RegisteredVoters": 190482,
+        "EligibleVoters": 176778,
+        "NoOfPollingUnits": 360,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Imo",
+        "Code": "FC\/138\/IM",
+        "Name": "OWERRI MUNICIPAL\/OWERRI NORTH\/OWERRI WEST",
+        "RegisteredVoters": 408993,
+        "EligibleVoters": 376568,
+        "NoOfPollingUnits": 726,
+        "NoOfWards": 33,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Imo",
+        "Code": "FC\/135\/IM",
+        "Name": "ABOH MBAISE\/NGOR OKPALA",
+        "RegisteredVoters": 213255,
+        "EligibleVoters": 198606,
+        "NoOfPollingUnits": 405,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Imo",
+        "Code": "FC\/134\/IM",
+        "Name": "ORU EAST\/ORSU\/ORLU",
+        "RegisteredVoters": 246846,
+        "EligibleVoters": 234181,
+        "NoOfPollingUnits": 517,
+        "NoOfWards": 34,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Imo",
+        "Code": "FC\/133\/IM",
+        "Name": "OGUTA, OHAJI\/EGBEMA, ORU WEST",
+        "RegisteredVoters": 273926,
+        "EligibleVoters": 264022,
+        "NoOfPollingUnits": 541,
+        "NoOfWards": 33,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Imo",
+        "Code": "FC\/132\/IM",
+        "Name": "ISU\/NJABA\/NKWERRE\/NWANGELE",
+        "RegisteredVoters": 234978,
+        "EligibleVoters": 219613,
+        "NoOfPollingUnits": 501,
+        "NoOfWards": 43,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Imo",
+        "Code": "FC\/131\/IM",
+        "Name": "IDEATO NORTH\/IDEATO SOUTH",
+        "RegisteredVoters": 166215,
+        "EligibleVoters": 160092,
+        "NoOfPollingUnits": 348,
+        "NoOfWards": 27,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Imo",
+        "Code": "FC\/130\/IM",
+        "Name": "ISIALA MBANO\/OKIGWE\/ONUIMO",
+        "RegisteredVoters": 211947,
+        "EligibleVoters": 200620,
+        "NoOfPollingUnits": 447,
+        "NoOfWards": 33,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Imo",
+        "Code": "FC\/129\/IM",
+        "Name": "EHIME MBANO, IHITTE\/UBOMA, OBOWO",
+        "RegisteredVoters": 200010,
+        "EligibleVoters": 187149,
+        "NoOfPollingUnits": 399,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Gombe",
+        "Code": "FC\/128\/GM",
+        "Name": "DUKKU\/NAFADA",
+        "RegisteredVoters": 184398,
+        "EligibleVoters": 183363,
+        "NoOfPollingUnits": 391,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Gombe",
+        "Code": "FC\/127\/GM",
+        "Name": "GOMBE\/KWAMI\/FUNAKAYE",
+        "RegisteredVoters": 495851,
+        "EligibleVoters": 489471,
+        "NoOfPollingUnits": 903,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Gombe",
+        "Code": "FC\/126\/GM",
+        "Name": "KALTUNGO\/SHONGOM",
+        "RegisteredVoters": 204251,
+        "EligibleVoters": 199608,
+        "NoOfPollingUnits": 369,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Gombe",
+        "Code": "FC\/125\/GM",
+        "Name": "BALANGA\/BILLIRI",
+        "RegisteredVoters": 252075,
+        "EligibleVoters": 246128,
+        "NoOfPollingUnits": 456,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Gombe",
+        "Code": "FC\/124\/GM",
+        "Name": "YAMALTU\/DEBA",
+        "RegisteredVoters": 198650,
+        "EligibleVoters": 191067,
+        "NoOfPollingUnits": 401,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Gombe",
+        "Code": "FC\/123\/GM",
+        "Name": "AKKO",
+        "RegisteredVoters": 240569,
+        "EligibleVoters": 225317,
+        "NoOfPollingUnits": 468,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "FCT",
+        "Code": "FC\/360\/FCT",
+        "Name": "MUNICIPAL\/BWARI",
+        "RegisteredVoters": 1088946,
+        "EligibleVoters": 1016411,
+        "NoOfPollingUnits": 1886,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "FCT",
+        "Code": "FC\/359\/FCT",
+        "Name": "ABAJI\/GWAGWALADA\/KWALI\/KUJE",
+        "RegisteredVoters": 481361,
+        "EligibleVoters": 460032,
+        "NoOfPollingUnits": 936,
+        "NoOfWards": 40,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Enugu",
+        "Code": "FC\/122\/EN",
+        "Name": "NSUKKA\/IGBO EZE SOUTH",
+        "RegisteredVoters": 314581,
+        "EligibleVoters": 300752,
+        "NoOfPollingUnits": 610,
+        "NoOfWards": 36,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Enugu",
+        "Code": "FC\/120\/EN",
+        "Name": "IGBO EZE NORTH\/UDENU",
+        "RegisteredVoters": 267291,
+        "EligibleVoters": 263650,
+        "NoOfPollingUnits": 531,
+        "NoOfWards": 30,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Enugu",
+        "Code": "FC\/121\/EN",
+        "Name": "NKANU EAST\/NKANU WEST",
+        "RegisteredVoters": 184584,
+        "EligibleVoters": 168415,
+        "NoOfPollingUnits": 371,
+        "NoOfWards": 28,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Enugu",
+        "Code": "FC\/119\/EN",
+        "Name": "IGBO ETITI\/UZO-UWANI",
+        "RegisteredVoters": 154332,
+        "EligibleVoters": 150239,
+        "NoOfPollingUnits": 347,
+        "NoOfWards": 36,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Enugu",
+        "Code": "FC\/118\/EN",
+        "Name": "EZEAGU\/UDI",
+        "RegisteredVoters": 239131,
+        "EligibleVoters": 230871,
+        "NoOfPollingUnits": 459,
+        "NoOfWards": 40,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Enugu",
+        "Code": "FC\/117\/EN",
+        "Name": "ENUGU NORTH\/ENUGU SOUTH",
+        "RegisteredVoters": 387416,
+        "EligibleVoters": 357171,
+        "NoOfPollingUnits": 714,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Enugu",
+        "Code": "FC\/116\/EN",
+        "Name": "ENUGU EAST\/ISI UZO",
+        "RegisteredVoters": 296910,
+        "EligibleVoters": 266268,
+        "NoOfPollingUnits": 545,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Enugu",
+        "Code": "FC\/115\/EN",
+        "Name": "ANINRI\/AWGU\/OJI RIVER",
+        "RegisteredVoters": 268548,
+        "EligibleVoters": 258053,
+        "NoOfPollingUnits": 568,
+        "NoOfWards": 41,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Ekiti",
+        "Code": "FC\/114\/EK",
+        "Name": "IKOLE\/OYE",
+        "RegisteredVoters": 137223,
+        "EligibleVoters": 133423,
+        "NoOfPollingUnits": 380,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ekiti",
+        "Code": "FC\/113\/EK",
+        "Name": "IJERO\/EKITI WEST\/EFON",
+        "RegisteredVoters": 153505,
+        "EligibleVoters": 149235,
+        "NoOfPollingUnits": 448,
+        "NoOfWards": 33,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Ekiti",
+        "Code": "FC\/112\/EK",
+        "Name": "\"IDO\/OSI, MOBA\/ILEJEMEJE\"",
+        "RegisteredVoters": 129638,
+        "EligibleVoters": 126084,
+        "NoOfPollingUnits": 351,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Ekiti",
+        "Code": "FC\/111\/EK",
+        "Name": "EMURE\/GBONYIN\/EKITI EAST",
+        "RegisteredVoters": 152044,
+        "EligibleVoters": 148734,
+        "NoOfPollingUnits": 321,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Ekiti",
+        "Code": "FC\/110\/EK",
+        "Name": "EKITI SOUTH WEST, IKERE, ISE\/ORUN",
+        "RegisteredVoters": 165888,
+        "EligibleVoters": 158129,
+        "NoOfPollingUnits": 427,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Ekiti",
+        "Code": "FC\/109\/EK",
+        "Name": "ADO EKITI\/IREPODUN\/IFELODUN",
+        "RegisteredVoters": 249349,
+        "EligibleVoters": 242447,
+        "NoOfPollingUnits": 518,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Edo",
+        "Code": "FC\/108\/ED",
+        "Name": "OWAN EAST\/OWAN WEST",
+        "RegisteredVoters": 169480,
+        "EligibleVoters": 148516,
+        "NoOfPollingUnits": 340,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Edo",
+        "Code": "FC\/107\/ED",
+        "Name": "OVIA NORTH EAST\/OVIA SOUTH WEST",
+        "RegisteredVoters": 274614,
+        "EligibleVoters": 237910,
+        "NoOfPollingUnits": 487,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Edo",
+        "Code": "FC\/106\/ED",
+        "Name": "ORHIONMWON\/UHUNMWONDE",
+        "RegisteredVoters": 219697,
+        "EligibleVoters": 197088,
+        "NoOfPollingUnits": 419,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Edo",
+        "Code": "FC\/105\/ED",
+        "Name": "OREDO",
+        "RegisteredVoters": 347076,
+        "EligibleVoters": 265905,
+        "NoOfPollingUnits": 619,
+        "NoOfWards": 12,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Edo",
+        "Code": "FC\/104\/ED",
+        "Name": "EGOR\/IKPOBA-OKHA",
+        "RegisteredVoters": 622042,
+        "EligibleVoters": 500546,
+        "NoOfPollingUnits": 1077,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Edo",
+        "Code": "FC\/103\/ED",
+        "Name": "ETSAKO EAST\/ETSAKO WEST\/ETSAKO CENTRAL",
+        "RegisteredVoters": 328829,
+        "EligibleVoters": 308655,
+        "NoOfPollingUnits": 592,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Edo",
+        "Code": "FC\/102\/ED",
+        "Name": "ESAN NORTH EAST\/ESAN SOUTH EAST",
+        "RegisteredVoters": 178986,
+        "EligibleVoters": 145464,
+        "NoOfPollingUnits": 332,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Edo",
+        "Code": "FC\/100\/ED",
+        "Name": "AKOKO-EDO",
+        "RegisteredVoters": 138469,
+        "EligibleVoters": 137214,
+        "NoOfPollingUnits": 241,
+        "NoOfWards": 10,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Ebonyi",
+        "Code": "FC\/099\/EB",
+        "Name": "AFIKPO NORTH\/AFIKPO SOUTH",
+        "RegisteredVoters": 202544,
+        "EligibleVoters": 195103,
+        "NoOfPollingUnits": 359,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ebonyi",
+        "Code": "FC\/098\/EB",
+        "Name": "IVO-OHAOZARA\/ONICHA",
+        "RegisteredVoters": 281715,
+        "EligibleVoters": 275435,
+        "NoOfPollingUnits": 511,
+        "NoOfWards": 34,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Ebonyi",
+        "Code": "FC\/097\/EB",
+        "Name": "EZZA SOUTH\/IKWO",
+        "RegisteredVoters": 264052,
+        "EligibleVoters": 259891,
+        "NoOfPollingUnits": 497,
+        "NoOfWards": 31,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ebonyi",
+        "Code": "FC\/096\/EB",
+        "Name": "EZZA NORTH\/ISHIELU",
+        "RegisteredVoters": 233458,
+        "EligibleVoters": 231285,
+        "NoOfPollingUnits": 450,
+        "NoOfWards": 27,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ebonyi",
+        "Code": "FC\/095\/EB",
+        "Name": "ABAKALIKI\/IZZI",
+        "RegisteredVoters": 328892,
+        "EligibleVoters": 309443,
+        "NoOfPollingUnits": 596,
+        "NoOfWards": 28,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Ebonyi",
+        "Code": "FC\/094\/EB",
+        "Name": "EBONYI\/OHAUKWU",
+        "RegisteredVoters": 286985,
+        "EligibleVoters": 280655,
+        "NoOfPollingUnits": 533,
+        "NoOfWards": 28,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Delta",
+        "Code": "FC\/093\/DT",
+        "Name": "WARRI NORTH\/WARRI SOUTH\/WARRI SOUTH WEST",
+        "RegisteredVoters": 488049,
+        "EligibleVoters": 455825,
+        "NoOfPollingUnits": 875,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Delta",
+        "Code": "FC\/092\/DT",
+        "Name": "UGHELLI NORTH, UGHELLI SOUTH\/UDU",
+        "RegisteredVoters": 503214,
+        "EligibleVoters": 463301,
+        "NoOfPollingUnits": 909,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Delta",
+        "Code": "FC\/091\/DT",
+        "Name": "BURUTU",
+        "RegisteredVoters": 112867,
+        "EligibleVoters": 109761,
+        "NoOfPollingUnits": 233,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Delta",
+        "Code": "FC\/090\/DT",
+        "Name": "OKPE\/SAPELE\/UVWIE",
+        "RegisteredVoters": 453350,
+        "EligibleVoters": 392423,
+        "NoOfPollingUnits": 831,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Delta",
+        "Code": "FC\/089\/DT",
+        "Name": "NDOKWA EAST\/NDOKWA WEST\/UKWUANI",
+        "RegisteredVoters": 280620,
+        "EligibleVoters": 270274,
+        "NoOfPollingUnits": 529,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Delta",
+        "Code": "FC\/088\/DT",
+        "Name": "ISOKO NORTH\/ISOKO SOUTH",
+        "RegisteredVoters": 284914,
+        "EligibleVoters": 270522,
+        "NoOfPollingUnits": 521,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Delta",
+        "Code": "FC\/087\/DT",
+        "Name": "IKA NORTH EAST\/IKA SOUTH",
+        "RegisteredVoters": 232544,
+        "EligibleVoters": 219600,
+        "NoOfPollingUnits": 407,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Delta",
+        "Code": "FC\/086\/DT",
+        "Name": "ETHIOPE EAST\/ETHIOPE WEST",
+        "RegisteredVoters": 225934,
+        "EligibleVoters": 209474,
+        "NoOfPollingUnits": 440,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Delta",
+        "Code": "FC\/085\/DT",
+        "Name": "BOMADI\/PATANI",
+        "RegisteredVoters": 152646,
+        "EligibleVoters": 150473,
+        "NoOfPollingUnits": 291,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Delta",
+        "Code": "FC\/084\/DT",
+        "Name": "ANIOCHA NORTH\/ANIOCHA SOUTH\/OSHIMILI NORTH & OSHIMILI SOUTH",
+        "RegisteredVoters": 487559,
+        "EligibleVoters": 447946,
+        "NoOfPollingUnits": 827,
+        "NoOfWards": 42,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "FC\/080\/CR",
+        "Name": "CALABAR MUNICIPALITY\/ODUKPANI",
+        "RegisteredVoters": 259946,
+        "EligibleVoters": 233075,
+        "NoOfPollingUnits": 494,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "FC\/079\/CR",
+        "Name": "CALABAR SOUTH\/AKPABUYO\/BAKASSI",
+        "RegisteredVoters": 243790,
+        "EligibleVoters": 212688,
+        "NoOfPollingUnits": 516,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "FC\/083\/CR",
+        "Name": "OGOJA\/YALA",
+        "RegisteredVoters": 240540,
+        "EligibleVoters": 236060,
+        "NoOfPollingUnits": 404,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "FC\/082\/CR",
+        "Name": "OBUBRA\/ETUNG",
+        "RegisteredVoters": 156626,
+        "EligibleVoters": 153334,
+        "NoOfPollingUnits": 309,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "FC\/081\/CR",
+        "Name": "OBANLIKU\/OBUDU\/BEKWARRA",
+        "RegisteredVoters": 282015,
+        "EligibleVoters": 279470,
+        "NoOfPollingUnits": 470,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "FC\/078\/CR",
+        "Name": "BOKI\/IKOM",
+        "RegisteredVoters": 231008,
+        "EligibleVoters": 212514,
+        "NoOfPollingUnits": 426,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "FC\/077\/CR",
+        "Name": "AKAMKPA\/BIASE",
+        "RegisteredVoters": 180455,
+        "EligibleVoters": 178816,
+        "NoOfPollingUnits": 347,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "CrossRiver",
+        "Code": "FC\/076\/CR",
+        "Name": "YAKURR\/ABI",
+        "RegisteredVoters": 172086,
+        "EligibleVoters": 166914,
+        "NoOfPollingUnits": 315,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Borno",
+        "Code": "FC\/068\/BO",
+        "Name": "BIU\/KWAYA-KUSAR\/SHANI\/BAYO",
+        "RegisteredVoters": 309789,
+        "EligibleVoters": 300611,
+        "NoOfPollingUnits": 614,
+        "NoOfWards": 42,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Borno",
+        "Code": "FC\/067\/BO",
+        "Name": "BAMA\/NGALA\/KALA-BALGE",
+        "RegisteredVoters": 263712,
+        "EligibleVoters": 254810,
+        "NoOfPollingUnits": 559,
+        "NoOfWards": 36,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Borno",
+        "Code": "FC\/075\/BO",
+        "Name": "JERE",
+        "RegisteredVoters": 213938,
+        "EligibleVoters": 213938,
+        "NoOfPollingUnits": 386,
+        "NoOfWards": 12,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Borno",
+        "Code": "FC\/074\/BO",
+        "Name": "MAIDUGURI (METROPOLITAN)",
+        "RegisteredVoters": 459295,
+        "EligibleVoters": 444927,
+        "NoOfPollingUnits": 886,
+        "NoOfWards": 15,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Borno",
+        "Code": "FC\/073\/BO",
+        "Name": "KUKAWA\/MOBBAR\/ABADAM\/GUZAMALA",
+        "RegisteredVoters": 201572,
+        "EligibleVoters": 192535,
+        "NoOfPollingUnits": 409,
+        "NoOfWards": 40,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Borno",
+        "Code": "FC\/072\/BO",
+        "Name": "MONGUNO\/NGANZAI\/MARTE",
+        "RegisteredVoters": 163246,
+        "EligibleVoters": 160941,
+        "NoOfPollingUnits": 338,
+        "NoOfWards": 37,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Borno",
+        "Code": "FC\/071\/BO",
+        "Name": "KAGA\/GUBIO\/MAGUMERI",
+        "RegisteredVoters": 161293,
+        "EligibleVoters": 157086,
+        "NoOfPollingUnits": 329,
+        "NoOfWards": 38,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Borno",
+        "Code": "FC\/070\/BO",
+        "Name": "DAMBOA\/GWOZA\/CHIBOK",
+        "RegisteredVoters": 299323,
+        "EligibleVoters": 291415,
+        "NoOfPollingUnits": 611,
+        "NoOfWards": 34,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Borno",
+        "Code": "FC\/069\/BO",
+        "Name": "DIKWA\/MAFA\/KONDUGA",
+        "RegisteredVoters": 231266,
+        "EligibleVoters": 225700,
+        "NoOfPollingUnits": 464,
+        "NoOfWards": 33,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Borno",
+        "Code": "FC\/066\/BO",
+        "Name": "ASKIRA\/UBA, HAWUL",
+        "RegisteredVoters": 209847,
+        "EligibleVoters": 205246,
+        "NoOfPollingUnits": 475,
+        "NoOfWards": 25,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/065\/BN",
+        "Name": "OTUKPO\/OHIMINI",
+        "RegisteredVoters": 196700,
+        "EligibleVoters": 188601,
+        "NoOfPollingUnits": 367,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/064\/BN",
+        "Name": "OJU\/OBI",
+        "RegisteredVoters": 179292,
+        "EligibleVoters": 171211,
+        "NoOfPollingUnits": 324,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/063\/BN",
+        "Name": "KWANDE\/USHONGO",
+        "RegisteredVoters": 290062,
+        "EligibleVoters": 264929,
+        "NoOfPollingUnits": 552,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/062\/BN",
+        "Name": "KONSHISHA\/VANDEIKYA",
+        "RegisteredVoters": 295441,
+        "EligibleVoters": 269296,
+        "NoOfPollingUnits": 540,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/061\/BN",
+        "Name": "KATSINA-ALA\/UKUM\/LOGO",
+        "RegisteredVoters": 424537,
+        "EligibleVoters": 398674,
+        "NoOfPollingUnits": 752,
+        "NoOfWards": 35,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/060\/BN",
+        "Name": "GWER EAST\/GWER WEST",
+        "RegisteredVoters": 174414,
+        "EligibleVoters": 163348,
+        "NoOfPollingUnits": 312,
+        "NoOfWards": 29,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/059\/BN",
+        "Name": "GUMA\/MAKURDI",
+        "RegisteredVoters": 419654,
+        "EligibleVoters": 397569,
+        "NoOfPollingUnits": 762,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/058\/BN",
+        "Name": "GBOKO\/TARKA",
+        "RegisteredVoters": 305100,
+        "EligibleVoters": 289409,
+        "NoOfPollingUnits": 571,
+        "NoOfWards": 27,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/056\/BN",
+        "Name": "APA\/AGATU",
+        "RegisteredVoters": 131035,
+        "EligibleVoters": 122350,
+        "NoOfPollingUnits": 236,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/055\/BN",
+        "Name": "ADO\/OGBADIBO\/OKPOKWU",
+        "RegisteredVoters": 231796,
+        "EligibleVoters": 219464,
+        "NoOfPollingUnits": 446,
+        "NoOfWards": 35,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Benue",
+        "Code": "FC\/057\/BN",
+        "Name": "BURUKU",
+        "RegisteredVoters": 129696,
+        "EligibleVoters": 122354,
+        "NoOfPollingUnits": 240,
+        "NoOfWards": 13,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Bayelsa",
+        "Code": "FC\/054\/BY",
+        "Name": "YENAGOA\/KOLOKUMA\/OPOKUMA",
+        "RegisteredVoters": 283758,
+        "EligibleVoters": 260991,
+        "NoOfPollingUnits": 575,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Bayelsa",
+        "Code": "FC\/053\/BY",
+        "Name": "SOUTHERN IJAW",
+        "RegisteredVoters": 184401,
+        "EligibleVoters": 181913,
+        "NoOfPollingUnits": 466,
+        "NoOfWards": 17,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Bayelsa",
+        "Code": "FC\/052\/BY",
+        "Name": "SAGBAMA\/EKEREMOR",
+        "RegisteredVoters": 276057,
+        "EligibleVoters": 262855,
+        "NoOfPollingUnits": 502,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Bayelsa",
+        "Code": "FC\/051\/BY",
+        "Name": "OGBIA",
+        "RegisteredVoters": 119571,
+        "EligibleVoters": 118832,
+        "NoOfPollingUnits": 301,
+        "NoOfWards": 13,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Bayelsa",
+        "Code": "FC\/050\/BY",
+        "Name": "BRASS\/NEMBE",
+        "RegisteredVoters": 193075,
+        "EligibleVoters": 185330,
+        "NoOfPollingUnits": 400,
+        "NoOfWards": 23,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/049\/BA",
+        "Name": "KATAGUM",
+        "RegisteredVoters": 188254,
+        "EligibleVoters": 184937,
+        "NoOfPollingUnits": 364,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/048\/BA",
+        "Name": "SHIRA\/GIADE",
+        "RegisteredVoters": 182722,
+        "EligibleVoters": 181750,
+        "NoOfPollingUnits": 394,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/047\/BA",
+        "Name": "JAMA'ARE, ITAS\/GADAU",
+        "RegisteredVoters": 177194,
+        "EligibleVoters": 175958,
+        "NoOfPollingUnits": 368,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/046\/BA",
+        "Name": "GAMAWA",
+        "RegisteredVoters": 147995,
+        "EligibleVoters": 147400,
+        "NoOfPollingUnits": 289,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/045\/BA",
+        "Name": "ZAKI",
+        "RegisteredVoters": 124366,
+        "EligibleVoters": 123758,
+        "NoOfPollingUnits": 261,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/044\/BA",
+        "Name": "MISAU\/DAMBAM",
+        "RegisteredVoters": 215852,
+        "EligibleVoters": 213925,
+        "NoOfPollingUnits": 419,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/043\/BA",
+        "Name": "DARAZO\/GANJUWA",
+        "RegisteredVoters": 247318,
+        "EligibleVoters": 244453,
+        "NoOfPollingUnits": 523,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/042\/BA",
+        "Name": "NINGI\/WARJI",
+        "RegisteredVoters": 247063,
+        "EligibleVoters": 246646,
+        "NoOfPollingUnits": 513,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/041\/BA",
+        "Name": "TORO",
+        "RegisteredVoters": 232305,
+        "EligibleVoters": 231189,
+        "NoOfPollingUnits": 423,
+        "NoOfWards": 11,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/040\/BA",
+        "Name": "BOGORO\/DASS\/TAFAWA BALEWA",
+        "RegisteredVoters": 298277,
+        "EligibleVoters": 297772,
+        "NoOfPollingUnits": 521,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/039\/BA",
+        "Name": "BAUCHI",
+        "RegisteredVoters": 459359,
+        "EligibleVoters": 446719,
+        "NoOfPollingUnits": 894,
+        "NoOfWards": 12,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Bauchi",
+        "Code": "FC\/038\/BA",
+        "Name": "ALKALERI\/KIRFI",
+        "RegisteredVoters": 228563,
+        "EligibleVoters": 227285,
+        "NoOfPollingUnits": 454,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/037\/AN",
+        "Name": "ORUMBA NORTH\/ORUMBA SOUTH",
+        "RegisteredVoters": 177401,
+        "EligibleVoters": 175247,
+        "NoOfPollingUnits": 461,
+        "NoOfWards": 36,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/036\/AN",
+        "Name": "NNEWI NORTH\/NNEWI SOUTH\/EKWUSIGO",
+        "RegisteredVoters": 342322,
+        "EligibleVoters": 342239,
+        "NoOfPollingUnits": 808,
+        "NoOfWards": 42,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/035\/AN",
+        "Name": "IHIALA",
+        "RegisteredVoters": 149889,
+        "EligibleVoters": 144943,
+        "NoOfPollingUnits": 323,
+        "NoOfWards": 20,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/034\/AN",
+        "Name": "IDEMILI NORTH\/IDEMILI SOUTH",
+        "RegisteredVoters": 357611,
+        "EligibleVoters": 352326,
+        "NoOfPollingUnits": 710,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/033\/AN",
+        "Name": "NJIKOKA\/DUNUKOFIA\/ANAOCHA",
+        "RegisteredVoters": 303186,
+        "EligibleVoters": 300614,
+        "NoOfPollingUnits": 716,
+        "NoOfWards": 51,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/032\/AN",
+        "Name": "AWKA NORTH\/AWKA SOUTH",
+        "RegisteredVoters": 284432,
+        "EligibleVoters": 283249,
+        "NoOfPollingUnits": 540,
+        "NoOfWards": 34,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/031\/AN",
+        "Name": "OYI\/AYAMELUM",
+        "RegisteredVoters": 202722,
+        "EligibleVoters": 202311,
+        "NoOfPollingUnits": 398,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/030\/AN",
+        "Name": "AGUATA",
+        "RegisteredVoters": 147909,
+        "EligibleVoters": 140687,
+        "NoOfPollingUnits": 342,
+        "NoOfWards": 20,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/029\/AN",
+        "Name": "OGBARU",
+        "RegisteredVoters": 180816,
+        "EligibleVoters": 178340,
+        "NoOfPollingUnits": 383,
+        "NoOfWards": 16,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/028\/AN",
+        "Name": "ONITSHA NORTH\/ONITSHA SOUTH",
+        "RegisteredVoters": 339329,
+        "EligibleVoters": 334257,
+        "NoOfPollingUnits": 634,
+        "NoOfWards": 32,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Anambra",
+        "Code": "FC\/027\/AN",
+        "Name": "ANAMBRA EAST\/ANAMBRA WEST",
+        "RegisteredVoters": 170820,
+        "EligibleVoters": 170551,
+        "NoOfPollingUnits": 405,
+        "NoOfWards": 25,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "FC\/026\/AK",
+        "Name": "UYO\/URUAN\/NSIT ATAI\/IBESIKPO ASUTAN",
+        "RegisteredVoters": 476943,
+        "EligibleVoters": 435528,
+        "NoOfPollingUnits": 855,
+        "NoOfWards": 42,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "FC\/025\/AK",
+        "Name": "UKANAFUN\/ORUK ANAM",
+        "RegisteredVoters": 184752,
+        "EligibleVoters": 180682,
+        "NoOfPollingUnits": 355,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "FC\/024\/AK",
+        "Name": "ORON\/MBO\/OKOBO\/UDUNG UKO\/URUE OFFONG\/ORUKO",
+        "RegisteredVoters": 246403,
+        "EligibleVoters": 229401,
+        "NoOfPollingUnits": 451,
+        "NoOfWards": 50,
+        "NoOfLGAs": 5
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "FC\/023\/AK",
+        "Name": "ITU\/IBIONO IBOM",
+        "RegisteredVoters": 177670,
+        "EligibleVoters": 160508,
+        "NoOfPollingUnits": 339,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "FC\/022\/AK",
+        "Name": "IKOT EKPENE\/ESSIEN UDIM\/OBOT AKARA",
+        "RegisteredVoters": 262254,
+        "EligibleVoters": 244298,
+        "NoOfPollingUnits": 495,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "FC\/021\/AK",
+        "Name": "IKOT ABASI\/MKPAT ENIN\/EASTERN OBOLO",
+        "RegisteredVoters": 161416,
+        "EligibleVoters": 152004,
+        "NoOfPollingUnits": 313,
+        "NoOfWards": 34,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "FC\/020\/AK",
+        "Name": "IKONO\/INI",
+        "RegisteredVoters": 144699,
+        "EligibleVoters": 134751,
+        "NoOfPollingUnits": 281,
+        "NoOfWards": 21,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "FC\/019\/AK",
+        "Name": "ETINAN\/NSIT IBOM\/NSIT UBIUM",
+        "RegisteredVoters": 214105,
+        "EligibleVoters": 205875,
+        "NoOfPollingUnits": 377,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "FC\/018\/AK",
+        "Name": "EKET\/ONNA\/ESIT EKET\/IBENO",
+        "RegisteredVoters": 281912,
+        "EligibleVoters": 260611,
+        "NoOfPollingUnits": 511,
+        "NoOfWards": 43,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "AkwaIbom",
+        "Code": "FC\/017\/AK",
+        "Name": "ABAK\/ETIM EKPO\/IKA",
+        "RegisteredVoters": 207264,
+        "EligibleVoters": 195016,
+        "NoOfPollingUnits": 376,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Adamawa",
+        "Code": "FC\/016\/AD",
+        "Name": "YOLA NORTH\/YOLA SOUTH\/GIREI",
+        "RegisteredVoters": 453028,
+        "EligibleVoters": 353669,
+        "NoOfPollingUnits": 801,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Adamawa",
+        "Code": "FC\/015\/AD",
+        "Name": "MAIHA\/MUBI NORTH\/MUBI SOUTH",
+        "RegisteredVoters": 292133,
+        "EligibleVoters": 254358,
+        "NoOfPollingUnits": 541,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Adamawa",
+        "Code": "FC\/014\/AD",
+        "Name": "MADAGALI\/MICHIKA",
+        "RegisteredVoters": 203947,
+        "EligibleVoters": 185484,
+        "NoOfPollingUnits": 383,
+        "NoOfWards": 26,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Adamawa",
+        "Code": "FC\/013\/AD",
+        "Name": "GUYUK\/SHELLENG",
+        "RegisteredVoters": 145885,
+        "EligibleVoters": 136141,
+        "NoOfPollingUnits": 274,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Adamawa",
+        "Code": "FC\/012\/AD",
+        "Name": "GOMBI\/HONG",
+        "RegisteredVoters": 227473,
+        "EligibleVoters": 217357,
+        "NoOfPollingUnits": 405,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Adamawa",
+        "Code": "FC\/011\/AD",
+        "Name": "MAYO-BELWA\/GANYE\/JADA\/TOUNGO",
+        "RegisteredVoters": 363355,
+        "EligibleVoters": 338103,
+        "NoOfPollingUnits": 720,
+        "NoOfWards": 43,
+        "NoOfLGAs": 4
+    },
+    {
+        "State": "Adamawa",
+        "Code": "FC\/010\/AD",
+        "Name": "FUFORE\/SONG",
+        "RegisteredVoters": 240810,
+        "EligibleVoters": 229737,
+        "NoOfPollingUnits": 481,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Adamawa",
+        "Code": "FC\/009\/AD",
+        "Name": "DEMSA\/NUMAN\/LAMURDE",
+        "RegisteredVoters": 269935,
+        "EligibleVoters": 255801,
+        "NoOfPollingUnits": 499,
+        "NoOfWards": 30,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Abia",
+        "Code": "FC\/008\/AB",
+        "Name": "UKWA EAST\/UKWA WEST",
+        "RegisteredVoters": 109865,
+        "EligibleVoters": 107851,
+        "NoOfPollingUnits": 214,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Abia",
+        "Code": "FC\/007\/AB",
+        "Name": "UMUAHIA NORTH\/UMUAHIA SOUTH\/IKWUANO",
+        "RegisteredVoters": 386380,
+        "EligibleVoters": 344178,
+        "NoOfPollingUnits": 694,
+        "NoOfWards": 32,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Abia",
+        "Code": "FC\/006\/AB",
+        "Name": "OBINGWA\/UGWUNAGBO\/OSISIOMA",
+        "RegisteredVoters": 405948,
+        "EligibleVoters": 376748,
+        "NoOfPollingUnits": 773,
+        "NoOfWards": 31,
+        "NoOfLGAs": 3
+    },
+    {
+        "State": "Abia",
+        "Code": "FC\/005\/AB",
+        "Name": "ISUIKWUATO\/UMUNNEOCHI",
+        "RegisteredVoters": 154506,
+        "EligibleVoters": 145442,
+        "NoOfPollingUnits": 302,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Abia",
+        "Code": "FC\/004\/AB",
+        "Name": "ISIALA NGWA NORTH\/ISIALA NGWA SOUTH",
+        "RegisteredVoters": 205725,
+        "EligibleVoters": 197195,
+        "NoOfPollingUnits": 379,
+        "NoOfWards": 20,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Abia",
+        "Code": "FC\/003\/AB",
+        "Name": "BENDE",
+        "RegisteredVoters": 106170,
+        "EligibleVoters": 105089,
+        "NoOfPollingUnits": 214,
+        "NoOfWards": 13,
+        "NoOfLGAs": 1
+    },
+    {
+        "State": "Abia",
+        "Code": "FC\/002\/AB",
+        "Name": "AROCHUKWU\/OHAFIA",
+        "RegisteredVoters": 229842,
+        "EligibleVoters": 225412,
+        "NoOfPollingUnits": 465,
+        "NoOfWards": 22,
+        "NoOfLGAs": 2
+    },
+    {
+        "State": "Abia",
+        "Code": "FC\/001\/AB",
+        "Name": "ABA NORTH\/ABA SOUTH",
+        "RegisteredVoters": 522372,
+        "EligibleVoters": 447356,
+        "NoOfPollingUnits": 1021,
+        "NoOfWards": 24,
+        "NoOfLGAs": 2
+    }
+]

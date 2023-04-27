@@ -24,13 +24,35 @@
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
             </NavLink>
         </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" @onclick="() => expandSubMenu = !expandSubMenu">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Live Results
+                <span></span>
+            </NavLink>
+            @if (expandSubMenu)
+            {
+               <div class="nav flex-column">
+                    @foreach (var item in elections)
+                    {
+                        <div class="nav-item px-3">
+                            <NavLink class="nav-link" href="">
+                                <span class="oi oi-bar-chart" aria-hidden="true"></span> @item
+                            </NavLink>
+                        </div>
+                    }
+               </div>
+            }
+        </div>
     </nav>
 </div>
 
 @code {
     private bool collapseNavMenu = true;
+    private bool expandSubMenu;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private string[] elections = {"Presidential", "Gubernatorial", "Senate", "House Of Reps"};
 
     private void ToggleNavMenu()
     {

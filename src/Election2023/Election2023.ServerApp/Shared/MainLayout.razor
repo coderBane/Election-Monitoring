@@ -1,4 +1,5 @@
 ﻿@inherits LayoutComponentBase
+@implements IDisposable
 
 <PageTitle>Election2023.ServerApp</PageTitle>
 
@@ -12,7 +13,7 @@
             <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
         </div>
         <div class="top-row" style="height: 3rem;">
-            Election Results Updates as at: <b>@DateTime.Now.ToShortTimeString() WAT</b>
+            Election Results Updates as at:<b> @theTime WAT</b>
             , @DateTime.Now.ToLongDateString()
         </div>
         <section class="content" style="background-color: whitesmoke;">
@@ -20,4 +21,26 @@
         </section>
     </main>
 </div>
+
+@code{
+    private string theTime = "00:00";
+    private Timer? timer;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        timer = new Timer(Tick, null, 0, 1000);
+    }
+
+    private void Tick(object? _)
+    {
+        theTime = DateTime.Now.ToShortTimeString();
+        InvokeAsync(StateHasChanged);
+    }
+    
+    public void Dispose() 
+    {
+        timer?.Dispose();
+    }
+}
 

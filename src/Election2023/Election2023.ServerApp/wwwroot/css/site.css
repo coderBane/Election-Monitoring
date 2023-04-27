@@ -22,6 +22,11 @@ a, .btn-link {
     padding-top: 1.1rem;
 }
 
+img.elect-img {
+    width: fit-content;
+    height: 10rem;
+}
+
 .valid.modified:not([type=checkbox]) {
     outline: 1px solid #26b050;
 }

@@ -6,16 +6,18 @@
     <div class="sidebar">
         <NavMenu />
     </div>
-
     <main>
         <div class="top-row px-4 auth">
             <LoginDisplay />
             <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
         </div>
-
-        <article class="content px-4">
+        <div class="top-row" style="height: 3rem;">
+            Election Results Updates as at: <b>@DateTime.Now.ToShortTimeString() WAT</b>
+            , @DateTime.Now.ToLongDateString()
+        </div>
+        <section class="content" style="background-color: whitesmoke;">
             @Body
-        </article>
+        </section>
     </main>
 </div>
 

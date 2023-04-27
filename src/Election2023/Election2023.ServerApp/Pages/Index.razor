@@ -1,10 +1,46 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Home Page</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+<div style="text-align:center;">
+    <h1>Live Results And Maps</h1>
+    <br/>
+    <div style="margin: -20px auto 50px; color: red; font-weight: 400; font-size: 15px;">
+        <b style="font-weight: 600;">Disclamer:</b>
+        " This component demonstrates fetching data from database."
+    </div>
+</div>
+<div>
+    @for (int i = 0; i < 2; i++)
+    {
+        <div class="row mb-4">
+            @for (int j = 0; j < 2; j++)
+            {
+                <div class="col-sm-6">
+                    <a href="#">
+                        <div class="card d-flex justify-content-center" style="height: 18rem;">
+                            <div class="row mx-0 px-6 py-3 d-flex align-items-center">
+                                <img class="elect-img col-sm-4" src="/images/nigeria_map.png" alt="election card image">
+                                <div class="col-sm-8 text-center">
+                                    <div>
+                                        <span>2023</span>
+                                    </div>
+                                    <h2>@elections[index].ToUpper()</h2>
+                                    <p>Election Results Map</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                index++;
+            }
+        </div>
+    }
+</div>
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 
+@code{
+    private int index = 0;
+    private string[] elections = {"Presidential", "Gubernatorial", "Senate", "House Of Representatives"};
+}

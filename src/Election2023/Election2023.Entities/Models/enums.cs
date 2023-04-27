@@ -7,7 +7,7 @@
         Kwara, Lagos, Nasarawa, Niger, Ogun, Ondo, Osun, Oyo, Plateau, Rivers, Sokoto, Taraba, Yobe, Zamfara
     }
 
-    public enum ElectionType { Presidential, Gubernatorial, Senatorial, HOR, StateHouseAssembly }
+    public enum ElectionType { Presidential = 1, Gubernatorial, Senatorial, HouseOfRepresentatives, HouseOfAssembly }
 
     public enum Party { A, AA, ADC, ADP, APC, APGA, LP, NNPP, PDP, SDP, YPP, ZLP }
 

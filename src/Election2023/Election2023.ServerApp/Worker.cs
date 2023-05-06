@@ -1,3 +1,5 @@
+// using Election2023.DataStore.Database;
+
 namespace Election2023.ServerApp;
 
 internal class Worker : IHostedService, IDisposable
@@ -17,8 +19,8 @@ internal class Worker : IHostedService, IDisposable
 
     private void Execute()
     {
-        using var scope = _services.CreateScope();
-        var dbContext = scope.ServiceProvider.GetRequiredService<DataServer.Data.ElectionDbContext>();
+        // using var scope = _services.CreateScope();
+        // var dbContext = scope.ServiceProvider.GetRequiredService<ElectionDbContext>();
     }
 
     public Task StopAsync(CancellationToken cancellationToken)

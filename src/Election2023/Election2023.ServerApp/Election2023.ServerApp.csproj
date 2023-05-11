@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.10" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
+    <!-- <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.10" /> -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -29,6 +29,8 @@
     <ProjectReference Include="..\Election2023.MigrationsMssql\Election2023.MigrationsMssql.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\Election2023.Application\Election2023.Application.csproj" />
+    <ProjectReference Include="..\Election2023.DataStore\Election2023.DataStore.csproj" />
   </ItemGroup>
 
 </Project>

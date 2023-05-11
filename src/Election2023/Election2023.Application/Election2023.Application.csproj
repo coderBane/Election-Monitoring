@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Election2023.Domain\Election2023.Domain.csproj" />
+    <ProjectReference Include="..\Election2023.Shared\ELection2023.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Interfaces\" />
+    <None Remove="VeiwModels\" />
+    <None Remove="VeiwModels\Incoming\" />
+    <None Remove="VeiwModels\Outgoing\" />
+    <None Remove="Interfaces\Repositories\" />
+    <None Remove="Interfaces\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="VeiwModels\" />
+    <Folder Include="VeiwModels\Incoming\" />
+    <Folder Include="VeiwModels\Outgoing\" />
+    <Folder Include="Interfaces\Repositories\" />
+    <Folder Include="Interfaces\Services\" />
+  </ItemGroup>
+</Project>

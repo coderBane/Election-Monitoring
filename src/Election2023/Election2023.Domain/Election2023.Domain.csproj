@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Enums\" />
+    <None Remove="Models\" />
+    <None Remove="Models\Voting\" />
+    <None Remove="CustomExceptions\" />
+    <None Remove="Models\Candidacy\" />
+    <None Remove="Models\Spatial\" />
+    <None Remove="Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\Voting\" />
+    <Folder Include="CustomExceptions\" />
+    <Folder Include="Models\Candidacy\" />
+    <Folder Include="Models\Spatial\" />
+    <Folder Include="Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="7.0.4" />
+  </ItemGroup>
+</Project>

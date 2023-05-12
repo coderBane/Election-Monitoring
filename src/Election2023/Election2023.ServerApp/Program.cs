@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 
+using Election2023.ServerApp;
 using Election2023.ServerApp.Data;
 using Election2023.ServerApp.Extensions;
 using Election2023.ServerApp.Areas.Identity;
@@ -20,6 +21,8 @@ builder.Services.AddCurrentUserService();
 builder.Services.AddPersistence(builder.Configuration);
 
 builder.Services.AddApplicationLayer();
+
+builder.Services.AddHostedService<Worker>();
     
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();

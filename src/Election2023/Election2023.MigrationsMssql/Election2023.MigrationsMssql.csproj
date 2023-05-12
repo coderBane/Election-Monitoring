@@ -7,6 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Election2023.DataServer\Election2023.DataServer.csproj" />
+    <ProjectReference Include="..\Election2023.DataStore\Election2023.DataStore.csproj" />
   </ItemGroup>
 </Project>

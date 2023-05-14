@@ -25,11 +25,29 @@
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" @onclick="() => expandSubMenu = !expandSubMenu">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Live Results
-                <span></span>
+            <NavLink class="nav-link" href="#" @onclick="() => expandCandidateSubMenu = !expandCandidateSubMenu">
+                <span class="oi oi-people" aria-hidden="true"></span> Candidate Watch
             </NavLink>
-            @if (expandSubMenu)
+            @if (expandCandidateSubMenu)
+            {
+                <div class="nav flex-column">
+                    @foreach (var item in elections.Take(2))
+                    {
+                        string link = (item+"-candidtates").ToLower();
+                        <div class="nav-item px-3">
+                            <NavLink class="nav-link" href="@link">
+                                @item
+                            </NavLink>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#" @onclick="() => expandElectionSubMenu = !expandElectionSubMenu">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Live Results
+            </NavLink>
+            @if (expandElectionSubMenu)
             {
                <div class="nav flex-column">
                     @foreach (var item in elections)
@@ -48,7 +66,10 @@
 
 @code {
     private bool collapseNavMenu = true;
-    private bool expandSubMenu;
+
+    private bool expandElectionSubMenu;
+
+    private bool expandCandidateSubMenu;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
@@ -58,5 +79,7 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
+
+    private void ToggleCandidateSubMenu() => expandCandidateSubMenu = !expandCandidateSubMenu;
 }
 

@@ -23,7 +23,7 @@ builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddApplicationLayer();
 
 builder.Services.AddHostedService<Worker>();
-    
+
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();

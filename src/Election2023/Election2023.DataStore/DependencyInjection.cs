@@ -1,12 +1,12 @@
 ﻿using Election2023.DataStore.Database;
+using Election2023.DataStore.Services;
 using Election2023.DataStore.Repositories;
-using Election2023.Application.Interfaces.Repositories;
+using Election2023.DataStore.Database.Interceptors;
 
 using Npgsql;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Election2023.Application.Interfaces.Services;
 
 namespace Election2023.DataStore
 {
@@ -29,8 +29,10 @@ namespace Election2023.DataStore
                                         .ToLower().Select((x, i) => i == 0 ? char.ToUpper(x) : x);
 
             provider = string.Join("", provider);
+            
+            services.AddScoped<AuditableEntityInterceptor>();
 
-            services.AddDbContextFactory<ElectionDbContext>(options => _ = provider switch
+            services.AddDbContext<ElectionDbContext>(options => _ = provider switch
             {
                 "Sqlite" => options.UseSqlite(configuration.GetConnectionString("DefaultConnection"), opt =>
                 {
@@ -56,8 +58,10 @@ namespace Election2023.DataStore
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ElectionDbContext>();
 
-            services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
-            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddTransient<IDateTimeService, SystemDateTimeService>();
 
             services.AddDatabaseDeveloperPageExceptionFilter();
 

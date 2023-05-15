@@ -32,7 +32,8 @@ public sealed class Candidate : AuditableEntity<string>
     [Range(30, 85)]
     public int Age { get; set; }
 
-    public string? StateOfOrigin { get; set; }
+    [Required]
+    public string Education { get; set; } = null!;
 
     [FileExtensions]
     public string? Image { get; set; }
@@ -40,10 +41,13 @@ public sealed class Candidate : AuditableEntity<string>
     [DataType(DataType.MultilineText)]
     public string? Brief { get; set; }
 
+    public string? Constituency { get; set; }
+
     public string? State { get; set; }
 
+    [Required]
     [Column(Order = 2)]
-    public Party PoliticalPartyAbbrv { get; set; }
+    public Party PartyAbbrv { get; set; }
     public PoliticalParty Party { get; set; } = null!;
 
     public string[] ManifestoSnippets { get; set; } = Array.Empty<string>();
@@ -54,8 +58,9 @@ public sealed class Candidate : AuditableEntity<string>
     public override bool Equals(object? obj) 
         => object.ReferenceEquals(this, obj) ||
             obj is Candidate other && 
-            (other.PoliticalPartyAbbrv == this.PoliticalPartyAbbrv && other.Category == this.Category);
+            (other.PartyAbbrv == this.PartyAbbrv && other.Category == this.Category &&
+            other.State == this.State && other.Constituency == this.Constituency);
 
-    public override int GetHashCode() => HashCode.Combine(PoliticalPartyAbbrv, Category);
+    public override int GetHashCode() => HashCode.Combine(PartyAbbrv, Category, State, Constituency);
 }
 

@@ -15,9 +15,9 @@ namespace Election2023.DataStore.Repositories
         private Hashtable? _repositories;
         private bool _disposed;
 
-		public UnitOfWork(IDbContextFactory<ElectionDbContext> dbContext, ICurrentUserService currentUserService, ILoggerFactory loggerFactory)
+		public UnitOfWork(ElectionDbContext dbContext, ICurrentUserService currentUserService, ILoggerFactory loggerFactory)
 		{
-            _dbContext = dbContext.CreateDbContext() ?? throw new ArgumentNullException(nameof(dbContext));
+            _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
             _logger = loggerFactory.CreateLogger("UoF_logs");
             _currentUserService = currentUserService;
 		}

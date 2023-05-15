@@ -1,22 +1,23 @@
-﻿using Election2023.Domain.Common;
-using Election2023.Application.Interfaces.Services;
-
-using System.Text.Json;
+﻿using System.Text.Json;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+
+using Election2023.DataStore.Database.Interceptors;
 
 namespace Election2023.DataStore.Database
 {
     public class ElectionDbContext : IdentityDbContext
 	{
+        private readonly string _identitySchema = "identity";
         private readonly string _databaseDefaultSchema = "app";
-        // private readonly ICurrentUserService _currentUserService;
-        private readonly DateTime _currentDateTime;
 
-        public ElectionDbContext(DbContextOptions<ElectionDbContext> options) : base(options)
+        private readonly AuditableEntityInterceptor _auditableEntityInterceptor;
+
+        public ElectionDbContext(DbContextOptions<ElectionDbContext> options, 
+            AuditableEntityInterceptor auditableEntityInterceptor) : base(options)
 		{
-            _currentDateTime = DateTime.UtcNow;
-            // _currentUserService = currentUserService;
+            _auditableEntityInterceptor = auditableEntityInterceptor;
 		}
 
         // public DbSet<LGA> LGAs => Set<LGA>();
@@ -35,36 +36,29 @@ namespace Election2023.DataStore.Database
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
-            string userId = "Initiator";
-
-            foreach (var entry in ChangeTracker.Entries<IAuditableEntity>().ToList())
-            {
-                switch (entry.State)
-                {
-                    case EntityState.Added:
-                        entry.Entity.CreatedBy = userId;
-                        entry.Entity.CreatedOn = _currentDateTime;
-                        entry.Entity.LastModifiedBy = userId;
-                        entry.Entity.LastModifiedOn = _currentDateTime;
-                        break;
-
-                    case EntityState.Modified:
-                        entry.Entity.LastModifiedBy = userId;
-                        entry.Entity.LastModifiedOn = _currentDateTime;
-                        break;
-                }
-            }
-
             return await base.SaveChangesAsync(cancellationToken);
         }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
+            => optionsBuilder.AddInterceptors(_auditableEntityInterceptor);
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            if (Database.IsSqlite())
+                foreach(var property in builder.Model.GetEntityTypes()
+                    .SelectMany(t => t.GetProperties())
+                    .Where(p => p.ClrType.IsEnum))
+                {
+                    var type = typeof(EnumToStringConverter<>).MakeGenericType(property.ClrType);
+                    var converter = Activator.CreateInstance(type, new ConverterMappingHints()) as ValueConverter;
+                    property.SetValueConverter(converter);
+                }
+
             base.OnModelCreating(builder);
 
             if (!Database.IsSqlite())
             {
-                builder.HasDefaultSchema("identity");
+                builder.HasDefaultSchema(_identitySchema);
                 builder.HasDefaultSchema(_databaseDefaultSchema);
 
                 if (Database.IsNpgsql())
@@ -89,8 +83,9 @@ namespace Election2023.DataStore.Database
 
                 b.HasOne(p => p.Party)
                  .WithMany()
-                 .HasForeignKey(p => p.PoliticalPartyAbbrv)
-                 .HasPrincipalKey(c => c.Abbrv);
+                 .HasPrincipalKey(x => x.Abbrv)
+                 .HasForeignKey(p => p.PartyAbbrv)
+                 .IsRequired();
 
                 b.Property(c => c.Id)
                  .ValueGeneratedNever();
@@ -99,7 +94,7 @@ namespace Election2023.DataStore.Database
 
                 if (!Database.IsNpgsql())
                     b.Property(c => c.ManifestoSnippets)
-                    .HasConversion(
+                     .HasConversion(
                         v => JsonSerializer.Serialize(v, (JsonSerializerOptions?)null),
                         v => JsonSerializer.Deserialize<string[]>(v, (JsonSerializerOptions?)null) ?? Array.Empty<string>(),
                         new ValueComparer<string[]>(

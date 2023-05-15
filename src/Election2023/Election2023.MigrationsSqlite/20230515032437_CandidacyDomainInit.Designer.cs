@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Election2023.MigrationsSqlite
 {
     [DbContext(typeof(ElectionDbContext))]
-    [Migration("20230511141100_AddCandidacy")]
-    partial class AddCandidacy
+    [Migration("20230515032437_CandidacyDomainInit")]
+    partial class CandidacyDomainInit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,8 +32,12 @@ namespace Election2023.MigrationsSqlite
                     b.Property<string>("Brief")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Category")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Constituency")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("CreatedBy")
                         .IsRequired()
@@ -42,13 +46,18 @@ namespace Election2023.MigrationsSqlite
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Education")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Firstname")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Gender")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Image")
                         .HasColumnType("TEXT");
@@ -74,17 +83,15 @@ namespace Election2023.MigrationsSqlite
                     b.Property<bool>("OneToWatch")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("PoliticalPartyAbbrv")
-                        .HasColumnType("INTEGER")
+                    b.Property<string>("PartyAbbrv")
+                        .IsRequired()
+                        .HasColumnType("TEXT")
                         .HasColumnOrder(2);
 
                     b.Property<int?>("PoliticalPartyId")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("State")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("StateOfOrigin")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Surname")
@@ -94,7 +101,7 @@ namespace Election2023.MigrationsSqlite
 
                     b.HasKey("Id");
 
-                    b.HasIndex("PoliticalPartyAbbrv");
+                    b.HasIndex("PartyAbbrv");
 
                     b.HasIndex("PoliticalPartyId");
 
@@ -110,8 +117,9 @@ namespace Election2023.MigrationsSqlite
                         .HasColumnType("INTEGER")
                         .HasColumnOrder(0);
 
-                    b.Property<int>("Abbrv")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Abbrv")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Colour")
                         .IsRequired()
@@ -330,7 +338,7 @@ namespace Election2023.MigrationsSqlite
                 {
                     b.HasOne("Election2023.Domain.Models.Candidacy.PoliticalParty", "Party")
                         .WithMany()
-                        .HasForeignKey("PoliticalPartyAbbrv")
+                        .HasForeignKey("PartyAbbrv")
                         .HasPrincipalKey("Abbrv")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

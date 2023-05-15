@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Election2023.MigrationsSqlite
 {
     /// <inheritdoc />
-    public partial class AddCandidacy : Migration
+    public partial class CandidacyDomainInit : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,7 +18,7 @@ namespace Election2023.MigrationsSqlite
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(type: "TEXT", maxLength: 128, nullable: false),
-                    Abbrv = table.Column<int>(type: "INTEGER", nullable: false),
+                    Abbrv = table.Column<string>(type: "TEXT", nullable: false),
                     Logo = table.Column<string>(type: "TEXT", nullable: true),
                     Colour = table.Column<string>(type: "TEXT", nullable: false)
                 },
@@ -33,18 +33,19 @@ namespace Election2023.MigrationsSqlite
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "TEXT", nullable: false),
-                    PoliticalPartyAbbrv = table.Column<int>(type: "INTEGER", nullable: false),
-                    Category = table.Column<int>(type: "INTEGER", nullable: false),
+                    PartyAbbrv = table.Column<string>(type: "TEXT", nullable: false),
+                    Category = table.Column<string>(type: "TEXT", nullable: false),
                     OneToWatch = table.Column<bool>(type: "INTEGER", nullable: false),
                     Incumbent = table.Column<bool>(type: "INTEGER", nullable: false),
                     Firstname = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
                     Middlename = table.Column<string>(type: "TEXT", maxLength: 50, nullable: true),
                     Surname = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    Gender = table.Column<int>(type: "INTEGER", nullable: false),
+                    Gender = table.Column<string>(type: "TEXT", nullable: false),
                     Age = table.Column<int>(type: "INTEGER", nullable: false),
-                    StateOfOrigin = table.Column<string>(type: "TEXT", nullable: true),
+                    Education = table.Column<string>(type: "TEXT", nullable: false),
                     Image = table.Column<string>(type: "TEXT", nullable: true),
                     Brief = table.Column<string>(type: "TEXT", nullable: true),
+                    Constituency = table.Column<string>(type: "TEXT", nullable: true),
                     State = table.Column<string>(type: "TEXT", nullable: true),
                     ManifestoSnippets = table.Column<string>(type: "TEXT", nullable: false),
                     PoliticalPartyId = table.Column<int>(type: "INTEGER", nullable: true),
@@ -57,8 +58,8 @@ namespace Election2023.MigrationsSqlite
                 {
                     table.PrimaryKey("PK_Candidates", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Candidates_PoliticalParties_PoliticalPartyAbbrv",
-                        column: x => x.PoliticalPartyAbbrv,
+                        name: "FK_Candidates_PoliticalParties_PartyAbbrv",
+                        column: x => x.PartyAbbrv,
                         principalTable: "PoliticalParties",
                         principalColumn: "Abbrv",
                         onDelete: ReferentialAction.Cascade);
@@ -75,9 +76,9 @@ namespace Election2023.MigrationsSqlite
                 columns: new[] { "Firstname", "Surname" });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Candidates_PoliticalPartyAbbrv",
+                name: "IX_Candidates_PartyAbbrv",
                 table: "Candidates",
-                column: "PoliticalPartyAbbrv");
+                column: "PartyAbbrv");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Candidates_PoliticalPartyId",

@@ -5,34 +5,6 @@ using Microsoft.AspNetCore.Components.Server.Circuits;
 
 namespace Election2023.ServerApp.Services
 {
-    // public class CurrentUserService : ICurrentUserService
-    // {
-    //     private readonly AuthenticationStateProvider _authenticationStateProvider;
-    //     private readonly List<KeyValuePair<string, string>> _claims = new();
-    //     private string? _userId;
-
-    //     public CurrentUserService(AuthenticationStateProvider authenticationStateProvider)
-    //     {
-    //         _authenticationStateProvider = authenticationStateProvider;
-    //         Task.Run(GetUserData).Wait();
-    //     }
-
-    //     private async Task GetUserData()
-    //     {
-    //         var user = (await _authenticationStateProvider.GetAuthenticationStateAsync())?.User;
-    //         if (user?.Identity is not null && user.Identity.IsAuthenticated)
-    //         {
-    //             _userId = user.FindFirstValue(ClaimTypes.NameIdentifier);
-    //             _claims.AddRange(user.Claims.AsEnumerable().Select(item => new KeyValuePair<string, string>(item.Type, item.Value)));
-    //         }
-    //     }
-
-    //     public string? UserId => _userId;
-
-    //     public IReadOnlyCollection<KeyValuePair<string, string>>? Claims => _claims.AsReadOnly();
-
-    // }
-
     public class CurrentUserService : ICurrentUserService
     {
         private ClaimsPrincipal currentUser = new(new ClaimsIdentity());
@@ -45,19 +17,13 @@ namespace Election2023.ServerApp.Services
                 currentUser = user;
         }
 
-        // internal void SetUser(ClaimsPrincipal user)
-        // {
-        //     if (currentUser != user)
-        //         currentUser = user;
-        // }
-
         public string UserId => currentUser.FindFirstValue(ClaimTypes.NameIdentifier) ?? "Initaitor";
 
         public IReadOnlyCollection<KeyValuePair<string, string>> Claims 
             => currentUser.Claims.Select(p => new KeyValuePair<string, string>(p.Type, p.Value)).ToList().AsReadOnly();
     }
 
-    internal sealed class UserCircuitHandler : CircuitHandler
+    internal sealed class UserCircuitHandler : CircuitHandler, IDisposable
     {
         private readonly AuthenticationStateProvider _authenticationStateProvider;
         private readonly ICurrentUserService _currentUserService;
@@ -68,12 +34,38 @@ namespace Election2023.ServerApp.Services
             _currentUserService = currentUserService;
         }
 
+        private void AuthenticationChanged(Task<AuthenticationState> task)
+        {
+            _ = UpdateAuthentication(task);
+
+            async Task UpdateAuthentication(Task<AuthenticationState> task)
+            {
+                try
+                {
+                    var state = await task;
+                    _currentUserService.SetUser(state.User);
+                }
+                catch
+                {
+                }
+            }
+        }
+
+        public override Task OnCircuitOpenedAsync(Circuit circuit, CancellationToken cancellationToken)
+        {
+            _authenticationStateProvider.AuthenticationStateChanged += AuthenticationChanged;
+            return base.OnCircuitOpenedAsync(circuit, cancellationToken);
+        }
+
         public override async Task OnConnectionUpAsync(Circuit circuit, CancellationToken cancellationToken)
         {
             var user = (await _authenticationStateProvider.GetAuthenticationStateAsync())?.User;
             if (user?.Identity is not null && user.Identity.IsAuthenticated)
                 _currentUserService.SetUser(user);
         }
+
+        public void Dispose() 
+            => _authenticationStateProvider.AuthenticationStateChanged -= AuthenticationChanged;
     }
 }
 

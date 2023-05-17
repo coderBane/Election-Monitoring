@@ -6,6 +6,8 @@ public interface IRepository<T> where T : class
 {
     IQueryable<T> Table { get; }
 
+    IQueryable<T> TableNoTracking { get; }
+
     IEnumerable<T> Find(Expression<Func<T, bool>> filter);
 
     Task<IEnumerable<T>> GetAllAsync();

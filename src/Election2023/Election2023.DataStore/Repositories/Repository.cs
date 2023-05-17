@@ -22,6 +22,8 @@ public class Repository<T> : IRepository<T> where T : class
 
     public IQueryable<T> Table => DbSet;
 
+    public IQueryable<T> TableNoTracking => DbSet.AsNoTracking();
+
     public virtual async Task<bool> AddAsync(T entity)
     {
         await DbSet.AddAsync(entity);
@@ -44,7 +46,7 @@ public class Repository<T> : IRepository<T> where T : class
 
     public virtual async Task<IEnumerable<T>> GetAllAsync()
     {
-        return await DbSet.AsNoTracking().ToArrayAsync() ?? Enumerable.Empty<T>();
+        return await DbSet.AsNoTracking().ToListAsync() ?? Enumerable.Empty<T>();
     }
 
     public virtual async Task<T?> GetAsync(object id)

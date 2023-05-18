@@ -18,9 +18,7 @@
 @code{
 
     [Parameter, EditorRequired]
-    public CandidateSummaryVM dataSource { get; set;}
+    public CandidateSummaryVM dataSource { get; set;} = null!;
 
     private readonly string noImage = "https://www.pngitem.com/pimgs/m/150-1503945_transparent-user-png-default-user-image-png-png.png";
-
-    private string Icon() => dataSource.OneToWatch ? "oi oi-badge" : "oi oi-eye";
 }

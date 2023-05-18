@@ -10,20 +10,20 @@
     <main>
         <div class="top-row px-4 auth">
             <LoginDisplay />
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
         </div>
         <div class="top-row" style="height: 3rem;">
-            Election Results Updates as at:<b> @theTime WAT</b>
-            , @DateTime.Now.ToLongDateString()
+            Election Results Updates as at: <b>@theTime WAT</b>
+            , @theDate
         </div>
-        <section class="content" style="background-color: whitesmoke;">
+        <div class="content px-4" style="background-color: whitesmoke;">
             @Body
-        </section>
+        </div>
     </main>
 </div>
 
 @code{
     private string theTime = "00:00";
+    private string theDate = string.Empty;
     private Timer? timer;
 
     protected override void OnInitialized()
@@ -35,6 +35,7 @@
     private void Tick(object? _)
     {
         theTime = DateTime.Now.ToShortTimeString();
+        theDate = DateTime.Now.ToLongDateString();
         InvokeAsync(StateHasChanged);
     }
     

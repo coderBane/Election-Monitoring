@@ -25,7 +25,7 @@
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="#" @onclick="() => expandCandidateSubMenu = !expandCandidateSubMenu">
+            <NavLink class="nav-link" @onclick="() => expandCandidateSubMenu = !expandCandidateSubMenu">
                 <span class="oi oi-people" aria-hidden="true"></span> Candidate Watch
             </NavLink>
             @if (expandCandidateSubMenu)
@@ -33,7 +33,7 @@
                 <div class="nav flex-column">
                     @foreach (var item in elections.Take(2))
                     {
-                        string link = (item+"-candidtates").ToLower();
+                        string link = (item+"-candidates").ToLower();
                         <div class="nav-item px-3">
                             <NavLink class="nav-link" href="@link">
                                 @item
@@ -44,7 +44,7 @@
             }
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="#" @onclick="() => expandElectionSubMenu = !expandElectionSubMenu">
+            <NavLink class="nav-link" @onclick="() => expandElectionSubMenu = !expandElectionSubMenu">
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Live Results
             </NavLink>
             @if (expandElectionSubMenu)

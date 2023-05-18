@@ -1,0 +1,71 @@
+@page "/presidential-candidates"
+
+@using Election2023.ServerApp.Pages.Presidential.Components
+@using Election2023.Application.Features.Candidates.Queries
+@inject IMediator Mediator
+@inject NavigationManager Navigator
+
+<PageTitle>Candidates - 2023 Presidential Race</PageTitle>
+
+<div class="container">
+    <div style="text-align: center;">
+        <h1>Top Presidential Candidates</h1>
+        <br/>
+        <div style="margin: -20px auto 50px; color: rgb(67, 64, 64); font-weight: 400; font-size: 15px;">
+            See leading Presidential Candidates, explore their key statements and also review their policy documents
+        </div>
+    </div>
+    <div class="row">
+        @if (topCandidates.Any())
+        {
+            @foreach (var item in topCandidates)
+            {
+                <CandidateCard dataSource="@item"/>
+            }
+        }
+    </div>
+    <hr size="5" width="100%" color="black" class="my-5"/>
+    <div style="text-align: center;">
+        <h1>Presidential Candidates</h1>
+        <br/>
+        <div style="margin: -20px auto 50px; color: rgb(67, 64, 64); font-weight: 400; font-size: 15px;">
+            See Presidential Candidates, explore their profiles
+        </div>
+    </div>
+    <div>
+        @if (otherCandidates.Any())
+        {
+            int index = 0;
+            int count = otherCandidates.Count();
+            int loop = (int)Math.Floor(((decimal)count) / 4);
+            @for (int i = 0; i < loop+1; i++)
+            {
+                <div class="row mb-4">
+                    @for (int j = 0; j < 4; j++)
+                    {
+                        if (index >= count) break;
+                        var candidate = otherCandidates[index];
+                        <CandidateCard dataSource="@candidate" />
+                        index++;
+                    }
+                </div>
+            }
+        }
+    </div>
+</div>
+
+@code{
+    private CandidateSummaryVM[] topCandidates = Array.Empty<CandidateSummaryVM>();
+    private CandidateSummaryVM[] otherCandidates = Array.Empty<CandidateSummaryVM>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        var result = await Mediator.Send(new GetAllCandidatesQuery(1));
+        if (result is not null && result.Success)
+            if (result.Data is not null)
+            {
+                topCandidates = result.Data.Where(x => x.OneToWatch == true).ToArray();
+                otherCandidates = result.Data.Where(x => x.OneToWatch == false).ToArray();
+            }
+    }
+}

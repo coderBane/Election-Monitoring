@@ -1,0 +1,80 @@
+@page "/candidates/{CandidateId}"
+
+@using Election2023.Application.Features.Candidates.Queries
+@inject IMediator Mediator
+
+<PageTitle>Candidtate</PageTitle>
+
+@if (candidateProfileVM is not null)
+{
+    <h2 class="d-flex justify-content-center my-3">Candidate Profile</h2>
+    <br/>
+    <div class="mb-5 mx-5" style="width: 100%;">
+        <div class="row">
+            <div class="col-lg-6 pr-5">
+                <h3>@candidateProfileVM.DisplayName</h3>
+                <br>
+                <h5>Political Party: @candidateProfileVM.Party</h5>
+                <br>
+                <h5>Education: @candidateProfileVM.Education</h5>
+                <br/>
+                <h6>Age: @candidateProfileVM.Age</h6>
+                <br>
+                <hr size="6" width="10%" color="SlateGray" class="my-4">
+                @if(!string.IsNullOrEmpty(@candidateProfileVM.Brief))
+                {
+                    @foreach (string papragraph in candidateProfileVM.Brief.Split(Environment.NewLine))
+                    {
+                        <p class="mb-2" style="text-align: justify;">@papragraph</p>
+                    }
+                }
+            </div>
+            <div class="col-lg-6">
+                <img src="@candidateProfileVM.Image" alt="@candidateProfileVM.DisplayName" style="width: fit-content;">
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <hr size="6" color="SlateGray" width="100%">
+        <h3 style="text-align: center;">Quotes</h3>
+    </div>
+    <div class="container mb-5">
+        <hr size="6" color="SlateGray" width="100%">
+        <h3 style="text-align: center;">Promises</h3>
+    </div>
+}
+
+@code{
+
+    [Parameter]
+    public string candidateId { get; set; } = string.Empty;
+
+    private bool loading;
+
+    private CandidateProfileVM? candidateProfileVM;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (!string.IsNullOrEmpty(candidateId))
+        {
+            await LoadCandidateProfileAsync();
+        }
+        await base.OnParametersSetAsync();
+    }
+
+    private async Task LoadCandidateProfileAsync()
+    {
+        if (loading) return;
+
+        loading = true;
+
+        var candidate =  await Mediator.Send(new GetCandidatesByIdQuery(){Id = candidateId!});
+        if (candidate.Success)
+        {
+            if (candidate is not null)
+                candidateProfileVM = candidate.Data;
+        }
+
+        loading = false;
+    }
+}

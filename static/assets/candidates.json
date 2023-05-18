@@ -10,7 +10,8 @@
         "Surname": "Imumolen",
         "Firstname": "Irene",
         "Middlename": "Christopher",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://tribuneonlineng.com/wp-content/uploads/2022/01/Christopher-Imumolen.jpg"
     },
     {
         "Constituency": "NIGERIA",
@@ -23,7 +24,8 @@
         "Surname": "Almustapha",
         "Firstname": "Hamza",
         "Middlename": null,
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://cdn.vanguardngr.com/wp-content/uploads/2020/06/Al-Mustapha.jpg"
     },
     {
         "Constituency": "NIGERIA",
@@ -36,7 +38,8 @@
         "Surname": "Sowore",
         "Firstname": "Omoyele",
         "Middlename": "Stephen",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://www.ripplesnigeria.com/wp-content/uploads/2022/10/Sowore--scaled.jpeg"
     },
     {
         "Constituency": "NIGERIA",
@@ -49,7 +52,8 @@
         "Surname": "Kachikwu",
         "Firstname": "Dumebi",
         "Middlename": null,
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://dailypost.ng/wp-content/uploads/2022/02/pjimage-1-6.jpg"
     },
     {
         "Constituency": "NIGERIA",
@@ -62,7 +66,8 @@
         "Surname": "Sani",
         "Firstname": "Yabagi",
         "Middlename": "Yusuf",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://elections.civichive.org/wp-content/uploads/2022/12/Sani-Yabagi-Yusuf-ADP.jpg"
     },
     {
         "Constituency": "NIGERIA",
@@ -75,7 +80,9 @@
         "Surname": "Tinubu",
         "Firstname": "Bola",
         "Middlename": "Ahmed",
-        "OneToWatch": true
+        "OneToWatch": true,
+        "Image": "https://nigeriansketch.com/wp-content/uploads/2023/03/Bola-Tinubu-....jpg",
+        "Brief": "Bola Ahmed Adekunle Tinubu (born 29 March 1952) is a Nigerian accountant and politician who served as the Governor of Lagos State from 1999 to 2007 and Senator for Lagos West during the brief Third Republic. In June 2022, he was chosen as the All Progressives Congress nominee in the 2023 Nigerian presidential election.\nTinubu spent his early life in southwestern Nigeria and later moved to United States where he studied Accounting at Chicago State University. He returned to Nigeria in the early 1980s and was employed by Mobil Nigeria as an accountant, before entering politics as a Lagos West senatorial candidate in 1992 under the banner of the Social Democratic Party. After dictator Sani Abacha dissolved the Senate in 1993, Tinubu became an activist campaigning for the return of democracy as a part of the National Democratic Coalition movement. Although he was forced into exile in 1994, Tinubu returned after Abacha's 1998 death triggered the beginning of the transition to the Fourth Republic."
     },
     {
         "Constituency": "NIGERIA",
@@ -88,7 +95,8 @@
         "Surname": "Umeadi",
         "Firstname": "Peter",
         "Middlename": "Nnanna Chukwudi",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://dailypost.ng/wp-content/uploads/2022/01/Umeadi.jpeg"
     },
     {
         "Constituency": "NIGERIA",
@@ -101,7 +109,8 @@
         "Surname": "Ojei",
         "Firstname": "Princess",
         "Middlename": "Chichi",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://media.premiumtimesng.com/wp-content/files/2023/01/images-2.jpeg"
     },
     {
         "Constituency": "NIGERIA",
@@ -114,7 +123,8 @@
         "Surname": "Nnadi",
         "Firstname": "Charles",
         "Middlename": "Osita",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://cdn.mynigeria.com/imagelib/pics/637/63707674.295.jpg"
     },
     {
         "Constituency": "NIGERIA",
@@ -127,7 +137,8 @@
         "Surname": "Adenuga",
         "Firstname": "Sunday",
         "Middlename": "Oluwafemi",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://elections.civichive.org/wp-content/uploads/2022/12/Adenuga-Sunday-Oluwafemi-BP.jpg"
     },
     {
         "Constituency": "NIGERIA",
@@ -140,7 +151,9 @@
         "Surname": "Obi",
         "Firstname": "Peter",
         "Middlename": "Gregory",
-        "OneToWatch": true
+        "OneToWatch": true,
+        "Image": "https://dailypost.ng/wp-content/uploads/2023/02/Peter-Obi-011-3.webp",
+        "Brief": "Peter Gregory Obi CON (born July 19, 1961) is a Nigerian businessman and politician who previously served as governor of Anambra from March to November 2006, February to May 2007, and June 2007 to March 2014. He was elected as the Labour Party's candidate for President of Nigeria in the 2023 presidential election in May 2022.\nObi was born in Onitsha in 1961 and graduated from the University of Nigeria in 1984. Following that, he went into business and banking, eventually rising to hold several high-level executive positions at banks. Obi was the chairman of Fidelity Bank in the early 2000s before leaving to enter politics. Obi ran for governor as a member of the All Progressives Grand Alliance in 2003 and wasn't declared the winner until after three years of legal battles and took office in March 2006."
     },
     {
         "Constituency": "NIGERIA",
@@ -151,9 +164,11 @@
         "Gender": "Male",
         "Education": "FIRST SCHOOL LEAVING CERTIFICATE TECHNICAL TRAINING CERTIFICATE CRAFT TRAINING CERT, OND, HND, POST GRADUATE DIPLOMA, MASTERS OF SCIENCE (MSc), PHD (WATER)",
         "Surname": "Musa",
-        "Firstname": "Mohammed",
-        "Middlename": "Rabiu Kwankwaso",
-        "OneToWatch": true
+        "Firstname": "Rabiu",
+        "Middlename": "Kwankwaso",
+        "OneToWatch": true,
+        "Image": "https://i1.wp.com/dailynigerian.com/wp-content/uploads/2022/04/Senator-Kwankwaso.jpeg",
+        "Brief": "Rabi'u Musa Kwankwaso, FNSE, FNIQS (born October 21, 1956) is a Nigerian politician who served as Kano State Governor from 1999 to 2003 and again from 2011 to 2015. After losing re-election in 2003, he was appointed as the Fourth Republic's first Minister of Defence with no prior military experience from 2003 to 2007, during the administration of  President Olusegun Obasanjo. He was later elected to the Senate in 2015, representing Kano Central Senatorial District on the platform of the All Progressives Congress (APC).\nHe is currently the national leader of the New Nigeria Peoples Party. He has widespread support in Kano and northern Nigeria and is regarded as a charismatic populist. Kwankwaso ran unsuccessfully for the presidential nomination of the opposition All Progressive Congress in 2015 losing to the current President - Muhammad Buhari. In 2018, he rejoined the People's Democratic Party (PDP) and ran for president, losing to Atiku Abubakar. Rabiu Musa Kwankwaso has been confirmed as the New Nigeria Peoples Party (NNPP) presidential candidate for the 2023 general elections."
     },
     {
         "Constituency": "NIGERIA",
@@ -166,7 +181,8 @@
         "Surname": "Osakwe",
         "Firstname": "Felix",
         "Middlename": "Johnson",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://3.bp.blogspot.com/-w7YROoQJ61Q/W5OSCIbG8hI/AAAAAAAAYx0/8kpjnmHgC989g33g9TL94NCxc6WbqFZcwCLcBGAs/w1200-h630-p-k-no-nu/osakwe.jpg"
     },
     {
         "Constituency": "NIGERIA",
@@ -179,7 +195,9 @@
         "Surname": "Abubakar",
         "Firstname": "Atiku",
         "Middlename": null,
-        "OneToWatch": true
+        "OneToWatch": true,
+        "Image": "https://cdn.vanguardngr.com/wp-content/uploads/2023/04/Atiku-Abubakar.jpg",
+        "Brief": "Atiku Abubakar GCON (born November 25, 1946) is a Nigerian politician and businessman who served as Vice President of Nigeria from 1999 to 2007 during Olusegun Obasanjo's presidency. He ran for governor of Adamawa State in 1990, 1996, and 1998, when he was elected before becoming Obasanjo's running mate in the 1999 presidential election and re-elected in 2003.\nAtiku Abubakar ran unsuccessfully for President of Nigeria five times, in 1993, 2007, 2011, 2015, and 2019. He ran in the Social Democratic Party presidential primaries in 1993 but lost to Moshood Abiola and Baba Gana Kingibe. In the 2007 presidential election, he ran as an Action Congress presidential candidate, finishing third behind Umaru Yar'Adua of the PDP and Muhammadu Buhari of the ANPP. During the 2011 presidential election, he ran in the People's Democratic Party presidential primaries, losing to the incumbent President Goodluck Jonathan."
     },
     {
         "Constituency": "NIGERIA",
@@ -192,7 +210,8 @@
         "Surname": "Abiola",
         "Firstname": "Latifu",
         "Middlename": "Kolawole",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://kolaabiola.com/wp-content/uploads/2022/11/about.jpg"
     },
     {
         "Constituency": "NIGERIA",
@@ -205,7 +224,8 @@
         "Surname": "Adebayo",
         "Firstname": "Adewole",
         "Middlename": "Ebenezer",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://leadership.ng/wp-content/uploads/2022/06/Prince-Adewole-Adebayo.jpg"
     },
     {
         "Constituency": "NIGERIA",
@@ -218,7 +238,8 @@
         "Surname": "Ado-Ibrahim",
         "Firstname": "Abdulmalik",
         "Middlename": null,
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://independent.ng/wp-content/uploads/Prince-Ado-Ibrahim.jpg"
     },
     {
         "Constituency": "NIGERIA",
@@ -231,6 +252,7 @@
         "Surname": "Nwanyanwu",
         "Firstname": "Daniel",
         "Middlename": "Daberechukwu",
-        "OneToWatch": false
+        "OneToWatch": false,
+        "Image": "https://dailypost.ng/wp-content/uploads/2022/03/Dan-Nwanyanwu.png"
     }
 ]

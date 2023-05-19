@@ -32,11 +32,15 @@ internal class Worker : IHostedService, IDisposable
             using var scope = _services.CreateScope();
             var dbContext = scope.ServiceProvider.GetRequiredService<ElectionDbContext>();
 
+            _logger.LogDebug("Create clean slate for database");
+            dbContext.DbCleanUp();
+
             using var tx =  dbContext.Database.BeginTransaction();
             _logger.LogDebug("Started an explicit database transaction...");
 
             _logger.LogDebug("Seeding database...");
             dbContext.Initialize(_contentPath);
+            _logger.LogDebug("Database seeded successfully!");
 
             _logger.LogDebug("Committing transaction...");
             tx.Commit();

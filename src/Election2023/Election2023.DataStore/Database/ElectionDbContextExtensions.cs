@@ -22,7 +22,6 @@ public static class ElectionDbContextExtensions
 
         context.SeedParties();
         context.SeedCandidates(path);
-
         // context.SeedStates(path);
         // context.SeedDistrict(path);
         // context.SeedConstituencies(path);
@@ -33,38 +32,38 @@ public static class ElectionDbContextExtensions
     public static void DbCleanUp(this ElectionDbContext context)
     {
         // context.States.ExecuteDelete();
-        // context.PoliticalParties.ExecuteDelete();
+        context.PoliticalParties.ExecuteDelete();
     }
 
-    public static void SeedParties(this ElectionDbContext context)
+    private static void SeedParties(this ElectionDbContext context)
     {
         if (context.PoliticalParties.Any()) return;
 
         Array.Resize(ref PoliticalParties, 18);
 
-        PoliticalParties[0] = new() { Abbrv = Party.A, Name = "Accord", Colour = "SlateGray" };
-        PoliticalParties[1] = new() { Abbrv = Party.AA, Name = "Action Alliance", Colour = "CornflowerBlue" };
-        PoliticalParties[2] = new() { Abbrv = Party.AAC, Name = "African Action Congress", Colour = "Cornsilk" };
-        PoliticalParties[3] = new() { Abbrv = Party.ADC, Name = "African Democratic Congress", Colour = "DarkGreen" };
-        PoliticalParties[4] = new() { Abbrv = Party.ADP, Name = "Action Democratic Party", Colour = "Navy" };
-        PoliticalParties[5] = new() { Abbrv = Party.APC, Name = "All Progressive Congress", Colour = "DeepSkyBlue" };
-        PoliticalParties[6] = new() { Abbrv = Party.APGA, Name = "All Progressive Grand Allaiance", Colour = "Yellow" };
-        PoliticalParties[7] = new() { Abbrv = Party.APM, Name = "Allied Peoples Movement", Colour = "MediumPurple" };
+        PoliticalParties[0] = new() { Abbrv = Party.A, Name = "Accord", Colour = "SlateGray", Logo = "https://pbs.twimg.com/media/FrMlXGeaEAUdi_B.jpg" };
+        PoliticalParties[1] = new() { Abbrv = Party.AA, Name = "Action Alliance", Colour = "CornflowerBlue", Logo = "https://inecnigeria.org/wp-content/uploads/2018/10/AA.jpg" };
+        PoliticalParties[2] = new() { Abbrv = Party.AAC, Name = "African Action Congress", Colour = "Cornsilk", Logo = "https://pbs.twimg.com/profile_images/1085647150619406341/-fR2lwGA_400x400.jpg" };
+        PoliticalParties[3] = new() { Abbrv = Party.ADC, Name = "African Democratic Congress", Colour = "DarkGreen", Logo = "https://leadership.ng/wp-content/uploads/2022/08/adc-1.jpg" };
+        PoliticalParties[4] = new() { Abbrv = Party.ADP, Name = "Action Democratic Party", Colour = "Navy", Logo = "https://media.premiumtimesng.com/wp-content/files/2017/10/Action-Democratic-Party-logo.jpg" };
+        PoliticalParties[5] = new() { Abbrv = Party.APC, Name = "All Progressive Congress", Colour = "DeepSkyBlue", Logo = "https://pbs.twimg.com/profile_images/983732871713214466/BzzWsk_i_400x400.jpg" };
+        PoliticalParties[6] = new() { Abbrv = Party.APGA, Name = "All Progressive Grand Allaiance", Colour = "Yellow", Logo = "https://upload.wikimedia.org/wikipedia/en/b/b3/APGA_Nigeria_Logo.png" };
+        PoliticalParties[7] = new() { Abbrv = Party.APM, Name = "Allied Peoples Movement", Colour = "MediumPurple", Logo = "https://media.premiumtimesng.com/wp-content/files/2022/04/Capture-3.png" };
         PoliticalParties[8] = new() { Abbrv = Party.APP, Name = "Action Peoples Party", Colour = "Tomato" };
-        PoliticalParties[9] = new() { Abbrv = Party.BP, Name = "Boot Party", Colour = "LightGreen" };
-        PoliticalParties[10] = new() { Abbrv = Party.LP, Name = "Labour Party", Colour = "LimeGreen" };
-        PoliticalParties[11] = new() { Abbrv = Party.NNPP, Name = "New Nigeria People's Party", Colour = "MediumBlue" };
-        PoliticalParties[12] = new() { Abbrv = Party.NRM, Name = "National Rescue Movement", Colour = "Gold" };
-        PoliticalParties[13] = new() { Abbrv = Party.PDP, Name = "People's Democratic Party", Colour = "Red" };
-        PoliticalParties[14] = new() { Abbrv = Party.PRP, Name = "People's Redemption Party", Colour = "FireBrick" };
-        PoliticalParties[15] = new() { Abbrv = Party.SDP, Name = "Social Democratic Party", Colour = "Orange" };
-        PoliticalParties[16] = new() { Abbrv = Party.YPP, Name = "Young Progressive Party", Colour = "Goldenrod" };
-        PoliticalParties[17] = new() { Abbrv = Party.ZLP, Name = "Zenith Labour Party", Colour = "Black" };
+        PoliticalParties[9] = new() { Abbrv = Party.BP, Name = "Boot Party", Colour = "LightGreen", Logo = "" };
+        PoliticalParties[10] = new() { Abbrv = Party.LP, Name = "Labour Party", Colour = "LimeGreen", Logo = "https://upload.wikimedia.org/wikipedia/en/5/5f/Labour_Party_%28Nigeria%29_logo.png" };
+        PoliticalParties[11] = new() { Abbrv = Party.NNPP, Name = "New Nigeria People's Party", Colour = "MediumBlue", Logo = "https://pbs.twimg.com/profile_images/1526600560400556033/0KiCFafJ_400x400.jpg" };
+        PoliticalParties[12] = new() { Abbrv = Party.NRM, Name = "National Rescue Movement", Colour = "Gold", Logo = "https://www.nrm.org.ng/images/logo2.fw.png" };
+        PoliticalParties[13] = new() { Abbrv = Party.PDP, Name = "People's Democratic Party", Colour = "Red", Logo = "https://upload.wikimedia.org/wikipedia/en/6/62/Logo_of_the_Peoples_Democratic_Party_%28Nigeria%29.png"};
+        PoliticalParties[14] = new() { Abbrv = Party.PRP, Name = "People's Redemption Party", Colour = "FireBrick", Logo = "https://flashpointnews.files.wordpress.com/2022/07/fb_img_1657657966479.jpg" };
+        PoliticalParties[15] = new() { Abbrv = Party.SDP, Name = "Social Democratic Party", Colour = "Orange", Logo = "https://media.premiumtimesng.com/wp-content/files/2018/03/Social-Democratic-Party.png" };
+        PoliticalParties[16] = new() { Abbrv = Party.YPP, Name = "Young Progressive Party", Colour = "Goldenrod", Logo = "https://ypp.ng/wp-content/uploads/2020/12/cropped-ypp-logo.png" };
+        PoliticalParties[17] = new() { Abbrv = Party.ZLP, Name = "Zenith Labour Party", Colour = "Black", Logo = "https://149520306.v2.pressablecdn.com/wp-content/uploads/2022/08/Zenith-Labour-Party-ZLP-1.png" };
 
         context.PoliticalParties.AddRange(PoliticalParties);
     }
 
-    public static void SeedCandidates(this ElectionDbContext context, string path)
+    private static void SeedCandidates(this ElectionDbContext context, string path)
     {
         var json = GetJson(path, "candidates.json");
         if (json == null) return;
@@ -74,13 +73,14 @@ public static class ElectionDbContextExtensions
         options.Converters.Add(new StringEnumJsonConverter<Gender>());
         options.Converters.Add(new StringEnumJsonConverter<ElectionType>());
 
-        context.Candidates.ExecuteDelete();
-
         if(!context.Candidates.Any(x => x.Category == ElectionType.Presidential))
         {
             Candidates = JsonSerializer.Deserialize<List<Candidate>>(json, options) ?? new List<Candidate>();
             if (Candidates.Any())
-                context.AddRange(Candidates);
+            {
+                context.Candidates.AddRange(Candidates);
+                Candidates.Clear();
+            }
         }
     }
 

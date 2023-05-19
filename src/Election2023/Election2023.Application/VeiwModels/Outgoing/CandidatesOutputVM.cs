@@ -7,4 +7,4 @@ public record CandidateSummaryVM(string Id, string DisplayName, string Party, in
 
 public record CandidateProfileVM(string DisplayName, string Party, int Age, 
     bool OneToWatch, bool Incumbent, string? Image, string? Brief, 
-    string Category, string Education, string[] Manifesto); 
+    string Category, string Education, string[] Manifesto, string? PartyLogo); 

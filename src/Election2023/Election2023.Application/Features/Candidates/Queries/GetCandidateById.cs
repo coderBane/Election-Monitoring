@@ -24,9 +24,11 @@ internal class GetCandidatesByIdQueryHandler : IRequestHandler<GetCandidatesById
         if (candidate == null)
             return Result<CandidateProfileVM>.Fail();
 
+        string? logo = _unitOfWork.Repository<PoliticalParty>().TableNoTracking.FirstOrDefault(x => x.Abbrv == candidate.PartyAbbrv)?.Logo;
+        
         var mappped = new CandidateProfileVM(candidate.DisplayName, candidate.PartyAbbrv.ToString(), candidate.Age,
             candidate.OneToWatch, candidate.Incumbent, candidate.Image, candidate.Brief, 
-            candidate.Category.ToString(), candidate.Education, candidate.ManifestoSnippets);
+            candidate.Category.ToString(), candidate.Education, candidate.ManifestoSnippets, logo);
 
         return Result<CandidateProfileVM>.Pass(mappped);
     }

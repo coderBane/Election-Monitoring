@@ -51,7 +51,7 @@ img.elect-img {
     border: 0;
 }
 
-.tns-nav > .tns-nav-active { background: #2f4f4f;}
+.tns-nav > .tns-nav-active { background: #2f4f4f; }
 
 /*blazor ui error*/
 .valid.modified:not([type=checkbox]) {

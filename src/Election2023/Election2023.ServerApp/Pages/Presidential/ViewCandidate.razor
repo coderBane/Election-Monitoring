@@ -2,47 +2,72 @@
 
 @using Election2023.Application.Features.Candidates.Queries
 @inject IMediator Mediator
+@inject IJSRuntime JS
 
 <PageTitle>Candidtate</PageTitle>
 
-@if (candidateProfileVM is not null)
-{
-    <h2 class="d-flex justify-content-center my-3">Candidate Profile</h2>
-    <br/>
-    <div class="mb-5 mx-5" style="width: 100%;">
+<div class="container">
+    <div class="mb-5 mx-5 px-5 d-flex justify-content-around">
+        <a href="/">Home</a>/
+        <a href="/presidential-candidates">Presidential Candidates</a>/
+        <p class="text-muted">@(candidateProfileVM?.DisplayName ?? "Candidate")</p>
+    </div>
+    @if(candidateProfileVM is not null)
+    {
         <div class="row">
-            <div class="col-lg-6 pr-5">
-                <h3>@candidateProfileVM.DisplayName</h3>
-                <br>
-                <h5>Political Party: @candidateProfileVM.Party</h5>
+            <div class="col-lg-6">
+                @if(candidateProfileVM.Incumbent){
+                    <h3>@(candidateProfileVM.DisplayName+"(Incumbent)")</h3>
+                }
+                else{
+                    <h3>@candidateProfileVM.DisplayName</h3>
+                }
+                <br/>
+                <div class="d-flex justify-content-between" style="width: 100%; height:100px">
+                    <h5>Political Party: @candidateProfileVM.Party</h5>
+                    <img src="@candidateProfileVM.PartyLogo" style="max-width: 100%; max-height: 100%;"/>
+                </div>
                 <br>
                 <h5>Education: @candidateProfileVM.Education</h5>
                 <br/>
                 <h6>Age: @candidateProfileVM.Age</h6>
                 <br>
-                <hr size="6" width="10%" color="SlateGray" class="my-4">
+                <hr size="6" width="10%" color="SlateGray" class="my-3">
                 @if(!string.IsNullOrEmpty(@candidateProfileVM.Brief))
                 {
                     @foreach (string papragraph in candidateProfileVM.Brief.Split(Environment.NewLine))
                     {
-                        <p class="mb-2" style="text-align: justify;">@papragraph</p>
+                        <p style="text-align: justify;">@papragraph</p>
                     }
                 }
             </div>
-            <div class="col-lg-6">
-                <img src="@candidateProfileVM.Image" alt="@candidateProfileVM.DisplayName" style="width: fit-content;">
+            <div class="col-lg-6 d-flex">
+                <img src="@candidateProfileVM.Image" alt="@candidateProfileVM.DisplayName" 
+                    class="align-self-end" style="max-width: 100%; max-height: 100%;">
             </div>
         </div>
-    </div>
-    <div class="container mb-5">
-        <hr size="6" color="SlateGray" width="100%">
-        <h3 style="text-align: center;">Quotes</h3>
-    </div>
-    <div class="container mb-5">
-        <hr size="6" color="SlateGray" width="100%">
-        <h3 style="text-align: center;">Promises</h3>
-    </div>
-}
+        @if(hasSpeaks)
+        {
+            <hr size="6" width="100%" color="SlateGray" class="my-5"/>
+            <div class="container">
+                <h3 style="text-align: center;">Candidate Speaks</h3>
+                <div class="candidate-speaks">
+                    @foreach(var quote in candidateProfileVM.Manifesto)
+                    {
+                        <article>
+                            <h5><span class="oi oi-double-quote-sans-left"></span></h5>
+                            <p style="text-align: justify;">@quote</p>
+                        </article>
+                    }
+                </div>
+            </div>
+        }
+        <hr size="6" width="100%" color="SlateGray" class="my-5"/>
+        <div class="container">
+            <h3 style="text-align: center;">Promises</h3>
+        </div>
+    }
+</div>
 
 @code{
 
@@ -53,6 +78,8 @@
 
     private CandidateProfileVM? candidateProfileVM;
 
+    private bool hasSpeaks;
+
     protected override async Task OnParametersSetAsync()
     {
         if (!string.IsNullOrEmpty(candidateId))
@@ -60,6 +87,13 @@
             await LoadCandidateProfileAsync();
         }
         await base.OnParametersSetAsync();
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender && hasSpeaks)
+        {
+            await JS.InvokeVoidAsync("sliderFunctions.candidateSpeaks", null);
+        }
     }
 
     private async Task LoadCandidateProfileAsync()
@@ -72,7 +106,10 @@
         if (candidate.Success)
         {
             if (candidate is not null)
+            {
                 candidateProfileVM = candidate.Data;
+                hasSpeaks = candidateProfileVM!.Manifesto.Any();
+            }
         }
 
         loading = false;

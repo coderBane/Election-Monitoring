@@ -1,4 +1,5 @@
 using Election2023.DataStore.Database;
+using Microsoft.EntityFrameworkCore;
 
 namespace Election2023.ServerApp;
 
@@ -14,7 +15,7 @@ internal class Worker : IHostedService, IDisposable
 
     private readonly IConfiguration _configuration;
 
-    public Worker(IServiceProvider services, IWebHostEnvironment env, IConfiguration configuration, ILogger<Worker> logger)    
+    public Worker(IServiceProvider services, IWebHostEnvironment env, IConfiguration configuration, ILogger<Worker> logger)
         => (_services, _logger, _contentPath, _configuration) = (services, logger, env.ContentRootPath, configuration);
 
     public Task StartAsync(CancellationToken cancellationToken)
@@ -35,16 +36,21 @@ internal class Worker : IHostedService, IDisposable
             _logger.LogDebug("Create clean slate for database");
             dbContext.DbCleanUp();
 
-            using var tx =  dbContext.Database.BeginTransaction();
-            _logger.LogDebug("Started an explicit database transaction...");
+            var executionStrategy = dbContext.Database.CreateExecutionStrategy();
 
-            _logger.LogDebug("Seeding database...");
-            dbContext.Initialize(_contentPath);
-            _logger.LogDebug("Database seeded successfully!");
+            executionStrategy.Execute(() =>
+            {
+                using var tx = dbContext.Database.BeginTransaction();
+                _logger.LogDebug("Started an explicit database transaction...");
 
-            _logger.LogDebug("Committing transaction...");
-            tx.Commit();
-            _logger.LogDebug("Database transaction '{transId}' completed successfully", tx.TransactionId);
+                _logger.LogDebug("Seeding database...");
+                dbContext.Initialize(_contentPath);
+                _logger.LogDebug("Database seeded successfully!");
+
+                _logger.LogDebug("Committing transaction...");
+                tx.Commit();
+                _logger.LogDebug("Database transaction '{transId}' completed successfully", tx.TransactionId);
+            });
         }
     }
 

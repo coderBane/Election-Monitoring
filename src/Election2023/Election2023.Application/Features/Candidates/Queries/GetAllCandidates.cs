@@ -1,17 +1,21 @@
+using Election2023.Application.Specifications.Candidacy;
 using Election2023.Application.Interfaces.Repositories;
 using Election2023.Application.Interfaces.Services;
 using Election2023.Application.ViewModels.Outgoing;
+using Election2023.Application.Extensions;
 
 namespace Election2023.Application.Features.Candidates.Queries;
 
 public class GetAllCandidatesQuery : IRequest<Result<List<CandidateSummaryVM>>>
 {
-    public GetAllCandidatesQuery(int searchTerm)
+    public GetAllCandidatesQuery(string? searchTerm = null, int category = -1)
     {
         SearchTerm = searchTerm;
+        Category = category;
     }
 
-    public int SearchTerm { get; set; }
+    public string? SearchTerm { get; set; }
+    public int Category { get; set; }
 }
 
 public class GetAllCandidatesQueryHandler : IRequestHandler<GetAllCandidatesQuery, Result<List<CandidateSummaryVM>>>
@@ -28,8 +32,9 @@ public class GetAllCandidatesQueryHandler : IRequestHandler<GetAllCandidatesQuer
 
     public Task<Result<List<CandidateSummaryVM>>> Handle(GetAllCandidatesQuery request, CancellationToken cancellationToken)
     {
+        var specification = new CandidateFilter(request.SearchTerm, false, request.Category, null);
         var candidates = _unitOfWork.Repository<Candidate>().TableNoTracking
-            .Where(e => (int)e.Category == request.SearchTerm)
+            .Specify(specification)
             .Select(c => new CandidateSummaryVM
             (c.Id,
             c.DisplayName, 

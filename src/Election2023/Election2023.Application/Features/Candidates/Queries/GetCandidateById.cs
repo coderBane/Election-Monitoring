@@ -1,11 +1,15 @@
+using Election2023.Application.Specifications.Candidacy;
 using Election2023.Application.Interfaces.Repositories;
 using Election2023.Application.ViewModels.Outgoing;
+using Election2023.Application.Extensions;
 
 namespace Election2023.Application.Features.Candidates.Queries;
 
 public class GetCandidatesByIdQuery : IRequest<Result<CandidateProfileVM>>
 {
     public string Id { get; set; } = string.Empty;
+
+    public bool Include { get; set; }
 }
 
 internal class GetCandidatesByIdQueryHandler : IRequestHandler<GetCandidatesByIdQuery, Result<CandidateProfileVM>>
@@ -19,17 +23,18 @@ internal class GetCandidatesByIdQueryHandler : IRequestHandler<GetCandidatesById
 
     public async Task<Result<CandidateProfileVM>> Handle(GetCandidatesByIdQuery request, CancellationToken cancellationToken)
     {
-        var candidate = await _unitOfWork.Repository<Candidate>().GetAsync(request.Id);
+        var specification = new CandidateFilter(null, request.Include, -1, request.Id);
+        var candidate = await _unitOfWork.Repository<Candidate>().TableNoTracking
+            .Specify(specification)
+            .Select(x => new CandidateProfileVM(x.DisplayName, x.PartyAbbrv.ToString(), x.Age,
+                x.OneToWatch, x.Incumbent, x.Image, x.Brief, x.Category.ToString(), x.Education, 
+                x.ManifestoSnippets, x.Party.Logo, x.Party.Name)
+            ).FirstOrDefaultAsync();
 
-        if (candidate == null)
-            return Result<CandidateProfileVM>.Fail();
-
-        string? logo = _unitOfWork.Repository<PoliticalParty>().TableNoTracking.FirstOrDefault(x => x.Abbrv == candidate.PartyAbbrv)?.Logo;
-        
-        var mappped = new CandidateProfileVM(candidate.DisplayName, candidate.PartyAbbrv.ToString(), candidate.Age,
-            candidate.OneToWatch, candidate.Incumbent, candidate.Image, candidate.Brief, 
-            candidate.Category.ToString(), candidate.Education, candidate.ManifestoSnippets, logo);
-
-        return Result<CandidateProfileVM>.Pass(mappped);
+        return candidate switch
+        {
+            null => Result<CandidateProfileVM>.Fail(),
+            _ => Result<CandidateProfileVM>.Pass(candidate)
+        };
     }
 }

@@ -1,5 +1,4 @@
-﻿using MediatR;
-using System.Reflection;
+﻿using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Election2023.Application

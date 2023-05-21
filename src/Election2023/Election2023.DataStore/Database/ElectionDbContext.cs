@@ -34,17 +34,12 @@ namespace Election2023.DataStore.Database
         public DbSet<Candidate> Candidates => Set<Candidate>();
         public DbSet<PoliticalParty> PoliticalParties => Set<PoliticalParty>();
 
-        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
-        {
-            return await base.SaveChangesAsync(cancellationToken);
-        }
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
             => optionsBuilder.AddInterceptors(_auditableEntityInterceptor);
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            if (Database.IsSqlite())
+            if (!Database.IsNpgsql())
                 foreach(var property in builder.Model.GetEntityTypes()
                     .SelectMany(t => t.GetProperties())
                     .Where(p => p.ClrType.IsEnum))

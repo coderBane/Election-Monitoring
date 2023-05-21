@@ -1,6 +1,5 @@
 using System.Text.Json;
 using Election2023.DataStore.Converters.JsonConverters;
-using Election2023.Application.VeiwModels.Incoming;
 
 namespace Election2023.DataStore.Database;
 

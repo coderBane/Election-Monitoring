@@ -1,6 +1,6 @@
 using Election2023.Application.Interfaces.Repositories;
 using Election2023.Application.Interfaces.Services;
-using Election2023.Application.VeiwModels.Outgoing;
+using Election2023.Application.ViewModels.Outgoing;
 
 namespace Election2023.Application.Features.Candidates.Queries;
 

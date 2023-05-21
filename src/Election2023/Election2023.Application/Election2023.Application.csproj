@@ -12,17 +12,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Interfaces\" />
-    <None Remove="VeiwModels\" />
-    <None Remove="VeiwModels\Incoming\" />
-    <None Remove="VeiwModels\Outgoing\" />
+    <None Remove="ViewModels\" />
+    <None Remove="ViewModels\Incoming\" />
+    <None Remove="ViewModels\Outgoing\" />
     <None Remove="Interfaces\Repositories\" />
     <None Remove="Interfaces\Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
-    <Folder Include="VeiwModels\" />
-    <Folder Include="VeiwModels\Incoming\" />
-    <Folder Include="VeiwModels\Outgoing\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="ViewModels\Incoming\" />
+    <Folder Include="ViewModels\Outgoing\" />
     <Folder Include="Interfaces\Repositories\" />
     <Folder Include="Interfaces\Services\" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-namespace Election2023.Application.VeiwModels.Outgoing;
+namespace Election2023.Application.ViewModels.Outgoing;
 
 public record CandidateIdVM(string Id);
 

@@ -5,10 +5,12 @@ namespace Election2023.Domain.Models.Candidacy;
 
 public sealed class Candidate : AuditableEntity<string>
 {
-    public Candidate() => Id = Convert.ToBase64String(Guid.NewGuid().ToByteArray()).Substring(0,8);
+    private static readonly Random seed = new();
+
+    public Candidate() => GenerateId();
 
     [Required]
-    public ElectionType Category {get; set;}
+    public ElectionType Category { get; set; }
 
     public bool OneToWatch { get; set; }
 
@@ -55,9 +57,23 @@ public sealed class Candidate : AuditableEntity<string>
     public string DisplayName => string.Format("{2} {0} {1}",
         Firstname, string.IsNullOrEmpty(Middlename) ? "" : Middlename, Surname);
 
-    public override bool Equals(object? obj) 
+    private void GenerateId()
+    {
+        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        var stringChars = new char[8];
+
+        lock (seed)
+        {
+            for (int i = 0; i < stringChars.Length; i++)
+                stringChars[i] = chars[seed.Next(chars.Length)];
+
+            Id = new string(stringChars);
+        }
+    }
+
+    public override bool Equals(object? obj)
         => object.ReferenceEquals(this, obj) ||
-            obj is Candidate other && 
+            obj is Candidate other &&
             (other.PartyAbbrv == this.PartyAbbrv && other.Category == this.Category &&
             other.State == this.State && other.Constituency == this.Constituency);
 

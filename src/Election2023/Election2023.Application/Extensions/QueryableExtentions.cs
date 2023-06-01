@@ -1,8 +1,6 @@
 using Election2023.Application.Specifications.Base;
 using Election2023.Domain.Common;
 
-using Microsoft.EntityFrameworkCore;
-
 namespace Election2023.Application.Extensions;
 
 public static class QueryableExtensions

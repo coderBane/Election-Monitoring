@@ -1,6 +1,4 @@
-﻿using System.Linq.Expressions;
-
-namespace Election2023.Application.Interfaces.Repositories;
+﻿namespace Election2023.Application.Interfaces.Repositories;
 
 public interface IRepository<T> where T : class
 {

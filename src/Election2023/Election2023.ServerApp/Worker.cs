@@ -41,7 +41,7 @@ internal class Worker : IHostedService, IDisposable
             executionStrategy.Execute(() =>
             {
                 using var tx = dbContext.Database.BeginTransaction();
-                _logger.LogDebug("Started an explicit database transaction...");
+                _logger.LogDebug("Started an explicit database transaction id: {transId}", tx.TransactionId);
 
                 _logger.LogDebug("Seeding database...");
                 dbContext.Initialize(_contentPath);

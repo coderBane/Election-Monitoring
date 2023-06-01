@@ -8,6 +8,8 @@ public interface ICurrentUserService
 
     IReadOnlyCollection<KeyValuePair<string, string>> Claims { get; }
 
+    ClaimsPrincipal GetUser();
+
     void SetUser(ClaimsPrincipal user);
 }
 

@@ -17,7 +17,7 @@ namespace Election2023.ServerApp.Services
                 currentUser = user;
         }
 
-        public string UserId => currentUser.FindFirstValue(ClaimTypes.NameIdentifier) ?? "Initaitor";
+        public string UserId => currentUser.FindFirstValue(ClaimTypes.NameIdentifier) ?? "Initiator";
 
         public IReadOnlyCollection<KeyValuePair<string, string>> Claims 
             => currentUser.Claims.Select(p => new KeyValuePair<string, string>(p.Type, p.Value)).ToList().AsReadOnly();

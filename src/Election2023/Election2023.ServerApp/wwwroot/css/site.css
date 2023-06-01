@@ -1,6 +1,7 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
 html, body {
+    padding: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -18,23 +19,41 @@ a, .btn-link {
     border-color: #1861ac;
 }
 
-.content {
-    padding-top: 1.1rem;
-    padding-bottom: 1.1rem;
+/*** home page ***/
+.home {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.home .electionType {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
 }
 
 img.elect-img {
     width: fit-content;
-    height: 10rem;
+    height: fit-content;
+    align-self: center;
 }
 
-/* slider */
-/* .img {
-    text-align: center;
-    display: block;
-    padding: 10% 10%;
-    color: #fff;
+/*** view candidate(user) ***/
+/* .header-links {
+    display: flex;
+    justify-content: center;
+}
+
+.header-links a{
     text-decoration: none;
+} */
+
+/* slider */
+/* .slider-card {
+    background: white;
+}
+
+.slider-card .pad {
+    padding: 5%, 10%;
 } */
 
 .tns-nav {
@@ -52,6 +71,21 @@ img.elect-img {
 }
 
 .tns-nav > .tns-nav-active { background: #2f4f4f; }
+
+/* responsive */
+/* @media screen and (max-width: 575px) {
+    .header-links {
+        display: none;
+    }
+} */
+
+@media screen and (max-width: 769px) {
+   .home .electionType {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+   }
+}
 
 /*blazor ui error*/
 .valid.modified:not([type=checkbox]) {

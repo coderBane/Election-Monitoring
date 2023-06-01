@@ -2,41 +2,41 @@
 
 <PageTitle>Home Page</PageTitle>
 
-<div style="text-align:center;">
-    <h1>Live Results And Maps</h1>
-    <br/>
-    <div style="margin: -20px auto 50px; color: red; font-weight: 400; font-size: 15px;">
+<div class="home">
+    <h1 style="text-align: center;">Live Results And Maps</h1>
+    <div style="text-align: center; margin: 0px auto 50px; color: red; font-weight: 400; font-size: 15px;">
         <b style="font-weight: 600;">Disclamer:</b>
         " This component demonstrates fetching data from database."
     </div>
-</div>
-<div>
-    @for (int i = 0; i < 2; i++)
-    {
-        <div class="row mb-4">
-            @for (int j = 0; j < 2; j++)
-            {
-                <div class="col-sm-6">
-                    <a href="#">
-                        <div class="card text-black text-center d-flex justify-content-center" style="height: 18rem">
-                            <img class="card-img elect-img" src="/images/nigeria_map.png" alt="nigeria map flag">
-                            <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
-                                <p>2023</p>
-                                <h2>@elections[index].ToUpper()</h2>
-                                <p>Election Results Map</p>
-                            </div>
-                        </div>
-                    </a>
+    <div class="electionType">
+        @foreach (var item in elections)
+        {
+            <a href="@FormatLink(item)">
+                <div class="card text-black text-center d-flex justify-content-center" style="height: 18rem">
+                    <img class="card-img elect-img" src="/images/nigeria_map.png" alt="nigeria map flag">
+                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
+                        <p>2023</p>
+                        <h2>@item.ToUpperInvariant()</h2>
+                        <p>Election Results Map</p>
+                    </div>
                 </div>
-                index++;
-            }
-        </div>
-    }
+            </a>
+        }
+    </div>
 </div>
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 
 @code{
-    private int index = 0;
+
     private string[] elections = {"Presidential", "Gubernatorial", "Senate", "House Of Representatives"};
+
+    private string FormatLink(string election)
+    {
+        if (!string.IsNullOrEmpty(election))
+        {
+            return election.ToLowerInvariant().Replace(" ", "_") + "/2023";
+        }
+        return "";
+    }
 }

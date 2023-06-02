@@ -1,6 +1,9 @@
 global using MediatR;
 global using MediatR.Pipeline;
 
+global using Mapster;
+global using MapsterMapper;
+
 // global using FluentValidation;
 
 global using System.Reflection;

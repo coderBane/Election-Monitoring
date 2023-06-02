@@ -8,6 +8,12 @@ namespace Election2023.Application
 	{
 		public static IServiceCollection AddApplicationLayer(this IServiceCollection services)
 		{
+			// Mapster
+			var typeAdapterConfig = TypeAdapterConfig.GlobalSettings;
+			typeAdapterConfig.Scan(Assembly.GetExecutingAssembly());
+			services.AddSingleton(typeAdapterConfig);
+			services.AddScoped<IMapper, ServiceMapper>();
+
 			services.AddMediatR(Assembly.GetExecutingAssembly());
 			// services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 

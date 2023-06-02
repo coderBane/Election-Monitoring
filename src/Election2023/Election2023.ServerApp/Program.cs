@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 
 using Election2023.ServerApp;
 using Election2023.ServerApp.Data;
@@ -47,6 +48,14 @@ else
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
+app.UseFileServer(new FileServerOptions()
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(builder.Environment.ContentRootPath, "Files")
+    ),
+
+    RequestPath = new PathString("/files")
+});
 
 app.UseRouting();
 

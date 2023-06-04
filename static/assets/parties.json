@@ -1,0 +1,110 @@
+[
+    {
+        "Name": "Accord",
+        "Abbrv": 0,
+        "Logo": "files/Images/Party/A.png",
+        "Colour": "SlateGray"
+    },
+    {
+        "Name": "Action Alliance",
+        "Abbrv": 1,
+        "Logo": "files/Images/Party/AA.png",
+        "Colour": "CornflowerBlue"
+    },
+    {
+        "Name": "African Action Congress",
+        "Abbrv": 2,
+        "Logo": "files/Images/Party/AAC.png",
+        "Colour": "Cornsilk"
+    },
+    {
+        "Name": "African Democratic Congress",
+        "Abbrv": 3,
+        "Logo": "files/Images/Party/ADC.png",
+        "Colour": "DarkGreen"
+    },
+    {
+        "Name": "Action Democratic Party",
+        "Abbrv": 4,
+        "Logo": "files/Images/Party/ADP.jpeg",
+        "Colour": "Navy"
+    },
+    {
+        "Name": "All Progressive Congress",
+        "Abbrv": 5,
+        "Logo": "files/Images/Party/APC.jpeg",
+        "Colour": "DeepSkyBlue"
+    },
+    {
+        "Name": "All Progressive Grand Allaiance",
+        "Abbrv": 8,
+        "Logo": "files/Images/Party/APGA.png",
+        "Colour": "Yellow"
+    },
+    {
+        "Name": "Allied Peoples Movement",
+        "Abbrv": 6,
+        "Logo": "files/Images/Party/APM.png",
+        "Colour": "MediumPurple"
+    },
+    {
+        "Name": "Action Peoples Party",
+        "Abbrv": 7,
+        "Logo": "files/Images/Party/APP.png",
+        "Colour": "Tomato"
+    },
+    {
+        "Name": "Boot Party",
+        "Abbrv": 9,
+        "Logo": "files/Images/Party/BP.png",
+        "Colour": "LightGreen"
+    },
+    {
+        "Name": "Labour Party",
+        "Abbrv": 10,
+        "Logo": "files/Images/Party/LP.png",
+        "Colour": "LimeGreen"
+    },
+    {
+        "Name": "New Nigeria People\u0027s Party",
+        "Abbrv": 11,
+        "Logo": "files/Images/Party/NNPP.png",
+        "Colour": "MediumBlue"
+    },
+    {
+        "Name": "National Rescue Movement",
+        "Abbrv": 12,
+        "Logo": "files/Images/Party/NRM.png",
+        "Colour": "Gold"
+    },
+    {
+        "Name": "People\u0027s Democratic Party",
+        "Abbrv": 13,
+        "Logo": "files/Images/Party/PDP.png",
+        "Colour": "Red"
+    },
+    {
+        "Name": "People\u0027s Redemption Party",
+        "Abbrv": 14,
+        "Logo": "files/Images/Party/PRP.png",
+        "Colour": "FireBrick"
+    },
+    {
+        "Name": "Social Democratic Party",
+        "Abbrv": 15,
+        "Logo": "files/Images/Party/SDP.png",
+        "Colour": "Orange"
+    },
+    {
+        "Name": "Young Progressive Party",
+        "Abbrv": 16,
+        "Logo": "files/Images/Party/YPP.png",
+        "Colour": "Goldenrod"
+    },
+    {
+        "Name": "Zenith Labour Party",
+        "Abbrv": 17,
+        "Logo": "files/Images/Party/ZLP.jpeg",
+        "Colour": "Black"
+    }
+]

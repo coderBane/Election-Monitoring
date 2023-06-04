@@ -7,19 +7,19 @@ public static class ElectionDbContextExtensions
 {
     private static readonly JsonSerializerOptions _jsonOptions = new(){ PropertyNameCaseInsensitive = true };
 
-    private static List<State> States = new();
-    private static readonly List<LGA> LGAs = new();
-    private static readonly List<District> Districts = new();
-    private static readonly List<FederalConstituency> FCs = new();
-    private static readonly List<Election> Elections = new();
+    // private static List<State> States = new();
+    // private static readonly List<LGA> LGAs = new();
+    // private static readonly List<District> Districts = new();
+    // private static readonly List<FederalConstituency> FCs = new();
+    // private static readonly List<Election> Elections = new();
     private static List<Candidate> Candidates = new();
-    private static PoliticalParty[] PoliticalParties = Array.Empty<PoliticalParty>();
+    private static List<PoliticalParty> PoliticalParties = new();
 
     public static void Initialize(this ElectionDbContext context, string path)
     {
         if (context is null) throw new ArgumentNullException(nameof(context));
 
-        context.SeedParties();
+        context.SeedParties(path);
         context.SeedCandidates(path);
         // context.SeedStates(path);
         // context.SeedDistrict(path);
@@ -34,32 +34,17 @@ public static class ElectionDbContextExtensions
         context.PoliticalParties.ExecuteDelete();
     }
 
-    private static void SeedParties(this ElectionDbContext context)
+    private static void SeedParties(this ElectionDbContext context, string path)
     {
         if (context.PoliticalParties.Any()) return;
 
-        string images = Path.Combine("files", "Images", "Party");
+        var json = GetJson(path, "parties.json");
+        if (json is null) return;
 
-        Array.Resize(ref PoliticalParties, 18);
+        PoliticalParties = JsonSerializer.Deserialize<List<PoliticalParty>>(json) ?? PoliticalParties;
 
-        PoliticalParties[0] = new() { Abbrv = Party.A, Name = "Accord", Colour = "SlateGray", Logo = Path.Combine(images, "A.png") };
-        PoliticalParties[1] = new() { Abbrv = Party.AA, Name = "Action Alliance", Colour = "CornflowerBlue", Logo = Path.Combine(images, "AA.png") };
-        PoliticalParties[2] = new() { Abbrv = Party.AAC, Name = "African Action Congress", Colour = "Cornsilk", Logo = Path.Combine(images, "AAC.png") };
-        PoliticalParties[3] = new() { Abbrv = Party.ADC, Name = "African Democratic Congress", Colour = "DarkGreen", Logo = Path.Combine(images, "ADC.png") };
-        PoliticalParties[4] = new() { Abbrv = Party.ADP, Name = "Action Democratic Party", Colour = "Navy", Logo = Path.Combine(images, "ADP.jpeg") };
-        PoliticalParties[5] = new() { Abbrv = Party.APC, Name = "All Progressive Congress", Colour = "DeepSkyBlue", Logo = Path.Combine(images, "APC.jpeg") };
-        PoliticalParties[6] = new() { Abbrv = Party.APGA, Name = "All Progressive Grand Allaiance", Colour = "Yellow", Logo = Path.Combine(images, "APGA.png") };
-        PoliticalParties[7] = new() { Abbrv = Party.APM, Name = "Allied Peoples Movement", Colour = "MediumPurple", Logo = Path.Combine(images, "APM.png") };
-        PoliticalParties[8] = new() { Abbrv = Party.APP, Name = "Action Peoples Party", Colour = "Tomato", Logo = Path.Combine(images, "APP.png") };
-        PoliticalParties[9] = new() { Abbrv = Party.BP, Name = "Boot Party", Colour = "LightGreen", Logo = Path.Combine(images, "BP.png") };
-        PoliticalParties[10] = new() { Abbrv = Party.LP, Name = "Labour Party", Colour = "LimeGreen", Logo = Path.Combine(images, "LP.png") };
-        PoliticalParties[11] = new() { Abbrv = Party.NNPP, Name = "New Nigeria People's Party", Colour = "MediumBlue", Logo = Path.Combine(images, "NNPP.png") };
-        PoliticalParties[12] = new() { Abbrv = Party.NRM, Name = "National Rescue Movement", Colour = "Gold", Logo = Path.Combine(images, "NRM.png") };
-        PoliticalParties[13] = new() { Abbrv = Party.PDP, Name = "People's Democratic Party", Colour = "Red", Logo = Path.Combine(images, "PDP.png") };
-        PoliticalParties[14] = new() { Abbrv = Party.PRP, Name = "People's Redemption Party", Colour = "FireBrick", Logo = Path.Combine(images, "PRP.png") };
-        PoliticalParties[15] = new() { Abbrv = Party.SDP, Name = "Social Democratic Party", Colour = "Orange", Logo = Path.Combine(images, "SDP.png") };
-        PoliticalParties[16] = new() { Abbrv = Party.YPP, Name = "Young Progressive Party", Colour = "Goldenrod", Logo = Path.Combine(images, "YPP.png") };
-        PoliticalParties[17] = new() { Abbrv = Party.ZLP, Name = "Zenith Labour Party", Colour = "Black", Logo = Path.Combine(images, "ZLP.jpeg") };
+        if (PoliticalParties.Any())
+            context.PoliticalParties.AddRange(PoliticalParties);
 
         context.PoliticalParties.AddRange(PoliticalParties);
     }
@@ -76,7 +61,7 @@ public static class ElectionDbContextExtensions
 
         if(!context.Candidates.Any(x => x.Category == ElectionType.Presidential))
         {
-            Candidates = JsonSerializer.Deserialize<List<Candidate>>(json, options) ?? new List<Candidate>();
+            Candidates = JsonSerializer.Deserialize<List<Candidate>>(json, options) ?? Candidates;
             if (Candidates.Any())
             {
                 context.Candidates.AddRange(Candidates);

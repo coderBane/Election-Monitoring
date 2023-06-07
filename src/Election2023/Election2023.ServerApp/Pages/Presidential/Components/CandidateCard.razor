@@ -1,24 +1,26 @@
-<div class="col-md-3">
-    <div class="card text-center mb-4">
-        <img class="card-img-top" src="@(dataSource.Image ?? noImage)" style="height: 10rem;">
-        <div class="card-body">
-            <h6 class="card-title">@dataSource.DisplayName</h6>
-            <p class="card-text text-muted">@dataSource.Party</p>
-            <p class="card-text mt-2">Aged: @dataSource.Age</p>
-            @if(!string.IsNullOrEmpty(@dataSource.Id))
-            {
-                <a class="text-link" href="/candidates/@dataSource.Id">
-                    <span class="oi oi-badge" aria-hidden="true"></span> Profile
-                </a>
-            }
+<div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 gy-4">
+    @foreach (var item in dataSource)
+    {
+        <div class="col">
+            <a href="candidates/@item.Id" style="text-decoration: none;">
+                <div class="card text-black">
+                    <img class="card-img-top" src="@(item.Image ?? noImage)" alt="@item.DisplayName.Replace(' ', '_')"
+                        style="height: 9.5rem;">
+                    <div class="card-body">
+                        <h6 class="card-title">@item.DisplayName</h6>
+                        <p class="card-text text-muted">@item.Party</p>
+                        <p class="card-text mt-2">Age: @item.Age</p>
+                    </div>
+                </div>
+            </a>
         </div>
-    </div>
+    }
 </div>
 
 @code{
 
     [Parameter, EditorRequired]
-    public CandidateSummaryVM dataSource { get; set;} = null!;
+    public IReadOnlyList<CandidateSummaryVM> dataSource { get; set; } = null!;
 
     private readonly string noImage = "https://www.pngitem.com/pimgs/m/150-1503945_transparent-user-png-default-user-image-png-png.png";
 }

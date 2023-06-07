@@ -64,6 +64,6 @@ public class AuthorizationBehavior<TRequest, TResponse> : IPipelineBehavior<TReq
         }
 
         // User is authorized or authorization not required
-        return await next().ConfigureAwait(false);
+        return await next();
     }
 }

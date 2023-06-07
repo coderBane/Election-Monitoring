@@ -34,7 +34,7 @@ a, .btn-link {
 img.elect-img {
     width: fit-content;
     height: fit-content;
-    align-self: center;
+    margin: auto;
 }
 
 /*** view candidate(user) ***/
@@ -72,6 +72,12 @@ img.elect-img {
 }
 
 .tns-nav > .tns-nav-active { background: #2f4f4f; }
+
+@media screen and (max-width: 320.02px) {
+    img.elect-img {
+        width: 90%;
+    }
+}
 
 /* responsive */
 @media screen and (max-width: 575px) {

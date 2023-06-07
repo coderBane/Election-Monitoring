@@ -2,25 +2,30 @@
 
 <PageTitle>Home Page</PageTitle>
 
-<div class="home">
-    <h1 style="text-align: center;">Live Results And Maps</h1>
-    <div style="text-align: center; margin: 0px auto 50px; color: red; font-weight: 400; font-size: 15px;">
-        <b style="font-weight: 600;">Disclamer:</b>
-        " This component demonstrates fetching data from database."
-    </div>
-    <div class="electionType">
+<div class="container-fluid">
+    <section class="text-center">
+        <h1>Live Results And Maps</h1>
+        <br>
+        <div style="margin: -20px auto 50px; color: red; font-weight: 400; font-size: 15px;">
+            <b style="font-weight: 600;">Disclamer:</b>
+            " This component demonstrates fetching data from database."
+        </div>
+    </section>
+    <div class="row row-cols-1 row-cols-xl-2 gy-4">
         @foreach (var item in elections)
         {
-            <a href="@FormatLink(item)">
-                <div class="card text-black text-center d-flex justify-content-center" style="height: 18rem">
-                    <img class="card-img elect-img" src="/images/nigeria_map.png" alt="nigeria map flag">
-                    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
-                        <p>2023</p>
-                        <h2>@item.ToUpperInvariant()</h2>
-                        <p>Election Results Map</p>
+            <div class="col">
+                <a href="@FormatLink(item)">
+                    <div class="card text-black text-center" style="height: 16rem;">
+                        <img class="card-img elect-img" src="/images/nigeria_map.png" alt="nigeria map flag">
+                        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center" style="background: linear-gradient(180deg, transparent 20%, white 55%);">
+                            <p>2023</p>
+                            <h3>@item.ToUpperInvariant()</h3>
+                            <p>Election Result Map</p>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
         }
     </div>
 </div>
@@ -29,7 +34,7 @@
 
 @code{
 
-    private string[] elections = {"Presidential", "Gubernatorial", "Senate", "House Of Representatives"};
+    private IReadOnlyList<string> elections = new List<string> {"Presidential", "Gubernatorial", "Senate", "House Of Representatives"}.AsReadOnly();
 
     private string FormatLink(string election)
     {

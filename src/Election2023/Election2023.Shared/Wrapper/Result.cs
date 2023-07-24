@@ -24,13 +24,13 @@ public class Result<T> : Result, IResult<T>
 {
     public T? Data { get; set; }
 
-    public new static Result<T> Fail() => new Result<T> { Success = false };
+    public new static Result<T> Fail() => new() { Success = false };
 
-    public new static Result<T> Fail(params string[] messages) => new Result<T> { Success = false, Messages= messages };
+    public new static Result<T> Fail(params string[] messages) => new() { Success = false, Messages= messages };
 
-    public static Result<T> Pass(T data) => new Result<T> { Data = data, Success = true };
+    public static Result<T> Pass(T data) => new() { Data = data, Success = true };
 
     public static Result<T> Pass(T data, params string[] messages) 
-        => new Result<T> { Success = true, Data = data, Messages = messages };
+        => new() { Success = true, Data = data, Messages = messages };
 }
 

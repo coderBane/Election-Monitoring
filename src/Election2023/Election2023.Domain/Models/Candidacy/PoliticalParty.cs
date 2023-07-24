@@ -19,8 +19,8 @@ public sealed class PoliticalParty : Entity<int>
     public ICollection<Candidate> Candidates { get; } = new HashSet<Candidate>();
 
     public override bool Equals(object? obj) 
-        => object.ReferenceEquals(this, obj) || 
-            obj is PoliticalParty other && (Enum.Equals(other.Abbrv, this.Abbrv) || other.Name == this.Name);
+        => ReferenceEquals(this, obj) || 
+            obj is PoliticalParty other && (other.Abbrv == Abbrv || other.Name == Name);
 
     public override int GetHashCode() => HashCode.Combine(Abbrv, Name);
 }

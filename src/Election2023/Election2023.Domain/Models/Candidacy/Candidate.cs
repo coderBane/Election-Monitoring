@@ -72,10 +72,10 @@ public sealed class Candidate : AuditableEntity<string>
     }
 
     public override bool Equals(object? obj)
-        => object.ReferenceEquals(this, obj) ||
+        => ReferenceEquals(this, obj) ||
             obj is Candidate other &&
-            (other.PartyAbbrv == this.PartyAbbrv && other.Category == this.Category &&
-            other.State == this.State && other.Constituency == this.Constituency);
+            other.PartyAbbrv == PartyAbbrv && other.Category == Category &&
+            other.State == State && other.Constituency == Constituency;
 
     public override int GetHashCode() => HashCode.Combine(PartyAbbrv, Category, State, Constituency);
 }

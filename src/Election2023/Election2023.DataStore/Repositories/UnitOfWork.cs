@@ -9,17 +9,15 @@ namespace Election2023.DataStore.Repositories
 {
 	public class UnitOfWork : IUnitOfWork
 	{
-        private readonly ICurrentUserService _currentUserService;
         private readonly ElectionDbContext _dbContext;
         private readonly ILogger _logger;
         private Hashtable? _repositories;
         private bool _disposed;
 
-		public UnitOfWork(ElectionDbContext dbContext, ICurrentUserService currentUserService, ILoggerFactory loggerFactory)
+		public UnitOfWork(ElectionDbContext dbContext, ILoggerFactory loggerFactory)
 		{
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
-            _logger = loggerFactory.CreateLogger("UoF_logs");
-            _currentUserService = currentUserService;
+            _logger = loggerFactory.CreateLogger<UnitOfWork>();
 		}
 
         public IRepository<T> Repository<T>() where T : class
@@ -31,7 +29,7 @@ namespace Election2023.DataStore.Repositories
             if(!_repositories.ContainsKey(type))
             {
                 _repositories[type] = new Repository<T>(_dbContext, _logger);
-                _logger.LogDebug("Added new repository instance of type " + type);
+                _logger.LogDebug("Added new repository instance of type: {type}", type);
             }
 
             return (IRepository<T>)_repositories[type]!;

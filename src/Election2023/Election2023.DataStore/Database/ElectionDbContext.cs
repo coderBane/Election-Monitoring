@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using System.Reflection;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
@@ -9,8 +10,8 @@ namespace Election2023.DataStore.Database
 {
     public class ElectionDbContext : IdentityDbContext
 	{
-        private readonly string _identitySchema = "identity";
-        private readonly string _databaseDefaultSchema = "app";
+        private const string _identitySchema = "identity";
+        private const string _databaseDefaultSchema = "app";
 
         private readonly AuditableEntityInterceptor _auditableEntityInterceptor;
 
@@ -19,17 +20,6 @@ namespace Election2023.DataStore.Database
 		{
             _auditableEntityInterceptor = auditableEntityInterceptor;
 		}
-
-        // public DbSet<LGA> LGAs => Set<LGA>();
-        // public DbSet<Ward> Wards => Set<Ward>();
-        // public DbSet<State> States => Set<State>();
-        // public DbSet<District> Districts => Set<District>();
-        // public DbSet<PollingUnit> PollingUnits => Set<PollingUnit>();
-        // public DbSet<StateConstituency> StatesConstituencies => Set<StateConstituency>();
-        // public DbSet<FederalConstituency> FederalConstituencies => Set<FederalConstituency>();
-
-        // public DbSet<Election> Elections => Set<Election>();
-        // public DbSet<ElectionResult> ElectionResults => Set<ElectionResult>();
 
         public DbSet<Candidate> Candidates => Set<Candidate>();
         public DbSet<PoliticalParty> PoliticalParties => Set<PoliticalParty>();
@@ -74,19 +64,6 @@ namespace Election2023.DataStore.Database
 
             builder.Entity<Candidate>(b =>
             {
-                b.HasKey(i => i.Id);
-
-                b.HasOne(p => p.Party)
-                 .WithMany()
-                 .HasPrincipalKey(x => x.Abbrv)
-                 .HasForeignKey(p => p.PartyAbbrv)
-                 .IsRequired();
-
-                b.Property(c => c.Id)
-                 .ValueGeneratedNever();
-
-                b.HasIndex(n => new {n.Firstname, n.Surname});
-
                 if (!Database.IsNpgsql())
                     b.Property(c => c.ManifestoSnippets)
                      .HasConversion(
@@ -100,42 +77,7 @@ namespace Election2023.DataStore.Database
                     );
             });
 
-            // builder.Entity<State>()
-            //     .Property(s => s.Code)
-            //     .ValueGeneratedOnAdd();
-
-            // builder.Entity<Legislative>(b =>
-            // {
-            //     b.Property(l => l.Code)
-            //      .HasMaxLength(9)
-            //      .IsFixedLength(true)
-            //      .IsRequired();
-
-            //     b.HasIndex(l => l.Code).IsUnique();
-            //     b.HasIndex(l => l.Name);
-
-            //     b.HasDiscriminator();
-            // });
-
-            // builder.Entity<PollingUnit>(b =>
-            // {
-            //     b.HasIndex(pu => pu.TerritoryCode).IsUnique();
-
-            //     b.Property(pu => pu.TerritoryCode)
-            //      .HasMaxLength(12)
-            //      .IsFixedLength(true)
-            //      .IsRequired();
-            // });
-
-            // builder.Entity<Ward>(b =>
-            // {
-            //     b.HasIndex(w => w.Name);
-            // });
-
-            // builder.Entity<LGA>(b =>
-            // {
-            //     b.HasIndex(lg => lg.Name);
-            // });
+            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
 }

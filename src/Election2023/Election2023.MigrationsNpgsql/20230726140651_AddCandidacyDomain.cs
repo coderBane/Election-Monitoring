@@ -8,7 +8,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Election2023.MigrationsNpgsql
 {
     /// <inheritdoc />
-    public partial class AddCandidacy : Migration
+    public partial class AddCandidacyDomain : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -50,7 +50,7 @@ namespace Election2023.MigrationsNpgsql
                 columns: table => new
                 {
                     id = table.Column<string>(type: "text", nullable: false),
-                    political_party_abbrv = table.Column<Party>(type: "app.party", nullable: false),
+                    party_abbrv = table.Column<Party>(type: "app.party", nullable: false),
                     category = table.Column<ElectionType>(type: "app.election_type", nullable: false),
                     one_to_watch = table.Column<bool>(type: "boolean", nullable: false),
                     incumbent = table.Column<bool>(type: "boolean", nullable: false),
@@ -59,9 +59,10 @@ namespace Election2023.MigrationsNpgsql
                     surname = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
                     gender = table.Column<Gender>(type: "app.gender", nullable: false),
                     age = table.Column<int>(type: "integer", nullable: false),
-                    state_of_origin = table.Column<string>(type: "text", nullable: true),
+                    education = table.Column<string>(type: "text", nullable: false),
                     image = table.Column<string>(type: "text", nullable: true),
                     brief = table.Column<string>(type: "text", nullable: true),
+                    constituency = table.Column<string>(type: "text", nullable: true),
                     state = table.Column<string>(type: "text", nullable: true),
                     manifesto_snippets = table.Column<string[]>(type: "text[]", nullable: false),
                     political_party_id = table.Column<int>(type: "integer", nullable: true),
@@ -75,7 +76,7 @@ namespace Election2023.MigrationsNpgsql
                     table.PrimaryKey("pk_candidates", x => x.id);
                     table.ForeignKey(
                         name: "fk_candidates_political_parties_party_id",
-                        column: x => x.political_party_abbrv,
+                        column: x => x.party_abbrv,
                         principalSchema: "app",
                         principalTable: "political_parties",
                         principalColumn: "abbrv",
@@ -95,10 +96,10 @@ namespace Election2023.MigrationsNpgsql
                 columns: new[] { "firstname", "surname" });
 
             migrationBuilder.CreateIndex(
-                name: "ix_candidates_political_party_abbrv",
+                name: "ix_candidates_party_abbrv",
                 schema: "app",
                 table: "candidates",
-                column: "political_party_abbrv");
+                column: "party_abbrv");
 
             migrationBuilder.CreateIndex(
                 name: "ix_candidates_political_party_id",

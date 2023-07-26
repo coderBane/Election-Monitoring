@@ -50,6 +50,10 @@ namespace Election2023.MigrationsNpgsql
                         .HasColumnType("app.election_type")
                         .HasColumnName("category");
 
+                    b.Property<string>("Constituency")
+                        .HasColumnType("text")
+                        .HasColumnName("constituency");
+
                     b.Property<string>("CreatedBy")
                         .IsRequired()
                         .HasColumnType("text")
@@ -58,6 +62,11 @@ namespace Election2023.MigrationsNpgsql
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("created_on");
+
+                    b.Property<string>("Education")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("education");
 
                     b.Property<string>("Firstname")
                         .IsRequired()
@@ -100,9 +109,9 @@ namespace Election2023.MigrationsNpgsql
                         .HasColumnType("boolean")
                         .HasColumnName("one_to_watch");
 
-                    b.Property<Party>("PoliticalPartyAbbrv")
+                    b.Property<Party>("PartyAbbrv")
                         .HasColumnType("app.party")
-                        .HasColumnName("political_party_abbrv")
+                        .HasColumnName("party_abbrv")
                         .HasColumnOrder(2);
 
                     b.Property<int?>("PoliticalPartyId")
@@ -113,10 +122,6 @@ namespace Election2023.MigrationsNpgsql
                         .HasColumnType("text")
                         .HasColumnName("state");
 
-                    b.Property<string>("StateOfOrigin")
-                        .HasColumnType("text")
-                        .HasColumnName("state_of_origin");
-
                     b.Property<string>("Surname")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -126,8 +131,8 @@ namespace Election2023.MigrationsNpgsql
                     b.HasKey("Id")
                         .HasName("pk_candidates");
 
-                    b.HasIndex("PoliticalPartyAbbrv")
-                        .HasDatabaseName("ix_candidates_political_party_abbrv");
+                    b.HasIndex("PartyAbbrv")
+                        .HasDatabaseName("ix_candidates_party_abbrv");
 
                     b.HasIndex("PoliticalPartyId")
                         .HasDatabaseName("ix_candidates_political_party_id");
@@ -428,7 +433,7 @@ namespace Election2023.MigrationsNpgsql
                 {
                     b.HasOne("Election2023.Domain.Models.Candidacy.PoliticalParty", "Party")
                         .WithMany()
-                        .HasForeignKey("PoliticalPartyAbbrv")
+                        .HasForeignKey("PartyAbbrv")
                         .HasPrincipalKey("Abbrv")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()

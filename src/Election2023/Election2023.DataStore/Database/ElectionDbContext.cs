@@ -21,6 +21,7 @@ namespace Election2023.DataStore.Database
             _auditableEntityInterceptor = auditableEntityInterceptor;
 		}
 
+        public DbSet<Audit> AuditLogs => Set<Audit>();
         public DbSet<Candidate> Candidates => Set<Candidate>();
         public DbSet<PoliticalParty> PoliticalParties => Set<PoliticalParty>();
 

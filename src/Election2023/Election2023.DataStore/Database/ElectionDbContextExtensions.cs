@@ -31,6 +31,7 @@ public static class ElectionDbContextExtensions
     public static void DbCleanUp(this ElectionDbContext context)
     {
         // context.States.ExecuteDelete();
+        context.AuditLogs.ExecuteDelete();
         context.PoliticalParties.ExecuteDelete();
     }
 
@@ -45,8 +46,6 @@ public static class ElectionDbContextExtensions
 
         if (PoliticalParties.Any())
             context.PoliticalParties.AddRange(PoliticalParties);
-
-        context.PoliticalParties.AddRange(PoliticalParties);
     }
 
     private static void SeedCandidates(this ElectionDbContext context, string path)
